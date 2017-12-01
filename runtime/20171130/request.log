@@ -1,0 +1,749 @@
+2017/11/30 13:53:46 [info] [request] 
+url: /list
+array()
+array
+(
+    'id' => '1536'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => '煤球'
+            )
+        )
+        1 => array
+        (
+            'orderId' => '10'
+            'orderNumber' => '17110811182203826997'
+            'orderState' => '运输中'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        2 => array
+        (
+            'orderId' => '11'
+            'orderNumber' => '171108111822038269912'
+            'orderState' => '已签收'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        3 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        4 => array
+        (
+            'orderId' => '14'
+            'orderNumber' => '17112211477610168731'
+            'orderState' => '待收货'
+            'startRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'endRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => '钢板'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php (48)
+2017/11/30 13:56:02 [info] [request] 
+url: /list
+array()
+array
+(
+    'id' => '1536'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '煤球'
+                )
+            )
+        )
+        1 => array
+        (
+            'orderId' => '10'
+            'orderNumber' => '17110811182203826997'
+            'orderState' => '运输中'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        2 => array
+        (
+            'orderId' => '11'
+            'orderNumber' => '171108111822038269912'
+            'orderState' => '已签收'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        3 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        4 => array
+        (
+            'orderId' => '14'
+            'orderNumber' => '17112211477610168731'
+            'orderState' => '待收货'
+            'startRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'endRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '钢板'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php (48)
+2017/11/30 13:57:55 [info] [request] 
+url: /list
+array()
+array
+(
+    'id' => '1536'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '煤球'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php (49)
+2017/11/30 14:03:55 [info] [request] 
+url: /list
+array()
+array
+(
+    'id' => '1536'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '煤球'
+                )
+            )
+        )
+        1 => array
+        (
+            'orderId' => '10'
+            'orderNumber' => '17110811182203826997'
+            'orderState' => '运输中'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        2 => array
+        (
+            'orderId' => '11'
+            'orderNumber' => '171108111822038269912'
+            'orderState' => '已签收'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        3 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        4 => array
+        (
+            'orderId' => '14'
+            'orderNumber' => '17112211477610168731'
+            'orderState' => '待收货'
+            'startRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'endRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '钢板'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php (49)
+2017/11/30 15:05:13 [info] [request] 
+url: /list
+array()
+array
+(
+    'id' => '1536'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '煤球'
+                )
+            )
+        )
+        1 => array
+        (
+            'orderId' => '10'
+            'orderNumber' => '17110811182203826997'
+            'orderState' => '运输中'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        2 => array
+        (
+            'orderId' => '11'
+            'orderNumber' => '171108111822038269912'
+            'orderState' => '已签收'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        3 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        4 => array
+        (
+            'orderId' => '16'
+            'orderNumber' => '17112214630459970638'
+            'orderState' => '待收货'
+            'startRouter' => '贵州省 铜仁地区 思南县 贵州街道112号'
+            'endRouter' => '广东省 韶关市 仁化县 聚光三路250号'
+            'middleRouter' => array
+            (
+                0 => array
+                (
+                    'address' => '广西壮族自治区 桂林市 全州县 1112号'
+                )
+            )
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => null
+                )
+            )
+        )
+        5 => array
+        (
+            'orderId' => '17'
+            'orderNumber' => '17112214473967912295'
+            'orderState' => '待收货'
+            'startRouter' => '贵州省 铜仁地区 思南县 贵州街道112号'
+            'endRouter' => '广东省 韶关市 仁化县 聚光三路250号'
+            'middleRouter' => array
+            (
+                0 => array
+                (
+                    'address' => '广西壮族自治区 桂林市 全州县 1112号'
+                )
+            )
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => null
+                )
+            )
+        )
+        6 => array
+        (
+            'orderId' => '18'
+            'orderNumber' => '17112214325848540144'
+            'orderState' => '待收货'
+            'startRouter' => '贵州省 铜仁地区 思南县 贵州街道112号'
+            'endRouter' => '广东省 韶关市 仁化县 聚光三路250号'
+            'middleRouter' => array
+            (
+                0 => array
+                (
+                    'address' => '广西壮族自治区 桂林市 全州县 1112号'
+                )
+            )
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => null
+                )
+            )
+        )
+        7 => array
+        (
+            'orderId' => '19'
+            'orderNumber' => '17112515825260887895'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'endRouter' => '广东省 东莞市 东莞市 松山湖科技产业园区科技九路2号'
+            'middleRouter' => array
+            (
+                0 => array
+                (
+                    'address' => '广东省 东莞市 东莞市 虎门镇树田树安工业区'
+                )
+            )
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '铜球'
+                )
+            )
+        )
+        8 => array
+        (
+            'orderId' => '22'
+            'orderNumber' => '17113014391759917633'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学1705'
+            'endRouter' => '北京 北京市 朝阳区 朝阳区'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '包子'
+                )
+            )
+        )
+        9 => array
+        (
+            'orderId' => '23'
+            'orderNumber' => '17113014461699108201'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学1705'
+            'endRouter' => '北京 北京市 朝阳区 朝阳区'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '包子222'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php (49)
+2017/11/30 15:42:28 [info] [request] 
+url: /list
+array()
+array
+(
+    'id' => '1536'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '煤球'
+                )
+            )
+        )
+        1 => array
+        (
+            'orderId' => '10'
+            'orderNumber' => '17110811182203826997'
+            'orderState' => '运输中'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        2 => array
+        (
+            'orderId' => '11'
+            'orderNumber' => '171108111822038269912'
+            'orderState' => '已签收'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        3 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        4 => array
+        (
+            'orderId' => '14'
+            'orderNumber' => '17112211477610168731'
+            'orderState' => '待收货'
+            'startRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'endRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '钢板'
+                )
+            )
+        )
+        5 => array
+        (
+            'orderId' => '21'
+            'orderNumber' => '17113014089209291381'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '模板2'
+                )
+            )
+        )
+        6 => array
+        (
+            'orderId' => '23'
+            'orderNumber' => '17113015174209208312'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '买个包子'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (52)
+2017/11/30 15:43:05 [info] [request] 
+url: /list
+array()
+array
+(
+    'oState' => '4'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '9'
+            'orderNumber' => '17110811182203826995'
+            'orderState' => '待收货'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '煤球'
+                )
+            )
+        )
+        1 => array
+        (
+            'orderId' => '10'
+            'orderNumber' => '17110811182203826997'
+            'orderState' => '运输中'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        2 => array
+        (
+            'orderId' => '11'
+            'orderNumber' => '171108111822038269912'
+            'orderState' => '已签收'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        3 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+        4 => array
+        (
+            'orderId' => '14'
+            'orderNumber' => '17112211477610168731'
+            'orderState' => '待收货'
+            'startRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'endRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '钢板'
+                )
+            )
+        )
+        5 => array
+        (
+            'orderId' => '21'
+            'orderNumber' => '17113014089209291381'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '模板2'
+                )
+            )
+        )
+        6 => array
+        (
+            'orderId' => '23'
+            'orderNumber' => '17113015174209208312'
+            'orderState' => '待收货'
+            'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+            'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+            'middleRouter' => array()
+            'goodsArr' => array
+            (
+                0 => array
+                (
+                    'goods' => '买个包子'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (52)
+2017/11/30 15:44:56 [info] [request] 
+url: /list
+array()
+array
+(
+    'oState' => '4'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (51)
+2017/11/30 16:58:04 [info] [request] 
+url: /list
+array()
+array
+(
+    'oState' => '4'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (51)
+2017/11/30 17:20:06 [info] [request] 
+url: /list
+array()
+array
+(
+    'oState' => '4'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'orderId' => '12'
+            'orderNumber' => '171108111822038269932'
+            'orderState' => '异常'
+            'startRouter' => '北京市 北京 天安门'
+            'endRouter' => '福建省 福州市 鼓楼区 软件园'
+            'middleRouter' => array()
+            'goodsArr' => array()
+            'time' => null
+        )
+    )
+)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (52)

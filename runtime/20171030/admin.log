@@ -1,0 +1,142 @@
+2017/10/30 09:03:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/10/30 09:19:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/30 09:19:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/30 09:19:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/30 10:00:15 [error] [php] Missing argument 1 for Controller::addOperationLog(), called in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php on line 220 and defined (D:\zyweb\pcb_wl\applications\admin\components\Controller.php:255)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/ChangePrice
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (255)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (220)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/30 11:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/User/List
+---
+2017/10/30 11:12:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/User/List?UserForm%5BuserName%5D=&UserForm%5Bmobile%5D=&UserForm%5BisRole%5D=&UserForm%5BisAuth%5D=1&UserForm%5BuserName%5D=&UserForm%5Bmobile%5D=&UserForm%5BisRole%5D=&UserForm%5BisAuth%5D=
+---
+2017/10/30 11:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/User/ChooseRole/userId/1/typeId/2
+---
+2017/10/30 11:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/User/ChooseRole/userId/1/typeId/2
+---
+2017/10/30 11:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/User/ChooseRole/userId/1/typeId/2
+---
+2017/10/30 13:30:36 [error] [php] Undefined variable: model (D:\zyweb\pcb_wl\applications\admin\views\user\driverEdit.php:67)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(111): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionChooseRole()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/ChooseRole/userId/2/typeId/1
+in D:\zyweb\pcb_wl\applications\admin\views\user\driverEdit.php (67)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (111)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/30 13:36:00 [error] [php] Undefined variable: model (D:\zyweb\pcb_wl\applications\admin\views\user\driverEdit.php:67)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(109): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionChooseRole()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/ChooseRole/userId/2/typeId/1
+in D:\zyweb\pcb_wl\applications\admin\views\user\driverEdit.php (67)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (109)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/30 14:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "index" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/Vehicle/
+---

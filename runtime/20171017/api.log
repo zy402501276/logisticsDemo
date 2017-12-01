@@ -1,0 +1,17 @@
+2017/10/17 16:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/10/17 16:36:33 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/17 16:36:33 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/17 16:36:35 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/17 16:36:35 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)

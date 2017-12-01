@@ -1,0 +1,899 @@
+2017/10/17 10:15:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/17 10:16:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/17 10:16:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 10:16:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:16:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:16:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:16:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 10:16:08 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 10:16:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 10:17:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:17:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:26:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:26:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:26:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/17 10:26:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:26:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/17 10:26:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:26:36 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/17 10:26:36 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/17 10:27:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:27:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:28:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/17 10:28:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/17 10:28:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/17 10:28:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:28:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:30:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:30:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:31:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/17 10:31:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/17 10:31:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/17 10:32:01 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/17 10:52:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/17 10:52:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/17 10:52:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/17 10:52:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:52:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:52:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:52:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:52:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:52:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 10:52:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 10:52:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:01:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/10/17 11:01:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:12:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:12:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:12:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:12:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:20:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:20:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:23:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:23:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:30:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:30:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:34:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:34:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:34:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:34:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:36:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:36:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:37:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:37:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:38:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:38:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:40:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:40:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 11:40:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 11:40:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:36:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/17 13:36:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 13:36:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:36:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 13:36:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:36:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:36:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:39:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:39:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:42:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:42:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:43:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:43:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:43:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:43:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:43:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:43:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:51:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:51:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:51:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:51:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:51:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:51:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:51:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:51:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:51:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:51:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:51:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 13:51:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:52:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/17 13:52:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:52:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/17 13:52:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 13:52:53 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/17 13:52:53 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/17 14:06:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:06:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:06:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:06:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:07:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:07:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:09:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:09:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:09:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:09:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:10:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:10:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:10:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:10:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:13:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:13:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:14:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:14:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:19:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:19:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:19:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:19:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:20:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:20:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:26:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:26:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:34:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:34:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:34:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:34:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:34:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:34:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:34:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:34:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:34:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:34:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:37:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:37:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:45:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE (isRole="1") AND (isAuth="1") LIMIT 15
+2017/10/17 14:45:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:46:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:46:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:46:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE (isRole="1") AND (isAuth="1") LIMIT 15
+2017/10/17 14:46:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:46:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE (isRole="1") AND (isAuth="2") LIMIT 15
+2017/10/17 14:46:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:46:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE (isRole="1") AND (isAuth="3") LIMIT 15
+2017/10/17 14:46:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:46:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE (isRole="1") AND (isAuth="3") LIMIT 15
+2017/10/17 14:46:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:47:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:47:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:47:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE ((userName="zy19930727") AND (isRole="1")) AND (isAuth="1") LIMIT 15
+2017/10/17 14:47:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:47:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:47:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:48:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:48:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:49:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:49:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:50:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:50:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:51:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:51:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:51:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:51:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:51:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE userName="zy19930727" LIMIT 15
+2017/10/17 14:51:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:52:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE userName="zy19930727" LIMIT 15
+2017/10/17 14:52:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 14:59:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 14:59:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:03:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:03:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:03:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:03:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:03:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:03:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:03:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:03:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:03:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:03:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:04:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:04:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:05:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:05:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:06:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:06:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:07:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:07:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:07:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:07:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:07:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:07:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:07:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:07:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:07:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:07:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:07:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:07:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:09:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:09:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:10:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:10:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:10:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:11:02 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/17 15:11:02 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:11:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:11:02 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:11:15 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:11:15 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:11:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:11:15 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:11:16 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:11:16 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:11:16 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:11:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:11:16 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:11:16 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:11:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:11:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:11:41 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:11:41 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:11:41 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:11:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:11:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:12:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:12:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:13:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:13:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:13:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:13:04 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:13:04 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:13:04 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:13:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:13:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:14:31 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/10/17 15:14:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:14:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:14:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:14:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:15:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:15:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:15:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:15:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:15:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:15:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:16:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:16:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:17:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:17:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:17:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:17:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:17:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:17:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:17:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:17:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:19:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:19:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:19:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:19:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:19:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:19:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:19:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:19:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:21:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:21:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:21:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:21:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:21:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:21:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:21:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:21:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:21:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:21:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:21:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:21:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:22:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:22:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:22:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:22:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:23:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:23:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:24:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:24:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:24:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:24:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:24:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:24:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:25:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:25:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:26:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:26:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:26:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:26:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:26:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:26:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/17 15:26:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:26:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:26:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:27:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:27:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:28:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:28:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:28:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:28:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:29:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:29:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:30:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:30:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:30:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:30:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:42:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 15:42:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:42:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:42:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:42:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:45:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:55:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:25 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:25 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:55:25 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:25 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:25 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 15:55:25 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 15:55:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 15:55:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:55:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:55:30 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:55:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:55:30 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:56:02 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:56:02 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:56:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:56:02 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:56:03 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:56:03 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 15:56:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 15:56:03 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 15:56:03 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 16:01:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/17 16:01:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 16:01:09 [profile] [sql] SELECT * FROM `ShortCut` WHERE `id` = "1"
+2017/10/17 16:01:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 16:01:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 16:16:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:16:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:16:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:16:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:16:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:16:47 [profile] [sql] UPDATE `User` SET `userName`=:userName, `trueName`=:trueName, `nickName`=:nickName, `avatar`=:avatar, `qq`=:qq, `state`=:state, `utoken`=:utoken, `mobile`=:mobile, `email`=:email, `sex`=:sex, `isAuth`=:isAuth, `companyAuth`=:companyAuth, `identityType`=:identityType, `isRole`=:isRole, `uId`=:uId, `createTime`=:createTime, `updateTime`=:updateTime, `telephone`=:telephone WHERE `id` IN(2)
+array
+(
+    'userName' => 'zy19930727'
+    'trueName' => '车市'
+    'nickName' => 'testd'
+    'avatar' => null
+    'qq' => '2147483647'
+    'state' => '1'
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'mobile' => '18649717819'
+    'email' => '4025012762@qq.com'
+    'sex' => '1'
+    'isAuth' => '2'
+    'companyAuth' => '0'
+    'identityType' => null
+    'isRole' => '1'
+    'uId' => '1536'
+    'createTime' => '2017-08-16 10:05:24'
+    'updateTime' => '2017-10-17 16:16:47'
+    'telephone' => null
+)
+2017/10/17 16:16:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 16:16:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 16:16:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:16:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:16:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:43:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/17 16:43:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/17 16:43:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/17 16:43:32 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/17 16:43:32 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/17 16:43:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/17 16:43:32 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/17 16:43:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 16:43:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 16:43:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:43:44 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:56:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:56:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:56:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:56:34 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:56:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:56:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:56:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:56:44 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:56:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:56:45 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:57:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:57:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:57:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:57:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:57:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:57:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 16:57:16 [profile] [sql] UPDATE `User` SET `userName`=:userName, `trueName`=:trueName, `nickName`=:nickName, `avatar`=:avatar, `qq`=:qq, `state`=:state, `utoken`=:utoken, `mobile`=:mobile, `email`=:email, `sex`=:sex, `isAuth`=:isAuth, `companyAuth`=:companyAuth, `identityType`=:identityType, `isRole`=:isRole, `uId`=:uId, `createTime`=:createTime, `updateTime`=:updateTime, `telephone`=:telephone WHERE `id` IN(2)
+array
+(
+    'userName' => 'zy19930727'
+    'trueName' => '车市'
+    'nickName' => 'testd'
+    'avatar' => null
+    'qq' => '2147483647'
+    'state' => '1'
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'mobile' => '18649717819'
+    'email' => '4025012762@qq.com'
+    'sex' => '1'
+    'isAuth' => '2'
+    'companyAuth' => '0'
+    'identityType' => null
+    'isRole' => '2'
+    'uId' => '1536'
+    'createTime' => '2017-08-16 10:05:24'
+    'updateTime' => '2017-10-17 16:57:16'
+    'telephone' => null
+)
+2017/10/17 16:57:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 16:57:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 16:57:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 16:57:18 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:01:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:01:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:02:59 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:02:59 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:03:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:03:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:03:59 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:03:59 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:03:59 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:07:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:07:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:07:22 [profile] [sql] UPDATE `User` SET `userName`=:userName, `trueName`=:trueName, `nickName`=:nickName, `avatar`=:avatar, `qq`=:qq, `state`=:state, `utoken`=:utoken, `mobile`=:mobile, `email`=:email, `sex`=:sex, `isAuth`=:isAuth, `companyAuth`=:companyAuth, `identityType`=:identityType, `isRole`=:isRole, `uId`=:uId, `createTime`=:createTime, `updateTime`=:updateTime, `telephone`=:telephone WHERE `id` IN(2)
+array
+(
+    'userName' => 'zy19930727'
+    'trueName' => '车市'
+    'nickName' => 'testd'
+    'avatar' => null
+    'qq' => '2147483647'
+    'state' => '1'
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'mobile' => '18649717819'
+    'email' => '4025012762@qq.com'
+    'sex' => '1'
+    'isAuth' => '2'
+    'companyAuth' => '0'
+    'identityType' => null
+    'isRole' => '1'
+    'uId' => '1536'
+    'createTime' => '2017-08-16 10:05:24'
+    'updateTime' => '2017-10-17 17:07:22'
+    'telephone' => null
+)
+2017/10/17 17:07:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 17:07:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 17:07:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:07:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:07:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:26:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:26:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:26:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:26:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:26:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:26:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:41 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:41 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:41 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:42 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/17 17:31:43 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/17 17:31:43 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:44 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/17 17:31:45 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/17 17:31:45 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:45 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/17 17:31:47 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/17 17:31:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:48 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/17 17:31:49 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/17 17:31:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:49 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/17 17:31:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:31:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:31:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:32 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/17 17:32:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/17 17:32:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/17 17:32:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:45 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/17 17:32:46 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/17 17:32:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"

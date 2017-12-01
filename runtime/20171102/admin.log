@@ -1,0 +1,143 @@
+2017/11/02 09:21:38 [error] [php] print_r() expects parameter 2 to be boolean, array given (D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php:19)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): AddressController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): AddressController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): AddressController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): AddressController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/address/edit
+in D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php (19)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/02 09:21:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/address/edit
+---
+2017/11/02 10:09:46 [error] [php] include(ReceiverForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php(37): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): AddressController->actionEdit()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): AddressController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): AddressController->runActionWithFilters()
+#5 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): AddressController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): AddressController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/address/edit
+in D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php (37)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/02 10:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/02 10:10:57 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 10:10:57 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 10:10:58 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 10:10:58 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:23:51 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:23:51 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:24:12 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:24:12 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:24:12 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:24:12 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:32:43 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:32:43 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:32:44 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:32:44 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:40:42 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:40:42 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:40:42 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 11:40:42 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:20:52 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:20:52 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:20:53 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:20:53 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:27:43 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:27:43 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:27:45 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 14:27:45 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 15:41:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'The CSRF token could not be verified.' in D:\zyweb\Yii1\web\CHttpRequest.php:1247
+Stack trace:
+#0 D:\zyweb\Yii1\base\CComponent.php(561): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 D:\zyweb\Yii1\base\CApplication.php(207): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 D:\zyweb\Yii1\base\CApplication.php(178): CApplication->onBeginRequest(Object(CEvent))
+#3 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#4 {main}
+REQUEST_URI=/gii/default/login
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/02 15:42:15 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 15:42:15 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 15:42:16 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 15:42:16 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 17:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/02 17:42:32 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 17:42:32 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 17:42:33 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 17:42:33 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 20:08:33 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 20:08:33 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 20:08:33 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/02 20:08:33 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)

@@ -1,0 +1,90 @@
+2017/10/27 09:14:36 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/27 09:14:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/27 09:14:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/27 09:14:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/27 09:14:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/27 09:16:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/27 09:16:51 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/27 09:16:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/27 09:16:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/27 09:16:59 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/27 09:16:59 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="A")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="B")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="C")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="D")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="E")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="F")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="G")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="H")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="I")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="J")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="K")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="L")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="M")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="N")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="O")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="P")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="Q")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="R")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="S")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="T")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="U")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="V")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="W")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="X")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="Y")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 10:18:32 [profile] [sql] SELECT aId as areaId,areaName,areaInitial FROM `Areas` `t` WHERE ((deep="2") AND (areaInitial="Z")) AND (aState="1") ORDER BY areaInitial asc ,sort asc
+2017/10/27 14:25:01 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")
+2017/10/27 14:26:04 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")
+2017/10/27 14:26:10 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")
+2017/10/27 14:26:47 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")
+2017/10/27 14:31:24 [profile] [sql] SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`vehicleLength`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`unloadId`, `t`.`loadId`, `t`.`demandState` FROM `UserDemand` `t` LEFT JOIN `Cost` ON (`Cost`.demandId = `t`.id) LEFT JOIN `Orders` ON (`Cost`.id = `Orders`.costId)  WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")
+2017/10/27 14:31:41 [profile] [sql] SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`vehicleLength`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`unloadId`, `t`.`loadId`, `t`.`demandState` FROM `UserDemand` `t` LEFT JOIN `Cost` ON (`Cost`.demandId = `t`.id) LEFT JOIN `Orders` ON (`Cost`.id = `Orders`.costId)1  WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")
+2017/10/27 14:48:43 [profile] [sql] SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`demandState`, `t`.`vehicleLength`, `t`.`state`, `t`.`unloadId`, `t`.`loadId`, `t`.`createTime`, `t`.`updateTime` FROM `UserDemand` `t` INNER JOIN `Cost` ON (`Cost`.demandId = `t`.id) INNER JOIN `Orders` ON (`Cost`.id = `Orders`.costId)  WHERE ((((loadMsg LIKE "%天津市%") AND (unloadMsg LIKE "%北京市%")) AND (startTime LIKE "%2017-10-27%")) AND (`Orders`.paymentState="1")) AND (orderType="2")
+2017/10/27 14:49:06 [profile] [sql] SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`demandState`, `t`.`vehicleLength`, `t`.`state`, `t`.`unloadId`, `t`.`loadId`, `t`.`createTime`, `t`.`updateTime` FROM `UserDemand` `t` INNER JOIN `Cost` ON (`Cost`.demandId = `t`.id) INNER JOIN `Orders` ON (`Cost`.id = `Orders`.costId)1  WHERE ((((loadMsg LIKE "%天津市%") AND (unloadMsg LIKE "%北京市%")) AND (startTime LIKE "%2017-10-27%")) AND (`Orders`.paymentState="1")) AND (orderType="2")
+2017/10/27 15:39:04 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:39:24 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:40:01 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:40:30 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:40:44 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (userId="23") AND (state="1") LIMIT 10
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="11"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="12"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="13"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="18"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="20"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="22"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="23"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="24"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="25"
+2017/10/27 15:44:47 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="26"
+2017/10/27 15:45:19 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 15:45:19 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (userId="23") AND (state="1") LIMIT 2
+2017/10/27 15:45:19 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="11"
+2017/10/27 15:45:19 [profile] [sql] SELECT * FROM `Cost` `t` WHERE demandId="12"
+2017/10/27 17:27:38 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:27:38 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:27:38 [profile] [sql] SELECT COUNT(*) FROM `UserDemand` `t` WHERE (state="1") AND (userId="23")
+2017/10/27 17:28:50 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:28:50 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:28:50 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (state="1") AND (userId="23")
+2017/10/27 17:29:46 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:29:46 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:29:46 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (state="1") AND (userId="23")
+2017/10/27 17:29:59 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:29:59 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="e7b8374077b2293ae4c93b5f44dadbfa"
+2017/10/27 17:29:59 [profile] [sql] SELECT * FROM `UserDemand` `t` WHERE (state="1") AND (userId="23")

@@ -1,0 +1,4220 @@
+2017/10/27 10:18:32 [info] [request] 
+url: /getcityMsg
+array()
+array
+(
+    'deviceName' => 'IPHONE'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'char' => 'A'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '106'
+                    'areaName' => '阿拉善盟'
+                    'areaInitial' => 'A'
+                )
+                1 => array
+                (
+                    'areaId' => '109'
+                    'areaName' => '鞍山市'
+                    'areaInitial' => 'A'
+                )
+                2 => array
+                (
+                    'areaId' => '193'
+                    'areaName' => '安庆市'
+                    'areaInitial' => 'A'
+                )
+                3 => array
+                (
+                    'areaId' => '244'
+                    'areaName' => '安阳市'
+                    'areaInitial' => 'A'
+                )
+                4 => array
+                (
+                    'areaId' => '403'
+                    'areaName' => '阿坝藏族羌族自治州'
+                    'areaInitial' => 'A'
+                )
+                5 => array
+                (
+                    'areaId' => '409'
+                    'areaName' => '安顺市'
+                    'areaInitial' => 'A'
+                )
+                6 => array
+                (
+                    'areaId' => '436'
+                    'areaName' => '阿里地区'
+                    'areaInitial' => 'A'
+                )
+                7 => array
+                (
+                    'areaId' => '446'
+                    'areaName' => '安康市'
+                    'areaInitial' => 'A'
+                )
+                8 => array
+                (
+                    'areaId' => '482'
+                    'areaName' => '阿克苏地区'
+                    'areaInitial' => 'A'
+                )
+                9 => array
+                (
+                    'areaId' => '488'
+                    'areaName' => '阿勒泰地区'
+                    'areaInitial' => 'A'
+                )
+                10 => array
+                (
+                    'areaId' => '490'
+                    'areaName' => '阿拉尔市'
+                    'areaInitial' => 'A'
+                )
+                11 => array
+                (
+                    'areaId' => '534'
+                    'areaName' => '澳门特别行政区'
+                    'areaInitial' => 'A'
+                )
+            )
+        )
+        1 => array
+        (
+            'char' => 'B'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '527'
+                    'areaName' => '北区'
+                    'areaInitial' => 'B'
+                )
+                1 => array
+                (
+                    'areaId' => '481'
+                    'areaName' => '巴音郭楞蒙古自治州'
+                    'areaInitial' => 'B'
+                )
+                2 => array
+                (
+                    'areaId' => '480'
+                    'areaName' => '博尔塔拉蒙古自治州'
+                    'areaInitial' => 'B'
+                )
+                3 => array
+                (
+                    'areaId' => '451'
+                    'areaName' => '白银市'
+                    'areaInitial' => 'B'
+                )
+                4 => array
+                (
+                    'areaId' => '440'
+                    'areaName' => '宝鸡市'
+                    'areaInitial' => 'B'
+                )
+                5 => array
+                (
+                    'areaId' => '418'
+                    'areaName' => '保山市'
+                    'areaInitial' => 'B'
+                )
+                6 => array
+                (
+                    'areaId' => '412'
+                    'areaName' => '毕节地区'
+                    'areaInitial' => 'B'
+                )
+                7 => array
+                (
+                    'areaId' => '401'
+                    'areaName' => '巴中市'
+                    'areaInitial' => 'B'
+                )
+                8 => array
+                (
+                    'areaId' => '340'
+                    'areaName' => '保亭黎族苗族自治县'
+                    'areaInitial' => 'B'
+                )
+                9 => array
+                (
+                    'areaId' => '336'
+                    'areaName' => '白沙黎族自治县'
+                    'areaInitial' => 'B'
+                )
+                10 => array
+                (
+                    'areaId' => '319'
+                    'areaName' => '百色市'
+                    'areaInitial' => 'B'
+                )
+                11 => array
+                (
+                    'areaId' => '314'
+                    'areaName' => '北海市'
+                    'areaInitial' => 'B'
+                )
+                12 => array
+                (
+                    'areaId' => '238'
+                    'areaName' => '滨州市'
+                    'areaInitial' => 'B'
+                )
+                13 => array
+                (
+                    'areaId' => '200'
+                    'areaName' => '亳州市'
+                    'areaInitial' => 'B'
+                )
+                14 => array
+                (
+                    'areaId' => '188'
+                    'areaName' => '蚌埠市'
+                    'areaInitial' => 'B'
+                )
+                15 => array
+                (
+                    'areaId' => '128'
+                    'areaName' => '白城市'
+                    'areaInitial' => 'B'
+                )
+                16 => array
+                (
+                    'areaId' => '126'
+                    'areaName' => '白山市'
+                    'areaInitial' => 'B'
+                )
+                17 => array
+                (
+                    'areaId' => '111'
+                    'areaName' => '本溪市'
+                    'areaInitial' => 'B'
+                )
+                18 => array
+                (
+                    'areaId' => '102'
+                    'areaName' => '巴彦淖尔市'
+                    'areaInitial' => 'B'
+                )
+                19 => array
+                (
+                    'areaId' => '96'
+                    'areaName' => '包头市'
+                    'areaInitial' => 'B'
+                )
+                20 => array
+                (
+                    'areaId' => '78'
+                    'areaName' => '保定市'
+                    'areaInitial' => 'B'
+                )
+                21 => array
+                (
+                    'areaId' => '36'
+                    'areaName' => '北京市'
+                    'areaInitial' => 'B'
+                )
+            )
+        )
+        2 => array
+        (
+            'char' => 'C'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '479'
+                    'areaName' => '昌吉回族自治州'
+                    'areaInitial' => 'C'
+                )
+                1 => array
+                (
+                    'areaId' => '432'
+                    'areaName' => '昌都地区'
+                    'areaInitial' => 'C'
+                )
+                2 => array
+                (
+                    'areaId' => '423'
+                    'areaName' => '楚雄彝族自治州'
+                    'areaInitial' => 'C'
+                )
+                3 => array
+                (
+                    'areaId' => '385'
+                    'areaName' => '成都市'
+                    'areaInitial' => 'C'
+                )
+                4 => array
+                (
+                    'areaId' => '337'
+                    'areaName' => '昌江黎族自治县'
+                    'areaInitial' => 'C'
+                )
+                5 => array
+                (
+                    'areaId' => '334'
+                    'areaName' => '澄迈县'
+                    'areaInitial' => 'C'
+                )
+                6 => array
+                (
+                    'areaId' => '323'
+                    'areaName' => '崇左市'
+                    'areaInitial' => 'C'
+                )
+                7 => array
+                (
+                    'areaId' => '307'
+                    'areaName' => '潮州市'
+                    'areaInitial' => 'C'
+                )
+                8 => array
+                (
+                    'areaId' => '284'
+                    'areaName' => '郴州市'
+                    'areaInitial' => 'C'
+                )
+                9 => array
+                (
+                    'areaId' => '281'
+                    'areaName' => '常德市'
+                    'areaInitial' => 'C'
+                )
+                10 => array
+                (
+                    'areaId' => '275'
+                    'areaName' => '长沙市'
+                    'areaInitial' => 'C'
+                )
+                11 => array
+                (
+                    'areaId' => '201'
+                    'areaName' => '池州市'
+                    'areaInitial' => 'C'
+                )
+                12 => array
+                (
+                    'areaId' => '198'
+                    'areaName' => '巢湖市'
+                    'areaInitial' => 'C'
+                )
+                13 => array
+                (
+                    'areaId' => '195'
+                    'areaName' => '滁州市'
+                    'areaInitial' => 'C'
+                )
+                14 => array
+                (
+                    'areaId' => '165'
+                    'areaName' => '常州市'
+                    'areaInitial' => 'C'
+                )
+                15 => array
+                (
+                    'areaId' => '121'
+                    'areaName' => '长春市'
+                    'areaInitial' => 'C'
+                )
+                16 => array
+                (
+                    'areaId' => '119'
+                    'areaName' => '朝阳市'
+                    'areaInitial' => 'C'
+                )
+                17 => array
+                (
+                    'areaId' => '98'
+                    'areaName' => '赤峰市'
+                    'areaInitial' => 'C'
+                )
+                18 => array
+                (
+                    'areaId' => '87'
+                    'areaName' => '长治市'
+                    'areaInitial' => 'C'
+                )
+                19 => array
+                (
+                    'areaId' => '83'
+                    'areaName' => '沧州市'
+                    'areaInitial' => 'C'
+                )
+                20 => array
+                (
+                    'areaId' => '80'
+                    'areaName' => '承德市'
+                    'areaInitial' => 'C'
+                )
+            )
+        )
+        3 => array
+        (
+            'char' => 'D'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '531'
+                    'areaName' => '大埔区'
+                    'areaInitial' => 'D'
+                )
+                1 => array
+                (
+                    'areaId' => '517'
+                    'areaName' => '东区'
+                    'areaInitial' => 'D'
+                )
+                2 => array
+                (
+                    'areaId' => '458'
+                    'areaName' => '定西市'
+                    'areaInitial' => 'D'
+                )
+                3 => array
+                (
+                    'areaId' => '430'
+                    'areaName' => '迪庆藏族自治州'
+                    'areaInitial' => 'D'
+                )
+                4 => array
+                (
+                    'areaId' => '428'
+                    'areaName' => '德宏傣族景颇族自治州'
+                    'areaInitial' => 'D'
+                )
+                5 => array
+                (
+                    'areaId' => '427'
+                    'areaName' => '大理白族自治州'
+                    'areaInitial' => 'D'
+                )
+                6 => array
+                (
+                    'areaId' => '399'
+                    'areaName' => '达州市'
+                    'areaInitial' => 'D'
+                )
+                7 => array
+                (
+                    'areaId' => '389'
+                    'areaName' => '德阳市'
+                    'areaInitial' => 'D'
+                )
+                8 => array
+                (
+                    'areaId' => '332'
+                    'areaName' => '定安县'
+                    'areaInitial' => 'D'
+                )
+                9 => array
+                (
+                    'areaId' => '331'
+                    'areaName' => '东方市'
+                    'areaInitial' => 'D'
+                )
+                10 => array
+                (
+                    'areaId' => '328'
+                    'areaName' => '儋州市'
+                    'areaInitial' => 'D'
+                )
+                11 => array
+                (
+                    'areaId' => '305'
+                    'areaName' => '东莞市'
+                    'areaInitial' => 'D'
+                )
+                12 => array
+                (
+                    'areaId' => '236'
+                    'areaName' => '德州市'
+                    'areaInitial' => 'D'
+                )
+                13 => array
+                (
+                    'areaId' => '227'
+                    'areaName' => '东营市'
+                    'areaInitial' => 'D'
+                )
+                14 => array
+                (
+                    'areaId' => '142'
+                    'areaName' => '大兴安岭地区'
+                    'areaInitial' => 'D'
+                )
+                15 => array
+                (
+                    'areaId' => '135'
+                    'areaName' => '大庆市'
+                    'areaInitial' => 'D'
+                )
+                16 => array
+                (
+                    'areaId' => '112'
+                    'areaName' => '丹东市'
+                    'areaInitial' => 'D'
+                )
+                17 => array
+                (
+                    'areaId' => '108'
+                    'areaName' => '大连市'
+                    'areaInitial' => 'D'
+                )
+                18 => array
+                (
+                    'areaId' => '85'
+                    'areaName' => '大同市'
+                    'areaInitial' => 'D'
+                )
+            )
+        )
+        4 => array
+        (
+            'char' => 'E'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '100'
+                    'areaName' => '鄂尔多斯市'
+                    'areaInitial' => 'E'
+                )
+                1 => array
+                (
+                    'areaId' => '263'
+                    'areaName' => '鄂州市'
+                    'areaInitial' => 'E'
+                )
+                2 => array
+                (
+                    'areaId' => '270'
+                    'areaName' => '恩施土家族苗族自治州'
+                    'areaInitial' => 'E'
+                )
+            )
+        )
+        5 => array
+        (
+            'char' => 'F'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '110'
+                    'areaName' => '抚顺市'
+                    'areaInitial' => 'F'
+                )
+                1 => array
+                (
+                    'areaId' => '115'
+                    'areaName' => '阜新市'
+                    'areaInitial' => 'F'
+                )
+                2 => array
+                (
+                    'areaId' => '196'
+                    'areaName' => '阜阳市'
+                    'areaInitial' => 'F'
+                )
+                3 => array
+                (
+                    'areaId' => '203'
+                    'areaName' => '福州市'
+                    'areaInitial' => 'F'
+                )
+                4 => array
+                (
+                    'areaId' => '221'
+                    'areaName' => '抚州市'
+                    'areaInitial' => 'F'
+                )
+                5 => array
+                (
+                    'areaId' => '294'
+                    'areaName' => '佛山市'
+                    'areaInitial' => 'F'
+                )
+                6 => array
+                (
+                    'areaId' => '315'
+                    'areaName' => '防城港市'
+                    'areaInitial' => 'F'
+                )
+            )
+        )
+        6 => array
+        (
+            'char' => 'G'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '218'
+                    'areaName' => '赣州市'
+                    'areaInitial' => 'G'
+                )
+                1 => array
+                (
+                    'areaId' => '289'
+                    'areaName' => '广州市'
+                    'areaInitial' => 'G'
+                )
+                2 => array
+                (
+                    'areaId' => '312'
+                    'areaName' => '桂林市'
+                    'areaInitial' => 'G'
+                )
+                3 => array
+                (
+                    'areaId' => '317'
+                    'areaName' => '贵港市'
+                    'areaInitial' => 'G'
+                )
+                4 => array
+                (
+                    'areaId' => '391'
+                    'areaName' => '广元市'
+                    'areaInitial' => 'G'
+                )
+                5 => array
+                (
+                    'areaId' => '398'
+                    'areaName' => '广安市'
+                    'areaInitial' => 'G'
+                )
+                6 => array
+                (
+                    'areaId' => '404'
+                    'areaName' => '甘孜藏族自治州'
+                    'areaInitial' => 'G'
+                )
+                7 => array
+                (
+                    'areaId' => '406'
+                    'areaName' => '贵阳市'
+                    'areaInitial' => 'G'
+                )
+                8 => array
+                (
+                    'areaId' => '461'
+                    'areaName' => '甘南藏族自治州'
+                    'areaInitial' => 'G'
+                )
+                9 => array
+                (
+                    'areaId' => '467'
+                    'areaName' => '果洛藏族自治州'
+                    'areaInitial' => 'G'
+                )
+                10 => array
+                (
+                    'areaId' => '473'
+                    'areaName' => '固原市'
+                    'areaInitial' => 'G'
+                )
+                11 => array
+                (
+                    'areaId' => '494'
+                    'areaName' => '高雄市'
+                    'areaInitial' => 'G'
+                )
+                12 => array
+                (
+                    'areaId' => '511'
+                    'areaName' => '高雄县'
+                    'areaInitial' => 'G'
+                )
+                13 => array
+                (
+                    'areaId' => '519'
+                    'areaName' => '观塘区'
+                    'areaInitial' => 'G'
+                )
+            )
+        )
+        7 => array
+        (
+            'char' => 'H'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '278'
+                    'areaName' => '衡阳市'
+                    'areaInitial' => 'H'
+                )
+                1 => array
+                (
+                    'areaId' => '286'
+                    'areaName' => '怀化市'
+                    'areaInitial' => 'H'
+                )
+                2 => array
+                (
+                    'areaId' => '299'
+                    'areaName' => '惠州市'
+                    'areaInitial' => 'H'
+                )
+                3 => array
+                (
+                    'areaId' => '302'
+                    'areaName' => '河源市'
+                    'areaInitial' => 'H'
+                )
+                4 => array
+                (
+                    'areaId' => '320'
+                    'areaName' => '贺州市'
+                    'areaInitial' => 'H'
+                )
+                5 => array
+                (
+                    'areaId' => '321'
+                    'areaName' => '河池市'
+                    'areaInitial' => 'H'
+                )
+                6 => array
+                (
+                    'areaId' => '324'
+                    'areaName' => '海口市'
+                    'areaInitial' => 'H'
+                )
+                7 => array
+                (
+                    'areaId' => '424'
+                    'areaName' => '红河哈尼族彝族自治州'
+                    'areaInitial' => 'H'
+                )
+                8 => array
+                (
+                    'areaId' => '444'
+                    'areaName' => '汉中市'
+                    'areaInitial' => 'H'
+                )
+                9 => array
+                (
+                    'areaId' => '463'
+                    'areaName' => '海东地区'
+                    'areaInitial' => 'H'
+                )
+                10 => array
+                (
+                    'areaId' => '464'
+                    'areaName' => '海北藏族自治州'
+                    'areaInitial' => 'H'
+                )
+                11 => array
+                (
+                    'areaId' => '465'
+                    'areaName' => '黄南藏族自治州'
+                    'areaInitial' => 'H'
+                )
+                12 => array
+                (
+                    'areaId' => '466'
+                    'areaName' => '海南藏族自治州'
+                    'areaInitial' => 'H'
+                )
+                13 => array
+                (
+                    'areaId' => '469'
+                    'areaName' => '海西蒙古族藏族自治州'
+                    'areaInitial' => 'H'
+                )
+                14 => array
+                (
+                    'areaId' => '478'
+                    'areaName' => '哈密地区'
+                    'areaInitial' => 'H'
+                )
+                15 => array
+                (
+                    'areaId' => '485'
+                    'areaName' => '和田地区'
+                    'areaInitial' => 'H'
+                )
+                16 => array
+                (
+                    'areaId' => '515'
+                    'areaName' => '花莲县'
+                    'areaInitial' => 'H'
+                )
+                17 => array
+                (
+                    'areaId' => '522'
+                    'areaName' => '黄大仙区'
+                    'areaInitial' => 'H'
+                )
+                18 => array
+                (
+                    'areaId' => '76'
+                    'areaName' => '邯郸市'
+                    'areaInitial' => 'H'
+                )
+                19 => array
+                (
+                    'areaId' => '81'
+                    'areaName' => '衡水市'
+                    'areaInitial' => 'H'
+                )
+                20 => array
+                (
+                    'areaId' => '95'
+                    'areaName' => '呼和浩特市'
+                    'areaInitial' => 'H'
+                )
+                21 => array
+                (
+                    'areaId' => '101'
+                    'areaName' => '呼伦贝尔市'
+                    'areaInitial' => 'H'
+                )
+                22 => array
+                (
+                    'areaId' => '120'
+                    'areaName' => '葫芦岛市'
+                    'areaInitial' => 'H'
+                )
+                23 => array
+                (
+                    'areaId' => '130'
+                    'areaName' => '哈尔滨市'
+                    'areaInitial' => 'H'
+                )
+                24 => array
+                (
+                    'areaId' => '133'
+                    'areaName' => '鹤岗市'
+                    'areaInitial' => 'H'
+                )
+                25 => array
+                (
+                    'areaId' => '140'
+                    'areaName' => '黑河市'
+                    'areaInitial' => 'H'
+                )
+                26 => array
+                (
+                    'areaId' => '169'
+                    'areaName' => '淮安市'
+                    'areaInitial' => 'H'
+                )
+                27 => array
+                (
+                    'areaId' => '175'
+                    'areaName' => '杭州市'
+                    'areaInitial' => 'H'
+                )
+                28 => array
+                (
+                    'areaId' => '179'
+                    'areaName' => '湖州市'
+                    'areaInitial' => 'H'
+                )
+                29 => array
+                (
+                    'areaId' => '186'
+                    'areaName' => '合肥市'
+                    'areaInitial' => 'H'
+                )
+                30 => array
+                (
+                    'areaId' => '189'
+                    'areaName' => '淮南市'
+                    'areaInitial' => 'H'
+                )
+                31 => array
+                (
+                    'areaId' => '191'
+                    'areaName' => '淮北市'
+                    'areaInitial' => 'H'
+                )
+                32 => array
+                (
+                    'areaId' => '194'
+                    'areaName' => '黄山市'
+                    'areaInitial' => 'H'
+                )
+                33 => array
+                (
+                    'areaId' => '239'
+                    'areaName' => '菏泽市'
+                    'areaInitial' => 'H'
+                )
+                34 => array
+                (
+                    'areaId' => '245'
+                    'areaName' => '鹤壁市'
+                    'areaInitial' => 'H'
+                )
+                35 => array
+                (
+                    'areaId' => '259'
+                    'areaName' => '黄石市'
+                    'areaInitial' => 'H'
+                )
+                36 => array
+                (
+                    'areaId' => '267'
+                    'areaName' => '黄冈市'
+                    'areaInitial' => 'H'
+                )
+            )
+        )
+        8 => array
+        (
+            'char' => 'J'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '518'
+                    'areaName' => '九龙城区'
+                    'areaInitial' => 'J'
+                )
+                1 => array
+                (
+                    'areaId' => '509'
+                    'areaName' => '嘉义县'
+                    'areaInitial' => 'J'
+                )
+                2 => array
+                (
+                    'areaId' => '499'
+                    'areaName' => '嘉义市'
+                    'areaInitial' => 'J'
+                )
+                3 => array
+                (
+                    'areaId' => '495'
+                    'areaName' => '基隆市'
+                    'areaInitial' => 'J'
+                )
+                4 => array
+                (
+                    'areaId' => '456'
+                    'areaName' => '酒泉市'
+                    'areaInitial' => 'J'
+                )
+                5 => array
+                (
+                    'areaId' => '450'
+                    'areaName' => '金昌市'
+                    'areaInitial' => 'J'
+                )
+                6 => array
+                (
+                    'areaId' => '449'
+                    'areaName' => '嘉峪关市'
+                    'areaInitial' => 'J'
+                )
+                7 => array
+                (
+                    'areaId' => '308'
+                    'areaName' => '揭阳市'
+                    'areaInitial' => 'J'
+                )
+                8 => array
+                (
+                    'areaId' => '295'
+                    'areaName' => '江门市'
+                    'areaInitial' => 'J'
+                )
+                9 => array
+                (
+                    'areaId' => '266'
+                    'areaName' => '荆州市'
+                    'areaInitial' => 'J'
+                )
+                10 => array
+                (
+                    'areaId' => '264'
+                    'areaName' => '荆门市'
+                    'areaInitial' => 'J'
+                )
+                11 => array
+                (
+                    'areaId' => '257'
+                    'areaName' => '济源市'
+                    'areaInitial' => 'J'
+                )
+                12 => array
+                (
+                    'areaId' => '247'
+                    'areaName' => '焦作市'
+                    'areaInitial' => 'J'
+                )
+                13 => array
+                (
+                    'areaId' => '230'
+                    'areaName' => '济宁市'
+                    'areaInitial' => 'J'
+                )
+                14 => array
+                (
+                    'areaId' => '223'
+                    'areaName' => '济南市'
+                    'areaInitial' => 'J'
+                )
+                15 => array
+                (
+                    'areaId' => '219'
+                    'areaName' => '吉安市'
+                    'areaInitial' => 'J'
+                )
+                16 => array
+                (
+                    'areaId' => '215'
+                    'areaName' => '九江市'
+                    'areaInitial' => 'J'
+                )
+                17 => array
+                (
+                    'areaId' => '213'
+                    'areaName' => '景德镇市'
+                    'areaInitial' => 'J'
+                )
+                18 => array
+                (
+                    'areaId' => '183'
+                    'areaName' => '金华市'
+                    'areaInitial' => 'J'
+                )
+                19 => array
+                (
+                    'areaId' => '178'
+                    'areaName' => '嘉兴市'
+                    'areaInitial' => 'J'
+                )
+                20 => array
+                (
+                    'areaId' => '137'
+                    'areaName' => '佳木斯市'
+                    'areaInitial' => 'J'
+                )
+                21 => array
+                (
+                    'areaId' => '132'
+                    'areaName' => '鸡西市'
+                    'areaInitial' => 'J'
+                )
+                22 => array
+                (
+                    'areaId' => '122'
+                    'areaName' => '吉林市'
+                    'areaInitial' => 'J'
+                )
+                23 => array
+                (
+                    'areaId' => '113'
+                    'areaName' => '锦州市'
+                    'areaInitial' => 'J'
+                )
+                24 => array
+                (
+                    'areaId' => '90'
+                    'areaName' => '晋中市'
+                    'areaInitial' => 'J'
+                )
+                25 => array
+                (
+                    'areaId' => '88'
+                    'areaName' => '晋城市'
+                    'areaInitial' => 'J'
+                )
+            )
+        )
+        9 => array
+        (
+            'char' => 'K'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '241'
+                    'areaName' => '开封市'
+                    'areaInitial' => 'K'
+                )
+                1 => array
+                (
+                    'areaId' => '415'
+                    'areaName' => '昆明市'
+                    'areaInitial' => 'K'
+                )
+                2 => array
+                (
+                    'areaId' => '476'
+                    'areaName' => '克拉玛依市'
+                    'areaInitial' => 'K'
+                )
+                3 => array
+                (
+                    'areaId' => '483'
+                    'areaName' => '克孜勒苏柯尔克孜自治州'
+                    'areaInitial' => 'K'
+                )
+                4 => array
+                (
+                    'areaId' => '484'
+                    'areaName' => '喀什地区'
+                    'areaInitial' => 'K'
+                )
+                5 => array
+                (
+                    'areaId' => '526'
+                    'areaName' => '葵青区'
+                    'areaInitial' => 'K'
+                )
+            )
+        )
+        10 => array
+        (
+            'char' => 'L'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '525'
+                    'areaName' => '离岛区'
+                    'areaInitial' => 'L'
+                )
+                1 => array
+                (
+                    'areaId' => '460'
+                    'areaName' => '临夏回族自治州'
+                    'areaInitial' => 'L'
+                )
+                2 => array
+                (
+                    'areaId' => '459'
+                    'areaName' => '陇南市'
+                    'areaInitial' => 'L'
+                )
+                3 => array
+                (
+                    'areaId' => '448'
+                    'areaName' => '兰州市'
+                    'areaInitial' => 'L'
+                )
+                4 => array
+                (
+                    'areaId' => '437'
+                    'areaName' => '林芝地区'
+                    'areaInitial' => 'L'
+                )
+                5 => array
+                (
+                    'areaId' => '431'
+                    'areaName' => '拉萨市'
+                    'areaInitial' => 'L'
+                )
+                6 => array
+                (
+                    'areaId' => '422'
+                    'areaName' => '临沧市'
+                    'areaInitial' => 'L'
+                )
+                7 => array
+                (
+                    'areaId' => '420'
+                    'areaName' => '丽江市'
+                    'areaInitial' => 'L'
+                )
+                8 => array
+                (
+                    'areaId' => '407'
+                    'areaName' => '六盘水市'
+                    'areaInitial' => 'L'
+                )
+                9 => array
+                (
+                    'areaId' => '405'
+                    'areaName' => '凉山彝族自治州'
+                    'areaInitial' => 'L'
+                )
+                10 => array
+                (
+                    'areaId' => '394'
+                    'areaName' => '乐山市'
+                    'areaInitial' => 'L'
+                )
+                11 => array
+                (
+                    'areaId' => '388'
+                    'areaName' => '泸州市'
+                    'areaInitial' => 'L'
+                )
+                12 => array
+                (
+                    'areaId' => '339'
+                    'areaName' => '陵水黎族自治县'
+                    'areaInitial' => 'L'
+                )
+                13 => array
+                (
+                    'areaId' => '338'
+                    'areaName' => '乐东黎族自治县'
+                    'areaInitial' => 'L'
+                )
+                14 => array
+                (
+                    'areaId' => '335'
+                    'areaName' => '临高县'
+                    'areaInitial' => 'L'
+                )
+                15 => array
+                (
+                    'areaId' => '322'
+                    'areaName' => '来宾市'
+                    'areaInitial' => 'L'
+                )
+                16 => array
+                (
+                    'areaId' => '311'
+                    'areaName' => '柳州市'
+                    'areaInitial' => 'L'
+                )
+                17 => array
+                (
+                    'areaId' => '287'
+                    'areaName' => '娄底市'
+                    'areaInitial' => 'L'
+                )
+                18 => array
+                (
+                    'areaId' => '250'
+                    'areaName' => '漯河市'
+                    'areaInitial' => 'L'
+                )
+                19 => array
+                (
+                    'areaId' => '242'
+                    'areaName' => '洛阳市'
+                    'areaInitial' => 'L'
+                )
+                20 => array
+                (
+                    'areaId' => '237'
+                    'areaName' => '聊城市'
+                    'areaInitial' => 'L'
+                )
+                21 => array
+                (
+                    'areaId' => '235'
+                    'areaName' => '临沂市'
+                    'areaInitial' => 'L'
+                )
+                22 => array
+                (
+                    'areaId' => '234'
+                    'areaName' => '莱芜市'
+                    'areaInitial' => 'L'
+                )
+                23 => array
+                (
+                    'areaId' => '210'
+                    'areaName' => '龙岩市'
+                    'areaInitial' => 'L'
+                )
+                24 => array
+                (
+                    'areaId' => '199'
+                    'areaName' => '六安市'
+                    'areaInitial' => 'L'
+                )
+                25 => array
+                (
+                    'areaId' => '185'
+                    'areaName' => '丽水市'
+                    'areaInitial' => 'L'
+                )
+                26 => array
+                (
+                    'areaId' => '168'
+                    'areaName' => '连云港市'
+                    'areaInitial' => 'L'
+                )
+                27 => array
+                (
+                    'areaId' => '124'
+                    'areaName' => '辽源市'
+                    'areaInitial' => 'L'
+                )
+                28 => array
+                (
+                    'areaId' => '116'
+                    'areaName' => '辽阳市'
+                    'areaInitial' => 'L'
+                )
+                29 => array
+                (
+                    'areaId' => '94'
+                    'areaName' => '吕梁市'
+                    'areaInitial' => 'L'
+                )
+                30 => array
+                (
+                    'areaId' => '93'
+                    'areaName' => '临汾市'
+                    'areaInitial' => 'L'
+                )
+                31 => array
+                (
+                    'areaId' => '82'
+                    'areaName' => '廊坊市'
+                    'areaInitial' => 'L'
+                )
+            )
+        )
+        11 => array
+        (
+            'char' => 'M'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '139'
+                    'areaName' => '牡丹江市'
+                    'areaInitial' => 'M'
+                )
+                1 => array
+                (
+                    'areaId' => '190'
+                    'areaName' => '马鞍山市'
+                    'areaInitial' => 'M'
+                )
+                2 => array
+                (
+                    'areaId' => '297'
+                    'areaName' => '茂名市'
+                    'areaInitial' => 'M'
+                )
+                3 => array
+                (
+                    'areaId' => '300'
+                    'areaName' => '梅州市'
+                    'areaInitial' => 'M'
+                )
+                4 => array
+                (
+                    'areaId' => '390'
+                    'areaName' => '绵阳市'
+                    'areaInitial' => 'M'
+                )
+                5 => array
+                (
+                    'areaId' => '396'
+                    'areaName' => '眉山市'
+                    'areaInitial' => 'M'
+                )
+                6 => array
+                (
+                    'areaId' => '504'
+                    'areaName' => '苗栗县'
+                    'areaInitial' => 'M'
+                )
+            )
+        )
+        12 => array
+        (
+            'char' => 'N'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '162'
+                    'areaName' => '南京市'
+                    'areaInitial' => 'N'
+                )
+                1 => array
+                (
+                    'areaId' => '167'
+                    'areaName' => '南通市'
+                    'areaInitial' => 'N'
+                )
+                2 => array
+                (
+                    'areaId' => '176'
+                    'areaName' => '宁波市'
+                    'areaInitial' => 'N'
+                )
+                3 => array
+                (
+                    'areaId' => '209'
+                    'areaName' => '南平市'
+                    'areaInitial' => 'N'
+                )
+                4 => array
+                (
+                    'areaId' => '211'
+                    'areaName' => '宁德市'
+                    'areaInitial' => 'N'
+                )
+                5 => array
+                (
+                    'areaId' => '212'
+                    'areaName' => '南昌市'
+                    'areaInitial' => 'N'
+                )
+                6 => array
+                (
+                    'areaId' => '252'
+                    'areaName' => '南阳市'
+                    'areaInitial' => 'N'
+                )
+                7 => array
+                (
+                    'areaId' => '310'
+                    'areaName' => '南宁市'
+                    'areaInitial' => 'N'
+                )
+                8 => array
+                (
+                    'areaId' => '343'
+                    'areaName' => '南沙群岛'
+                    'areaInitial' => 'N'
+                )
+                9 => array
+                (
+                    'areaId' => '393'
+                    'areaName' => '内江市'
+                    'areaInitial' => 'N'
+                )
+                10 => array
+                (
+                    'areaId' => '395'
+                    'areaName' => '南充市'
+                    'areaInitial' => 'N'
+                )
+                11 => array
+                (
+                    'areaId' => '429'
+                    'areaName' => '怒江傈僳族自治州'
+                    'areaInitial' => 'N'
+                )
+                12 => array
+                (
+                    'areaId' => '435'
+                    'areaName' => '那曲地区'
+                    'areaInitial' => 'N'
+                )
+                13 => array
+                (
+                    'areaId' => '507'
+                    'areaName' => '南投县'
+                    'areaInitial' => 'N'
+                )
+                14 => array
+                (
+                    'areaId' => '520'
+                    'areaName' => '南区'
+                    'areaInitial' => 'N'
+                )
+            )
+        )
+        13 => array
+        (
+            'char' => 'P'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '117'
+                    'areaName' => '盘锦市'
+                    'areaInitial' => 'P'
+                )
+                1 => array
+                (
+                    'areaId' => '205'
+                    'areaName' => '莆田市'
+                    'areaInitial' => 'P'
+                )
+                2 => array
+                (
+                    'areaId' => '214'
+                    'areaName' => '萍乡市'
+                    'areaInitial' => 'P'
+                )
+                3 => array
+                (
+                    'areaId' => '243'
+                    'areaName' => '平顶山市'
+                    'areaInitial' => 'P'
+                )
+                4 => array
+                (
+                    'areaId' => '248'
+                    'areaName' => '濮阳市'
+                    'areaInitial' => 'P'
+                )
+                5 => array
+                (
+                    'areaId' => '387'
+                    'areaName' => '攀枝花市'
+                    'areaInitial' => 'P'
+                )
+                6 => array
+                (
+                    'areaId' => '455'
+                    'areaName' => '平凉市'
+                    'areaInitial' => 'P'
+                )
+                7 => array
+                (
+                    'areaId' => '512'
+                    'areaName' => '屏东县'
+                    'areaInitial' => 'P'
+                )
+                8 => array
+                (
+                    'areaId' => '513'
+                    'areaName' => '澎湖县'
+                    'areaInitial' => 'P'
+                )
+            )
+        )
+        14 => array
+        (
+            'char' => 'Q'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '532'
+                    'areaName' => '荃湾区'
+                    'areaInitial' => 'Q'
+                )
+                1 => array
+                (
+                    'areaId' => '457'
+                    'areaName' => '庆阳市'
+                    'areaInitial' => 'Q'
+                )
+                2 => array
+                (
+                    'areaId' => '416'
+                    'areaName' => '曲靖市'
+                    'areaInitial' => 'Q'
+                )
+                3 => array
+                (
+                    'areaId' => '414'
+                    'areaName' => '黔南布依族苗族自治州'
+                    'areaInitial' => 'Q'
+                )
+                4 => array
+                (
+                    'areaId' => '413'
+                    'areaName' => '黔东南苗族侗族自治州'
+                    'areaInitial' => 'Q'
+                )
+                5 => array
+                (
+                    'areaId' => '411'
+                    'areaName' => '黔西南布依族苗族自治州'
+                    'areaInitial' => 'Q'
+                )
+                6 => array
+                (
+                    'areaId' => '341'
+                    'areaName' => '琼中黎族苗族自治县'
+                    'areaInitial' => 'Q'
+                )
+                7 => array
+                (
+                    'areaId' => '327'
+                    'areaName' => '琼海市'
+                    'areaInitial' => 'Q'
+                )
+                8 => array
+                (
+                    'areaId' => '316'
+                    'areaName' => '钦州市'
+                    'areaInitial' => 'Q'
+                )
+                9 => array
+                (
+                    'areaId' => '304'
+                    'areaName' => '清远市'
+                    'areaInitial' => 'Q'
+                )
+                10 => array
+                (
+                    'areaId' => '272'
+                    'areaName' => '潜江市'
+                    'areaInitial' => 'Q'
+                )
+                11 => array
+                (
+                    'areaId' => '224'
+                    'areaName' => '青岛市'
+                    'areaInitial' => 'Q'
+                )
+                12 => array
+                (
+                    'areaId' => '207'
+                    'areaName' => '泉州市'
+                    'areaInitial' => 'Q'
+                )
+                13 => array
+                (
+                    'areaId' => '182'
+                    'areaName' => '衢州市'
+                    'areaInitial' => 'Q'
+                )
+                14 => array
+                (
+                    'areaId' => '138'
+                    'areaName' => '七台河市'
+                    'areaInitial' => 'Q'
+                )
+                15 => array
+                (
+                    'areaId' => '131'
+                    'areaName' => '齐齐哈尔市'
+                    'areaInitial' => 'Q'
+                )
+                16 => array
+                (
+                    'areaId' => '75'
+                    'areaName' => '秦皇岛市'
+                    'areaInitial' => 'Q'
+                )
+            )
+        )
+        15 => array
+        (
+            'char' => 'R'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '233'
+                    'areaName' => '日照市'
+                    'areaInitial' => 'R'
+                )
+                1 => array
+                (
+                    'areaId' => '434'
+                    'areaName' => '日喀则地区'
+                    'areaInitial' => 'R'
+                )
+            )
+        )
+        16 => array
+        (
+            'char' => 'S'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '529'
+                    'areaName' => '沙田区'
+                    'areaInitial' => 'S'
+                )
+                1 => array
+                (
+                    'areaId' => '521'
+                    'areaName' => '深水埗区'
+                    'areaInitial' => 'S'
+                )
+                2 => array
+                (
+                    'areaId' => '489'
+                    'areaName' => '石河子市'
+                    'areaInitial' => 'S'
+                )
+                3 => array
+                (
+                    'areaId' => '471'
+                    'areaName' => '石嘴山市'
+                    'areaInitial' => 'S'
+                )
+                4 => array
+                (
+                    'areaId' => '447'
+                    'areaName' => '商洛市'
+                    'areaInitial' => 'S'
+                )
+                5 => array
+                (
+                    'areaId' => '433'
+                    'areaName' => '山南地区'
+                    'areaInitial' => 'S'
+                )
+                6 => array
+                (
+                    'areaId' => '421'
+                    'areaName' => '思茅市'
+                    'areaInitial' => 'S'
+                )
+                7 => array
+                (
+                    'areaId' => '392'
+                    'areaName' => '遂宁市'
+                    'areaInitial' => 'S'
+                )
+                8 => array
+                (
+                    'areaId' => '325'
+                    'areaName' => '三亚市'
+                    'areaInitial' => 'S'
+                )
+                9 => array
+                (
+                    'areaId' => '301'
+                    'areaName' => '汕尾市'
+                    'areaInitial' => 'S'
+                )
+                10 => array
+                (
+                    'areaId' => '293'
+                    'areaName' => '汕头市'
+                    'areaInitial' => 'S'
+                )
+                11 => array
+                (
+                    'areaId' => '291'
+                    'areaName' => '深圳市'
+                    'areaInitial' => 'S'
+                )
+                12 => array
+                (
+                    'areaId' => '290'
+                    'areaName' => '韶关市'
+                    'areaInitial' => 'S'
+                )
+                13 => array
+                (
+                    'areaId' => '279'
+                    'areaName' => '邵阳市'
+                    'areaInitial' => 'S'
+                )
+                14 => array
+                (
+                    'areaId' => '274'
+                    'areaName' => '神农架林区'
+                    'areaInitial' => 'S'
+                )
+                15 => array
+                (
+                    'areaId' => '269'
+                    'areaName' => '随州市'
+                    'areaInitial' => 'S'
+                )
+                16 => array
+                (
+                    'areaId' => '39'
+                    'areaName' => '上海市'
+                    'areaInitial' => 'S'
+                )
+                17 => array
+                (
+                    'areaId' => '73'
+                    'areaName' => '石家庄市'
+                    'areaInitial' => 'S'
+                )
+                18 => array
+                (
+                    'areaId' => '89'
+                    'areaName' => '朔州市'
+                    'areaInitial' => 'S'
+                )
+                19 => array
+                (
+                    'areaId' => '107'
+                    'areaName' => '沈阳市'
+                    'areaInitial' => 'S'
+                )
+                20 => array
+                (
+                    'areaId' => '123'
+                    'areaName' => '四平市'
+                    'areaInitial' => 'S'
+                )
+                21 => array
+                (
+                    'areaId' => '127'
+                    'areaName' => '松原市'
+                    'areaInitial' => 'S'
+                )
+                22 => array
+                (
+                    'areaId' => '134'
+                    'areaName' => '双鸭山市'
+                    'areaInitial' => 'S'
+                )
+                23 => array
+                (
+                    'areaId' => '141'
+                    'areaName' => '绥化市'
+                    'areaInitial' => 'S'
+                )
+                24 => array
+                (
+                    'areaId' => '166'
+                    'areaName' => '苏州市'
+                    'areaInitial' => 'S'
+                )
+                25 => array
+                (
+                    'areaId' => '174'
+                    'areaName' => '宿迁市'
+                    'areaInitial' => 'S'
+                )
+                26 => array
+                (
+                    'areaId' => '180'
+                    'areaName' => '绍兴市'
+                    'areaInitial' => 'S'
+                )
+                27 => array
+                (
+                    'areaId' => '197'
+                    'areaName' => '宿州市'
+                    'areaInitial' => 'S'
+                )
+                28 => array
+                (
+                    'areaId' => '206'
+                    'areaName' => '三明市'
+                    'areaInitial' => 'S'
+                )
+                29 => array
+                (
+                    'areaId' => '222'
+                    'areaName' => '上饶市'
+                    'areaInitial' => 'S'
+                )
+                30 => array
+                (
+                    'areaId' => '251'
+                    'areaName' => '三门峡市'
+                    'areaInitial' => 'S'
+                )
+                31 => array
+                (
+                    'areaId' => '253'
+                    'areaName' => '商丘市'
+                    'areaInitial' => 'S'
+                )
+                32 => array
+                (
+                    'areaId' => '260'
+                    'areaName' => '十堰市'
+                    'areaInitial' => 'S'
+                )
+            )
+        )
+        17 => array
+        (
+            'char' => 'T'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '530'
+                    'areaName' => '屯门区'
+                    'areaInitial' => 'T'
+                )
+                1 => array
+                (
+                    'areaId' => '514'
+                    'areaName' => '台东县'
+                    'areaInitial' => 'T'
+                )
+                2 => array
+                (
+                    'areaId' => '510'
+                    'areaName' => '台南县'
+                    'areaInitial' => 'T'
+                )
+                3 => array
+                (
+                    'areaId' => '505'
+                    'areaName' => '台中县'
+                    'areaInitial' => 'T'
+                )
+                4 => array
+                (
+                    'areaId' => '502'
+                    'areaName' => '桃园县'
+                    'areaInitial' => 'T'
+                )
+                5 => array
+                (
+                    'areaId' => '500'
+                    'areaName' => '台北县'
+                    'areaInitial' => 'T'
+                )
+                6 => array
+                (
+                    'areaId' => '497'
+                    'areaName' => '台南市'
+                    'areaInitial' => 'T'
+                )
+                7 => array
+                (
+                    'areaId' => '496'
+                    'areaName' => '台中市'
+                    'areaInitial' => 'T'
+                )
+                8 => array
+                (
+                    'areaId' => '493'
+                    'areaName' => '台北市'
+                    'areaInitial' => 'T'
+                )
+                9 => array
+                (
+                    'areaId' => '491'
+                    'areaName' => '图木舒克市'
+                    'areaInitial' => 'T'
+                )
+                10 => array
+                (
+                    'areaId' => '487'
+                    'areaName' => '塔城地区'
+                    'areaInitial' => 'T'
+                )
+                11 => array
+                (
+                    'areaId' => '477'
+                    'areaName' => '吐鲁番地区'
+                    'areaInitial' => 'T'
+                )
+                12 => array
+                (
+                    'areaId' => '452'
+                    'areaName' => '天水市'
+                    'areaInitial' => 'T'
+                )
+                13 => array
+                (
+                    'areaId' => '439'
+                    'areaName' => '铜川市'
+                    'areaInitial' => 'T'
+                )
+                14 => array
+                (
+                    'areaId' => '410'
+                    'areaName' => '铜仁地区'
+                    'areaInitial' => 'T'
+                )
+                15 => array
+                (
+                    'areaId' => '333'
+                    'areaName' => '屯昌县'
+                    'areaInitial' => 'T'
+                )
+                16 => array
+                (
+                    'areaId' => '273'
+                    'areaName' => '天门市'
+                    'areaInitial' => 'T'
+                )
+                17 => array
+                (
+                    'areaId' => '231'
+                    'areaName' => '泰安市'
+                    'areaInitial' => 'T'
+                )
+                18 => array
+                (
+                    'areaId' => '192'
+                    'areaName' => '铜陵市'
+                    'areaInitial' => 'T'
+                )
+                19 => array
+                (
+                    'areaId' => '184'
+                    'areaName' => '台州市'
+                    'areaInitial' => 'T'
+                )
+                20 => array
+                (
+                    'areaId' => '173'
+                    'areaName' => '泰州市'
+                    'areaInitial' => 'T'
+                )
+                21 => array
+                (
+                    'areaId' => '125'
+                    'areaName' => '通化市'
+                    'areaInitial' => 'T'
+                )
+                22 => array
+                (
+                    'areaId' => '118'
+                    'areaName' => '铁岭市'
+                    'areaInitial' => 'T'
+                )
+                23 => array
+                (
+                    'areaId' => '99'
+                    'areaName' => '通辽市'
+                    'areaInitial' => 'T'
+                )
+                24 => array
+                (
+                    'areaId' => '84'
+                    'areaName' => '太原市'
+                    'areaInitial' => 'T'
+                )
+                25 => array
+                (
+                    'areaId' => '74'
+                    'areaName' => '唐山市'
+                    'areaInitial' => 'T'
+                )
+                26 => array
+                (
+                    'areaId' => '40'
+                    'areaName' => '天津市'
+                    'areaInitial' => 'T'
+                )
+            )
+        )
+        18 => array
+        (
+            'char' => 'W'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '523'
+                    'areaName' => '湾仔区'
+                    'areaInitial' => 'W'
+                )
+                1 => array
+                (
+                    'areaId' => '492'
+                    'areaName' => '五家渠市'
+                    'areaInitial' => 'W'
+                )
+                2 => array
+                (
+                    'areaId' => '475'
+                    'areaName' => '乌鲁木齐市'
+                    'areaInitial' => 'W'
+                )
+                3 => array
+                (
+                    'areaId' => '472'
+                    'areaName' => '吴忠市'
+                    'areaInitial' => 'W'
+                )
+                4 => array
+                (
+                    'areaId' => '453'
+                    'areaName' => '武威市'
+                    'areaInitial' => 'W'
+                )
+                5 => array
+                (
+                    'areaId' => '442'
+                    'areaName' => '渭南市'
+                    'areaInitial' => 'W'
+                )
+                6 => array
+                (
+                    'areaId' => '425'
+                    'areaName' => '文山壮族苗族自治州'
+                    'areaInitial' => 'W'
+                )
+                7 => array
+                (
+                    'areaId' => '330'
+                    'areaName' => '万宁市'
+                    'areaInitial' => 'W'
+                )
+                8 => array
+                (
+                    'areaId' => '329'
+                    'areaName' => '文昌市'
+                    'areaInitial' => 'W'
+                )
+                9 => array
+                (
+                    'areaId' => '326'
+                    'areaName' => '五指山市'
+                    'areaInitial' => 'W'
+                )
+                10 => array
+                (
+                    'areaId' => '313'
+                    'areaName' => '梧州市'
+                    'areaInitial' => 'W'
+                )
+                11 => array
+                (
+                    'areaId' => '258'
+                    'areaName' => '武汉市'
+                    'areaInitial' => 'W'
+                )
+                12 => array
+                (
+                    'areaId' => '232'
+                    'areaName' => '威海市'
+                    'areaInitial' => 'W'
+                )
+                13 => array
+                (
+                    'areaId' => '229'
+                    'areaName' => '潍坊市'
+                    'areaInitial' => 'W'
+                )
+                14 => array
+                (
+                    'areaId' => '187'
+                    'areaName' => '芜湖市'
+                    'areaInitial' => 'W'
+                )
+                15 => array
+                (
+                    'areaId' => '177'
+                    'areaName' => '温州市'
+                    'areaInitial' => 'W'
+                )
+                16 => array
+                (
+                    'areaId' => '163'
+                    'areaName' => '无锡市'
+                    'areaInitial' => 'W'
+                )
+                17 => array
+                (
+                    'areaId' => '103'
+                    'areaName' => '乌兰察布市'
+                    'areaInitial' => 'W'
+                )
+                18 => array
+                (
+                    'areaId' => '97'
+                    'areaName' => '乌海市'
+                    'areaInitial' => 'W'
+                )
+            )
+        )
+        19 => array
+        (
+            'char' => 'X'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '528'
+                    'areaName' => '西贡区'
+                    'areaInitial' => 'X'
+                )
+                1 => array
+                (
+                    'areaId' => '503'
+                    'areaName' => '新竹县'
+                    'areaInitial' => 'X'
+                )
+                2 => array
+                (
+                    'areaId' => '498'
+                    'areaName' => '新竹市'
+                    'areaInitial' => 'X'
+                )
+                3 => array
+                (
+                    'areaId' => '462'
+                    'areaName' => '西宁市'
+                    'areaInitial' => 'X'
+                )
+                4 => array
+                (
+                    'areaId' => '441'
+                    'areaName' => '咸阳市'
+                    'areaInitial' => 'X'
+                )
+                5 => array
+                (
+                    'areaId' => '438'
+                    'areaName' => '西安市'
+                    'areaInitial' => 'X'
+                )
+                6 => array
+                (
+                    'areaId' => '426'
+                    'areaName' => '西双版纳傣族自治州'
+                    'areaInitial' => 'X'
+                )
+                7 => array
+                (
+                    'areaId' => '342'
+                    'areaName' => '西沙群岛'
+                    'areaInitial' => 'X'
+                )
+                8 => array
+                (
+                    'areaId' => '288'
+                    'areaName' => '湘西土家族苗族自治州'
+                    'areaInitial' => 'X'
+                )
+                9 => array
+                (
+                    'areaId' => '277'
+                    'areaName' => '湘潭市'
+                    'areaInitial' => 'X'
+                )
+                10 => array
+                (
+                    'areaId' => '271'
+                    'areaName' => '仙桃市'
+                    'areaInitial' => 'X'
+                )
+                11 => array
+                (
+                    'areaId' => '268'
+                    'areaName' => '咸宁市'
+                    'areaInitial' => 'X'
+                )
+                12 => array
+                (
+                    'areaId' => '265'
+                    'areaName' => '孝感市'
+                    'areaInitial' => 'X'
+                )
+                13 => array
+                (
+                    'areaId' => '262'
+                    'areaName' => '襄樊市'
+                    'areaInitial' => 'X'
+                )
+                14 => array
+                (
+                    'areaId' => '254'
+                    'areaName' => '信阳市'
+                    'areaInitial' => 'X'
+                )
+                15 => array
+                (
+                    'areaId' => '249'
+                    'areaName' => '许昌市'
+                    'areaInitial' => 'X'
+                )
+                16 => array
+                (
+                    'areaId' => '246'
+                    'areaName' => '新乡市'
+                    'areaInitial' => 'X'
+                )
+                17 => array
+                (
+                    'areaId' => '216'
+                    'areaName' => '新余市'
+                    'areaInitial' => 'X'
+                )
+                18 => array
+                (
+                    'areaId' => '204'
+                    'areaName' => '厦门市'
+                    'areaInitial' => 'X'
+                )
+                19 => array
+                (
+                    'areaId' => '202'
+                    'areaName' => '宣城市'
+                    'areaInitial' => 'X'
+                )
+                20 => array
+                (
+                    'areaId' => '164'
+                    'areaName' => '徐州市'
+                    'areaInitial' => 'X'
+                )
+                21 => array
+                (
+                    'areaId' => '105'
+                    'areaName' => '锡林郭勒盟'
+                    'areaInitial' => 'X'
+                )
+                22 => array
+                (
+                    'areaId' => '104'
+                    'areaName' => '兴安盟'
+                    'areaInitial' => 'X'
+                )
+                23 => array
+                (
+                    'areaId' => '92'
+                    'areaName' => '忻州市'
+                    'areaInitial' => 'X'
+                )
+                24 => array
+                (
+                    'areaId' => '77'
+                    'areaName' => '邢台市'
+                    'areaInitial' => 'X'
+                )
+            )
+        )
+        20 => array
+        (
+            'char' => 'Y'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '533'
+                    'areaName' => '元朗区'
+                    'areaInitial' => 'Y'
+                )
+                1 => array
+                (
+                    'areaId' => '524'
+                    'areaName' => '油尖旺区'
+                    'areaInitial' => 'Y'
+                )
+                2 => array
+                (
+                    'areaId' => '508'
+                    'areaName' => '云林县'
+                    'areaInitial' => 'Y'
+                )
+                3 => array
+                (
+                    'areaId' => '501'
+                    'areaName' => '宜兰县'
+                    'areaInitial' => 'Y'
+                )
+                4 => array
+                (
+                    'areaId' => '486'
+                    'areaName' => '伊犁哈萨克自治州'
+                    'areaInitial' => 'Y'
+                )
+                5 => array
+                (
+                    'areaId' => '470'
+                    'areaName' => '银川市'
+                    'areaInitial' => 'Y'
+                )
+                6 => array
+                (
+                    'areaId' => '468'
+                    'areaName' => '玉树藏族自治州'
+                    'areaInitial' => 'Y'
+                )
+                7 => array
+                (
+                    'areaId' => '445'
+                    'areaName' => '榆林市'
+                    'areaInitial' => 'Y'
+                )
+                8 => array
+                (
+                    'areaId' => '443'
+                    'areaName' => '延安市'
+                    'areaInitial' => 'Y'
+                )
+                9 => array
+                (
+                    'areaId' => '417'
+                    'areaName' => '玉溪市'
+                    'areaInitial' => 'Y'
+                )
+                10 => array
+                (
+                    'areaId' => '400'
+                    'areaName' => '雅安市'
+                    'areaInitial' => 'Y'
+                )
+                11 => array
+                (
+                    'areaId' => '397'
+                    'areaName' => '宜宾市'
+                    'areaInitial' => 'Y'
+                )
+                12 => array
+                (
+                    'areaId' => '318'
+                    'areaName' => '玉林市'
+                    'areaInitial' => 'Y'
+                )
+                13 => array
+                (
+                    'areaId' => '309'
+                    'areaName' => '云浮市'
+                    'areaInitial' => 'Y'
+                )
+                14 => array
+                (
+                    'areaId' => '303'
+                    'areaName' => '阳江市'
+                    'areaInitial' => 'Y'
+                )
+                15 => array
+                (
+                    'areaId' => '285'
+                    'areaName' => '永州市'
+                    'areaInitial' => 'Y'
+                )
+                16 => array
+                (
+                    'areaId' => '283'
+                    'areaName' => '益阳市'
+                    'areaInitial' => 'Y'
+                )
+                17 => array
+                (
+                    'areaId' => '280'
+                    'areaName' => '岳阳市'
+                    'areaInitial' => 'Y'
+                )
+                18 => array
+                (
+                    'areaId' => '261'
+                    'areaName' => '宜昌市'
+                    'areaInitial' => 'Y'
+                )
+                19 => array
+                (
+                    'areaId' => '228'
+                    'areaName' => '烟台市'
+                    'areaInitial' => 'Y'
+                )
+                20 => array
+                (
+                    'areaId' => '220'
+                    'areaName' => '宜春市'
+                    'areaInitial' => 'Y'
+                )
+                21 => array
+                (
+                    'areaId' => '217'
+                    'areaName' => '鹰潭市'
+                    'areaInitial' => 'Y'
+                )
+                22 => array
+                (
+                    'areaId' => '171'
+                    'areaName' => '扬州市'
+                    'areaInitial' => 'Y'
+                )
+                23 => array
+                (
+                    'areaId' => '170'
+                    'areaName' => '盐城市'
+                    'areaInitial' => 'Y'
+                )
+                24 => array
+                (
+                    'areaId' => '136'
+                    'areaName' => '伊春市'
+                    'areaInitial' => 'Y'
+                )
+                25 => array
+                (
+                    'areaId' => '129'
+                    'areaName' => '延边朝鲜族自治州'
+                    'areaInitial' => 'Y'
+                )
+                26 => array
+                (
+                    'areaId' => '114'
+                    'areaName' => '营口市'
+                    'areaInitial' => 'Y'
+                )
+                27 => array
+                (
+                    'areaId' => '91'
+                    'areaName' => '运城市'
+                    'areaInitial' => 'Y'
+                )
+                28 => array
+                (
+                    'areaId' => '86'
+                    'areaName' => '阳泉市'
+                    'areaInitial' => 'Y'
+                )
+            )
+        )
+        21 => array
+        (
+            'char' => 'Z'
+            'list' => array
+            (
+                0 => array
+                (
+                    'areaId' => '516'
+                    'areaName' => '中西区'
+                    'areaInitial' => 'Z'
+                )
+                1 => array
+                (
+                    'areaId' => '506'
+                    'areaName' => '彰化县'
+                    'areaInitial' => 'Z'
+                )
+                2 => array
+                (
+                    'areaId' => '474'
+                    'areaName' => '中卫市'
+                    'areaInitial' => 'Z'
+                )
+                3 => array
+                (
+                    'areaId' => '454'
+                    'areaName' => '张掖市'
+                    'areaInitial' => 'Z'
+                )
+                4 => array
+                (
+                    'areaId' => '419'
+                    'areaName' => '昭通市'
+                    'areaInitial' => 'Z'
+                )
+                5 => array
+                (
+                    'areaId' => '408'
+                    'areaName' => '遵义市'
+                    'areaInitial' => 'Z'
+                )
+                6 => array
+                (
+                    'areaId' => '402'
+                    'areaName' => '资阳市'
+                    'areaInitial' => 'Z'
+                )
+                7 => array
+                (
+                    'areaId' => '386'
+                    'areaName' => '自贡市'
+                    'areaInitial' => 'Z'
+                )
+                8 => array
+                (
+                    'areaId' => '344'
+                    'areaName' => '中沙群岛的岛礁及其海域'
+                    'areaInitial' => 'Z'
+                )
+                9 => array
+                (
+                    'areaId' => '306'
+                    'areaName' => '中山市'
+                    'areaInitial' => 'Z'
+                )
+                10 => array
+                (
+                    'areaId' => '298'
+                    'areaName' => '肇庆市'
+                    'areaInitial' => 'Z'
+                )
+                11 => array
+                (
+                    'areaId' => '296'
+                    'areaName' => '湛江市'
+                    'areaInitial' => 'Z'
+                )
+                12 => array
+                (
+                    'areaId' => '292'
+                    'areaName' => '珠海市'
+                    'areaInitial' => 'Z'
+                )
+                13 => array
+                (
+                    'areaId' => '282'
+                    'areaName' => '张家界市'
+                    'areaInitial' => 'Z'
+                )
+                14 => array
+                (
+                    'areaId' => '276'
+                    'areaName' => '株洲市'
+                    'areaInitial' => 'Z'
+                )
+                15 => array
+                (
+                    'areaId' => '256'
+                    'areaName' => '驻马店市'
+                    'areaInitial' => 'Z'
+                )
+                16 => array
+                (
+                    'areaId' => '255'
+                    'areaName' => '周口市'
+                    'areaInitial' => 'Z'
+                )
+                17 => array
+                (
+                    'areaId' => '240'
+                    'areaName' => '郑州市'
+                    'areaInitial' => 'Z'
+                )
+                18 => array
+                (
+                    'areaId' => '226'
+                    'areaName' => '枣庄市'
+                    'areaInitial' => 'Z'
+                )
+                19 => array
+                (
+                    'areaId' => '225'
+                    'areaName' => '淄博市'
+                    'areaInitial' => 'Z'
+                )
+                20 => array
+                (
+                    'areaId' => '208'
+                    'areaName' => '漳州市'
+                    'areaInitial' => 'Z'
+                )
+                21 => array
+                (
+                    'areaId' => '181'
+                    'areaName' => '舟山市'
+                    'areaInitial' => 'Z'
+                )
+                22 => array
+                (
+                    'areaId' => '172'
+                    'areaName' => '镇江市'
+                    'areaInitial' => 'Z'
+                )
+                23 => array
+                (
+                    'areaId' => '79'
+                    'areaName' => '张家口市'
+                    'areaInitial' => 'Z'
+                )
+                24 => array
+                (
+                    'areaId' => '62'
+                    'areaName' => '重庆市'
+                    'areaInitial' => 'Z'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (146)
+2017/10/27 14:25:01 [info] [request] 
+url: /searchrouter
+array()
+array
+(
+    'loadMsg' => '合肥市'
+    'unloadMsg' => '深圳市'
+    'time' => '2017-09-11'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (87)
+2017/10/27 14:26:10 [info] [request] 
+url: /searchrouter
+array()
+array
+(
+    'loadMsg' => '合肥市'
+    'unloadMsg' => '深圳市'
+    'time' => '2017-09-11'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (87)
+2017/10/27 14:26:47 [info] [request] 
+url: /searchrouter
+array()
+array
+(
+    'loadMsg' => '合肥市'
+    'unloadMsg' => '深圳市'
+    'time' => '2017-09-11'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '9'
+            'startTime' => '2017-09-11 10:48:51'
+            'endTime' => '2017-09-11 10:48:54'
+            'deliveryTime' => '2017-09-11 10:48:56'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '安徽省 合肥市 包河区 过意地柜子够'
+            'unloadMsg' => '广东省 深圳市 南山区 开门网最牛'
+            'vehicleType' => '1'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '10.00公斤'
+            'sumWeight' => '20'
+            'descript' => '测试'
+            'itemName' => 'PCB板'
+            'itemType' => '2'
+            'vehicleLength' => null
+            'state' => '1'
+            'createTime' => '2017-09-11 10:50:08'
+            'updateTime' => '2017-10-24 16:14:18'
+            'unloadId' => null
+            'loadId' => null
+            'demandState' => '1'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (87)
+2017/10/27 14:31:24 [info] [request] 
+url: /searchrouter
+array()
+array
+(
+    'loadMsg' => '合肥市'
+    'unloadMsg' => '深圳市'
+    'time' => '2017-09-11'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '9'
+            'startTime' => '2017-09-11 10:48:51'
+            'endTime' => '2017-09-11 10:48:54'
+            'deliveryTime' => '2017-09-11 10:48:56'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '安徽省 合肥市 包河区 过意地柜子够'
+            'unloadMsg' => '广东省 深圳市 南山区 开门网最牛'
+            'vehicleType' => '1'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '10.00公斤'
+            'sumWeight' => '20'
+            'descript' => '测试'
+            'itemName' => 'PCB板'
+            'itemType' => '2'
+            'vehicleLength' => null
+            'state' => '1'
+            'createTime' => '2017-09-11 10:50:08'
+            'updateTime' => '2017-10-24 16:14:18'
+            'unloadId' => null
+            'loadId' => null
+            'demandState' => '1'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (87)
+2017/10/27 14:48:43 [info] [request] 
+url: /searchrouter
+array()
+array
+(
+    'loadMsg' => '天津市'
+    'unloadMsg' => '北京市'
+    'time' => '2017-10-27'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        1 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        2 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        3 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        4 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        5 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        6 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        7 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        8 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        9 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        10 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        11 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        12 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        13 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        14 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        15 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+        16 => array
+        (
+            'id' => '34'
+            'startTime' => '2017-10-27 16:00:00'
+            'endTime' => '2017-10-27 17:00:00'
+            'deliveryTime' => '2017-10-27 01:00:00'
+            'userId' => '23'
+            'userName' => '小扫六'
+            'userMobile' => '18814440563'
+            'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+            'unloadMsg' => '北京 北京市 东城区 11111111'
+            'vehicleType' => '卡车/小轿车'
+            'vehicleVolume' => '婆婆'
+            'vehicleCapacity' => '旧闪'
+            'vehicleDesc' => '去咯婆婆'
+            'orderType' => '2'
+            'vehicleId' => null
+            'sumVolume' => '紧迫感'
+            'sumWeight' => '短'
+            'descript' => '给您'
+            'itemName' => '18号的需求'
+            'itemType' => '液体/固体'
+            'demandState' => '3'
+            'vehicleLength' => '2.3'
+            'state' => '1'
+            'unloadId' => '64'
+            'loadId' => '51'
+            'createTime' => '2017-10-18 15:05:50'
+            'updateTime' => '2017-10-24 11:09:28'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (87)
+2017/10/27 15:38:25 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'page' => '1'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '参数错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (302)
+2017/10/27 15:39:04 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'page' => '1'
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '参数错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (322)
+2017/10/27 15:39:24 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'page' => '1'
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '参数错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (306)
+2017/10/27 15:40:01 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'page' => '1'
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '参数错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (306)
+2017/10/27 15:44:47 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'page' => '1'
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'demandId' => '11'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '给您'
+            'createTime' => '2017-09-08 15:11:21'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '25'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '22'
+                )
+                2 => array
+                (
+                    'id' => '3'
+                    'price' => '30'
+                )
+            )
+        )
+        1 => array
+        (
+            'demandId' => '12'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '给您'
+            'createTime' => '2017-09-08 15:11:55'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '4'
+                    'price' => '10'
+                )
+                1 => array
+                (
+                    'id' => '5'
+                    'price' => '15'
+                )
+                2 => array
+                (
+                    'id' => '6'
+                    'price' => '30'
+                )
+            )
+        )
+        2 => array
+        (
+            'demandId' => '13'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '给您'
+            'createTime' => '2017-09-08 15:13:18'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '7'
+                    'price' => '35'
+                )
+                1 => array
+                (
+                    'id' => '8'
+                    'price' => '40'
+                )
+                2 => array
+                (
+                    'id' => '9'
+                    'price' => '50'
+                )
+            )
+        )
+        3 => array
+        (
+            'demandId' => '18'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '他咯图'
+            'createTime' => '2017-09-14 17:46:34'
+            'price' => array()
+        )
+        4 => array
+        (
+            'demandId' => '20'
+            'loadMsg' => '北京市'
+            'loadMsgArea' => '东城区'
+            'unloadMsg' => '天津市'
+            'unloadMsgArea' => '和平区'
+            'descript' => '无'
+            'createTime' => '2017-09-21 11:43:54'
+            'price' => array()
+        )
+        5 => array
+        (
+            'demandId' => '22'
+            'loadMsg' => ''
+            'loadMsgArea' => ''
+            'unloadMsg' => ''
+            'unloadMsgArea' => ''
+            'descript' => '某物体恐惧'
+            'createTime' => '2017-10-12 17:40:14'
+            'price' => array()
+        )
+        6 => array
+        (
+            'demandId' => '23'
+            'loadMsg' => '天津市'
+            'loadMsgArea' => '和平区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '成功和 v 哈哈'
+            'createTime' => '2017-10-13 09:54:31'
+            'price' => array()
+        )
+        7 => array
+        (
+            'demandId' => '24'
+            'loadMsg' => '天津市'
+            'loadMsgArea' => '和平区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '成功和 v 哈哈'
+            'createTime' => '2017-10-13 09:54:36'
+            'price' => array()
+        )
+        8 => array
+        (
+            'demandId' => '25'
+            'loadMsg' => ''
+            'loadMsgArea' => ''
+            'unloadMsg' => ''
+            'unloadMsgArea' => ''
+            'descript' => '给您'
+            'createTime' => '2017-10-13 11:42:12'
+            'price' => array()
+        )
+        9 => array
+        (
+            'demandId' => '26'
+            'loadMsg' => ''
+            'loadMsgArea' => ''
+            'unloadMsg' => ''
+            'unloadMsgArea' => ''
+            'descript' => '给您'
+            'createTime' => '2017-10-13 11:43:33'
+            'price' => array()
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (167)
+2017/10/27 15:45:19 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'page' => '1'
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'demandId' => '11'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '给您'
+            'createTime' => '2017-09-08 15:11:21'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '25'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '22'
+                )
+                2 => array
+                (
+                    'id' => '3'
+                    'price' => '30'
+                )
+            )
+        )
+        1 => array
+        (
+            'demandId' => '12'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '北京市'
+            'unloadMsgArea' => '东城区'
+            'descript' => '给您'
+            'createTime' => '2017-09-08 15:11:55'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '4'
+                    'price' => '10'
+                )
+                1 => array
+                (
+                    'id' => '5'
+                    'price' => '15'
+                )
+                2 => array
+                (
+                    'id' => '6'
+                    'price' => '30'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (167)
+2017/10/27 17:27:38 [info] [request] 
+url: /CountInfo
+array()
+array
+(
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'COUNT(*)' => '18'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\UserController.php (337)
+2017/10/27 17:28:50 [info] [request] 
+url: /CountInfo
+array()
+array
+(
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => 18
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\UserController.php (337)
+2017/10/27 17:29:46 [info] [request] 
+url: /CountInfo
+array()
+array
+(
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'demandCount' => array
+        (
+            0 => array
+            (
+                'id' => '11'
+                'startTime' => '2017-09-08 00:00:00'
+                'endTime' => '2017-09-08 01:00:00'
+                'deliveryTime' => '2017-09-09 00:00:00'
+                'userId' => '23'
+                'userName' => '18814440565'
+                'userMobile' => '18814440563'
+                'loadMsg' => '广东省 深圳市 南山区 开门网最牛'
+                'unloadMsg' => '北京 北京市 东城区 朝阳公园1'
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => '旧闪'
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '监控'
+                'itemType' => '液体/固体'
+                'demandState' => '3'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-09-08 15:11:21'
+                'updateTime' => '2017-10-19 18:04:18'
+            )
+            1 => array
+            (
+                'id' => '12'
+                'startTime' => '2017-09-08 00:00:00'
+                'endTime' => '2017-09-08 17:00:00'
+                'deliveryTime' => '2017-09-09 00:00:00'
+                'userId' => '23'
+                'userName' => '18814440565'
+                'userMobile' => '18814440563'
+                'loadMsg' => '广东省 深圳市 南山区 开门网最牛'
+                'unloadMsg' => '北京 北京市 东城区 朝阳公园1'
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => '旧闪'
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '监控'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-09-08 15:11:55'
+                'updateTime' => '2017-09-08 15:11:55'
+            )
+            2 => array
+            (
+                'id' => '13'
+                'startTime' => '2017-09-08 00:00:00'
+                'endTime' => '2017-09-08 17:00:00'
+                'deliveryTime' => '2017-09-09 00:00:00'
+                'userId' => '23'
+                'userName' => '18814440565'
+                'userMobile' => '18814440563'
+                'loadMsg' => '广东省 深圳市 南山区 开门网最牛'
+                'unloadMsg' => '北京 北京市 东城区 朝阳公园1'
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => '旧闪'
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '货物1'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-09-08 15:13:18'
+                'updateTime' => '2017-09-08 15:13:18'
+            )
+            3 => array
+            (
+                'id' => '18'
+                'startTime' => '2017-09-14 00:00:00'
+                'endTime' => '2017-09-14 01:00:00'
+                'deliveryTime' => '2017-09-14 05:00:00'
+                'userId' => '23'
+                'userName' => '18814440565'
+                'userMobile' => '18814440563'
+                'loadMsg' => '广东省 深圳市 南山区 开门网最牛'
+                'unloadMsg' => '北京 北京市 东城区 朝阳公园1'
+                'vehicleType' => '货车'
+                'vehicleVolume' => '结局咯'
+                'vehicleCapacity' => '他咯图'
+                'vehicleDesc' => '口吞'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '通'
+                'sumWeight' => '同咯'
+                'descript' => '他咯图'
+                'itemName' => '咯来咯'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-09-14 17:46:34'
+                'updateTime' => '2017-09-14 17:46:34'
+            )
+            4 => array
+            (
+                'id' => '20'
+                'startTime' => '2017-09-21 00:00:00'
+                'endTime' => '2017-09-21 00:30:00'
+                'deliveryTime' => '2017-09-21 03:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => '北京 北京市 东城区 朝阳法院1号楼'
+                'unloadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+                'vehicleType' => '卡车'
+                'vehicleVolume' => '1'
+                'vehicleCapacity' => '1'
+                'vehicleDesc' => '无'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '20'
+                'sumWeight' => '1吨'
+                'descript' => '无'
+                'itemName' => '铜球'
+                'itemType' => '固体'
+                'demandState' => '1'
+                'vehicleLength' => '10'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-09-21 11:43:54'
+                'updateTime' => '2017-09-21 11:43:54'
+            )
+            5 => array
+            (
+                'id' => '22'
+                'startTime' => '2017-09-08 00:00:00'
+                'endTime' => '2017-09-08 01:00:00'
+                'deliveryTime' => '2017-09-08 01:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => null
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '某物体恐惧'
+                'itemName' => '监控'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-12 17:40:14'
+                'updateTime' => '2017-10-12 17:40:14'
+            )
+            6 => array
+            (
+                'id' => '23'
+                'startTime' => '2017-10-13 14:00:00'
+                'endTime' => '2017-10-13 15:00:00'
+                'deliveryTime' => '2017-10-14 17:30:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+                'unloadMsg' => '北京 北京市 东城区 朝阳法院110号楼'
+                'vehicleType' => '货车'
+                'vehicleVolume' => null
+                'vehicleCapacity' => null
+                'vehicleDesc' => null
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '56 66 69'
+                'sumWeight' => '5'
+                'descript' => '成功和 v 哈哈'
+                'itemName' => '圆圆'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 09:54:31'
+                'updateTime' => '2017-10-13 09:54:31'
+            )
+            7 => array
+            (
+                'id' => '24'
+                'startTime' => '2017-10-13 14:00:00'
+                'endTime' => '2017-10-13 15:00:00'
+                'deliveryTime' => '2017-10-14 17:30:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+                'unloadMsg' => '北京 北京市 东城区 朝阳法院110号楼'
+                'vehicleType' => '货车'
+                'vehicleVolume' => null
+                'vehicleCapacity' => null
+                'vehicleDesc' => null
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '56 66 69'
+                'sumWeight' => '5'
+                'descript' => '成功和 v 哈哈'
+                'itemName' => '圆圆'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 09:54:36'
+                'updateTime' => '2017-10-13 09:54:36'
+            )
+            8 => array
+            (
+                'id' => '25'
+                'startTime' => '2017-09-08 00:00:00'
+                'endTime' => '2017-09-08 01:00:00'
+                'deliveryTime' => '2017-09-08 01:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => null
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '监控'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 11:42:12'
+                'updateTime' => '2017-10-13 11:42:12'
+            )
+            9 => array
+            (
+                'id' => '26'
+                'startTime' => '2017-09-08 00:00:00'
+                'endTime' => '2017-09-08 01:00:00'
+                'deliveryTime' => '2017-09-08 01:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => null
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '监控000'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 11:43:33'
+                'updateTime' => '2017-10-13 11:43:33'
+            )
+            10 => array
+            (
+                'id' => '27'
+                'startTime' => '2017-10-13 15:00:00'
+                'endTime' => '2017-10-13 15:30:00'
+                'deliveryTime' => '2017-10-13 20:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => null
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '监控'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 14:17:32'
+                'updateTime' => '2017-10-13 14:17:32'
+            )
+            11 => array
+            (
+                'id' => '28'
+                'startTime' => '2017-10-13 15:30:00'
+                'endTime' => '2017-10-13 16:00:00'
+                'deliveryTime' => '2017-10-14 15:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '货车'
+                'vehicleVolume' => null
+                'vehicleCapacity' => null
+                'vehicleDesc' => null
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '56 66 69'
+                'sumWeight' => '5'
+                'descript' => '成功和 v 哈哈'
+                'itemName' => '圆圆'
+                'itemType' => '液体/固体'
+                'demandState' => '3'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 15:07:18'
+                'updateTime' => '2017-10-19 17:37:10'
+            )
+            12 => array
+            (
+                'id' => '29'
+                'startTime' => '2017-10-13 15:30:00'
+                'endTime' => '2017-10-13 16:00:00'
+                'deliveryTime' => '2017-10-13 16:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '货车'
+                'vehicleVolume' => null
+                'vehicleCapacity' => null
+                'vehicleDesc' => null
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '56 66 69'
+                'sumWeight' => '5'
+                'descript' => '成功和 v 哈哈'
+                'itemName' => '圆圆'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 15:16:41'
+                'updateTime' => '2017-10-13 15:16:41'
+            )
+            13 => array
+            (
+                'id' => '30'
+                'startTime' => '2017-10-13 15:30:00'
+                'endTime' => '2017-10-13 16:00:00'
+                'deliveryTime' => '2017-10-13 16:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '货车'
+                'vehicleVolume' => null
+                'vehicleCapacity' => null
+                'vehicleDesc' => null
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '56 66 69'
+                'sumWeight' => '5'
+                'descript' => '成功和 v 哈哈'
+                'itemName' => '圆圆'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 15:21:09'
+                'updateTime' => '2017-10-13 15:21:09'
+            )
+            14 => array
+            (
+                'id' => '31'
+                'startTime' => '2017-10-13 16:00:00'
+                'endTime' => '2017-10-13 16:00:00'
+                'deliveryTime' => '2017-10-13 16:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '货车'
+                'vehicleVolume' => null
+                'vehicleCapacity' => null
+                'vehicleDesc' => null
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '56 66 69'
+                'sumWeight' => '5'
+                'descript' => '成功和 v 哈哈'
+                'itemName' => '圆圆'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '4'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-13 15:38:58'
+                'updateTime' => '2017-10-13 15:38:58'
+            )
+            15 => array
+            (
+                'id' => '33'
+                'startTime' => '2017-10-18 14:00:00'
+                'endTime' => '2017-10-18 23:00:00'
+                'deliveryTime' => '2017-10-18 01:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => null
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '监控'
+                'itemType' => '液体/固体'
+                'demandState' => '1'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-17 16:18:39'
+                'updateTime' => '2017-10-17 16:18:39'
+            )
+            16 => array
+            (
+                'id' => '34'
+                'startTime' => '2017-10-27 16:00:00'
+                'endTime' => '2017-10-27 17:00:00'
+                'deliveryTime' => '2017-10-27 01:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => '天津 天津市 和平区 东海运输停车场1号航站楼'
+                'unloadMsg' => '北京 北京市 东城区 11111111'
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => '旧闪'
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '2'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '18号的需求'
+                'itemType' => '液体/固体'
+                'demandState' => '3'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => '64'
+                'loadId' => '51'
+                'createTime' => '2017-10-18 15:05:50'
+                'updateTime' => '2017-10-24 11:09:28'
+            )
+            17 => array
+            (
+                'id' => '35'
+                'startTime' => '2017-10-18 18:30:00'
+                'endTime' => '2017-10-18 20:00:00'
+                'deliveryTime' => '2017-10-19 01:00:00'
+                'userId' => '23'
+                'userName' => '小扫六'
+                'userMobile' => '18814440563'
+                'loadMsg' => null
+                'unloadMsg' => null
+                'vehicleType' => '卡车/小轿车'
+                'vehicleVolume' => '婆婆'
+                'vehicleCapacity' => '旧闪'
+                'vehicleDesc' => '去咯婆婆'
+                'orderType' => '1'
+                'vehicleId' => null
+                'sumVolume' => '紧迫感'
+                'sumWeight' => '短'
+                'descript' => '给您'
+                'itemName' => '18号的需求2'
+                'itemType' => '液体/固体'
+                'demandState' => '3'
+                'vehicleLength' => '2.3'
+                'state' => '1'
+                'unloadId' => null
+                'loadId' => null
+                'createTime' => '2017-10-18 15:24:26'
+                'updateTime' => '2017-10-24 11:15:07'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\UserController.php (338)
+2017/10/27 17:29:59 [info] [request] 
+url: /CountInfo
+array()
+array
+(
+    'utoken' => 'e7b8374077b2293ae4c93b5f44dadbfa'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'demandCount' => 18
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\UserController.php (338)

@@ -1,0 +1,864 @@
+2017/10/19 09:13:47 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/19 09:13:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 09:13:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:13:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/19 09:13:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:14:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isAuth="1" LIMIT 15
+2017/10/19 09:14:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:14:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/19 09:14:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:52:05 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/19 09:52:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 09:52:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:52:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:52:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:52:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 09:52:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 09:52:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 09:52:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:52:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/19 09:53:04 [profile] [sql] UPDATE `User` SET `isUsing`=:isUsing WHERE `id` IN(1)
+array
+(
+    'isUsing' => 0
+)
+2017/10/19 09:53:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 09:53:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 09:53:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 09:53:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 09:53:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 09:54:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/19 09:54:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:03:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/19 10:03:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:05:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 10:05:07 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 10:05:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 10:05:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 10:05:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:05:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 10:05:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:05:15 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 10:05:15 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 10:42:05 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/19 10:42:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 10:42:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:42:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 10:42:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:42:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 10:42:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:42:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 10:42:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:43:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 10:43:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:43:14 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 10:43:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 10:43:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:43:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 10:43:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 10:43:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 10:43:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 10:54:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) AND LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) LIMIT 15
+2017/10/19 10:57:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) AND LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727" LIMIT 15
+2017/10/19 11:00:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727" LIMIT 15
+2017/10/19 11:00:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:00:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:00:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy199307270" LIMIT 15
+2017/10/19 11:00:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:00:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:00:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727" LIMIT 15
+2017/10/19 11:00:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:00:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:06:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727") LIMIT 15
+2017/10/19 11:06:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:06:20 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:06:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%安徽%" LIMIT 15
+2017/10/19 11:06:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:06:22 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:06:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%安徽%" LIMIT 15
+2017/10/19 11:06:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:06:23 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:06:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%北京%" LIMIT 15
+2017/10/19 11:06:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:06:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:06:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%安徽%" LIMIT 15
+2017/10/19 11:06:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:06:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:06:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727") LIMIT 15
+2017/10/19 11:06:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:06:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:08:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727") LIMIT 15
+2017/10/19 11:08:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:08:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:21:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727") LIMIT 15
+2017/10/19 11:21:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:21:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:21:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727") LIMIT 15
+2017/10/19 11:25:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:03 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:21 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:21 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15
+2017/10/19 11:25:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:26 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:28 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15
+2017/10/19 11:25:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:34 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:25:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:25:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:25:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:25:36 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:26:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:26:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:26:20 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:26:20 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:26:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:26:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:26:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:26:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:26:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15
+2017/10/19 11:27:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="1") LIMIT 15
+2017/10/19 11:27:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:27:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:27:29 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:27:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:27:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:27:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:27:32 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:28:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:28:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:28:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:28:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:28:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:28:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:28:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="1") LIMIT 15
+2017/10/19 11:28:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:28:32 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:28:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:28:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:28:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:28:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:28:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:28:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:28:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:29:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:29:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:29:41 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:35 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:43 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="1") LIMIT 15
+2017/10/19 11:30:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:49 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:49 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:50 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:50 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:50 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:50 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:52 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:30:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:30:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:30:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:30:52 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:32:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:32:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:32:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:09 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:32:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:32:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:09 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:32:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:32:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:10 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:10 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:32:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="1") LIMIT 15
+2017/10/19 11:32:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:11 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:32:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (t.state="0") LIMIT 15
+2017/10/19 11:32:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE ((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1") LIMIT 15
+2017/10/19 11:32:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:32:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:32:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:36:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 11:36:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:36:59 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:36:59 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:37:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 11:37:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:37:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:37:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:37:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 11:37:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:37:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:37:48 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 11:37:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 11:37:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 11:37:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 11:37:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 13:29:16 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/19 13:29:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 13:29:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 13:29:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 13:29:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 13:29:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:29:38 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 13:29:39 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:30:16 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:30:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:42:11 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:42:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:43:13 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:43:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:04 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/19 13:45:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 13:45:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 13:45:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 13:45:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 13:45:10 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:10 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 13:45:10 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:45:10 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:18 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:45:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:25 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:45:25 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:33 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:45:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:40 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:45:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:45:58 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:45:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:46:11 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:46:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:46:22 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:46:22 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 13:54:20 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:54:26 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 13:54:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:04:07 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:15 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:24:26 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:26 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:24:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:24:27 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:27 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:24:27 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:24:27 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:27 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:24:27 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:24:28 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:28 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:24:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:24:28 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:24:28 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:24:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:25:35 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:25:35 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:25:35 [profile] [sql] INSERT INTO `Vehicle` (`type`, `length`, `licenseNumber`, `capacity`, `capability`, `permission`, `state`, `dId`, `img1`, `img2`, `createTime`, `updateTime`) VALUES (:type, :length, :licenseNumber, :capacity, :capability, :permission, :state, :dId, :img1, :img2, :createTime, :updateTime)
+array
+(
+    'type' => '1'
+    'length' => '1'
+    'licenseNumber' => '粤123456'
+    'capacity' => '2'
+    'capability' => '3'
+    'permission' => null
+    'state' => '1'
+    'dId' => '7'
+    'img1' => null
+    'img2' => null
+    'createTime' => '2017-10-19 14:25:35'
+    'updateTime' => '2017-10-19 14:25:35'
+)
+2017/10/19 14:25:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:26:58 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:26:58 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 14:26:58 [profile] [sql] INSERT INTO `Vehicle` (`type`, `length`, `licenseNumber`, `capacity`, `capability`, `permission`, `state`, `dId`, `img1`, `img2`, `createTime`, `updateTime`) VALUES (:type, :length, :licenseNumber, :capacity, :capability, :permission, :state, :dId, :img1, :img2, :createTime, :updateTime)
+array
+(
+    'type' => '1'
+    'length' => '1'
+    'licenseNumber' => '粤123456'
+    'capacity' => '2'
+    'capability' => '3'
+    'permission' => null
+    'state' => '1'
+    'dId' => '7'
+    'img1' => null
+    'img2' => null
+    'createTime' => '2017-10-19 14:26:58'
+    'updateTime' => '2017-10-19 14:26:58'
+)
+2017/10/19 14:26:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 14:26:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 14:26:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:26:58 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:26:58 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:27:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 14:27:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 14:27:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:27:26 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:27:26 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:27:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 14:27:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 14:27:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:27:39 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:27:39 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:27:40 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 14:27:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:27:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 14:27:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 14:27:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 14:27:42 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 14:27:42 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:01:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:01:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:01:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:01:08 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:01:08 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:03:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:03:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:03:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:03:32 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:03:32 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:07:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:07:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:07:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:07:11 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:07:11 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:11:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:11:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:11:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:11:54 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:11:54 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:11:55 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:11:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:11:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:11:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:11:59 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:11:59 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:11:59 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:12:02 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:12:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:12:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:12:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:12:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:12:03 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:12:03 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:12:07 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:12:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:12:33 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:12:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:12:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:12:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:12:35 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:12:35 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:14:54 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:15:21 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:15:28 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:15:29 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = ""
+2017/10/19 15:15:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:15:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:15:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:15:30 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:15:30 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:15:31 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:15:38 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:15:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:15:47 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:15:47 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 15:15:47 [profile] [sql] UPDATE `Vehicle` SET `type`=:type, `length`=:length, `licenseNumber`=:licenseNumber, `capacity`=:capacity, `capability`=:capability, `permission`=:permission, `state`=:state, `dId`=:dId, `img1`=:img1, `img2`=:img2, `createTime`=:createTime, `updateTime`=:updateTime WHERE `tId` IN(1)
+array
+(
+    'type' => '1'
+    'length' => '2'
+    'licenseNumber' => 'a8888'
+    'capacity' => '2吨'
+    'capability' => '1吨'
+    'permission' => '1'
+    'state' => '1'
+    'dId' => '7'
+    'img1' => null
+    'img2' => null
+    'createTime' => '2017-10-19 15:15:47'
+    'updateTime' => '2017-10-19 15:15:47'
+)
+2017/10/19 15:15:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:15:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:15:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:15:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:15:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:15:49 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:15:49 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:15:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:15:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:15:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:15:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:15:51 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:19:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:19:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:19:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:19:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:19:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:19:15 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:19:15 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="7"
+2017/10/19 15:19:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:20:00 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:20:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="7"
+2017/10/19 15:20:25 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:20:25 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="7"
+2017/10/19 15:20:54 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:21:16 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:21:16 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 15:21:34 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:21:34 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 15:21:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:24:57 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:24:57 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 15:24:57 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 15:24:57 [profile] [sql] UPDATE `Vehicle` SET `type`=:type, `length`=:length, `licenseNumber`=:licenseNumber, `capacity`=:capacity, `capability`=:capability, `permission`=:permission, `state`=:state, `dId`=:dId, `img1`=:img1, `img2`=:img2, `createTime`=:createTime, `updateTime`=:updateTime WHERE `tId` IN(1)
+array
+(
+    'type' => '1'
+    'length' => '2'
+    'licenseNumber' => 'a8888'
+    'capacity' => '2吨'
+    'capability' => '1吨'
+    'permission' => '1'
+    'state' => '1'
+    'dId' => '7'
+    'img1' => null
+    'img2' => '/upload/g/20171019/782f4d209212d020.png'
+    'createTime' => '2017-10-19 15:24:57'
+    'updateTime' => '2017-10-19 15:24:57'
+)
+2017/10/19 15:24:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:24:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:24:57 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:24:57 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:24:57 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:24:59 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 15:24:59 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 15:24:59 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:25:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:25:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:25:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:25:02 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:25:02 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:05 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:05 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:06 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 15:27:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:27:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:27:07 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 15:38:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 15:38:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:38:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:38:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:38:46 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/10/19 15:38:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:38:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:42:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 15:42:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 15:42:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 15:42:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:42:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:43:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:43:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:43:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 15:43:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:55:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 15:55:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:57:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 15:57:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 15:57:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 15:57:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 15:57:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 15:57:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 15:57:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:57:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:58:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:58:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:58:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:58:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 15:58:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 15:58:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:10:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:10:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:23:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:23:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:30:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:30:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:30:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:30:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:30:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/19 16:30:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:30:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:30:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:30:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:30:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:30:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:36:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 16:36:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:36:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 16:36:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:36:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:36:40 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:36:40 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:08 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 16:37:08 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 16:37:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:37:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 16:37:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:37:14 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:37:14 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:14 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 16:37:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:37:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:37:32 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:32 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:33 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 16:37:33 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 16:37:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:37:45 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 16:37:45 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 16:37:45 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE dToken="11111"
+2017/10/19 16:37:45 [profile] [sql] UPDATE `Vehicle` SET `type`=:type, `length`=:length, `licenseNumber`=:licenseNumber, `capacity`=:capacity, `capability`=:capability, `permission`=:permission, `state`=:state, `dId`=:dId, `img1`=:img1, `img2`=:img2, `createTime`=:createTime, `updateTime`=:updateTime WHERE `tId` IN(1)
+array
+(
+    'type' => '1'
+    'length' => '2'
+    'licenseNumber' => 'a8888'
+    'capacity' => '2吨'
+    'capability' => '1吨'
+    'permission' => '1'
+    'state' => '1'
+    'dId' => '7'
+    'img1' => '/upload/g/20171019/81a59201469420cc.png'
+    'img2' => '/upload/g/20171019/b9520673f6e69130.png'
+    'createTime' => '2017-10-19 16:37:45'
+    'updateTime' => '2017-10-19 16:37:45'
+)
+2017/10/19 16:37:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 16:37:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:37:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:37:45 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:45 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:37:50 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/19 16:37:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/19 16:37:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:56:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:56:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:56:26 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/19 16:56:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/19 16:56:26 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/19 16:56:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:56:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:56:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:56:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:56:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:56:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:56:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:56:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:56:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/19 16:56:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:56:54 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "4"
+2017/10/19 16:56:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/19 16:56:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:57:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:23 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:23 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:57:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:28 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:28 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:57:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:57:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:57:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:54 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:54 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:57:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:57:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:57:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:57:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:57:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:58:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 16:58:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:58:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:58:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/19 16:58:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/19 16:58:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:58:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:58:49 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:58:49 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:58:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:58:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:58:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:58:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:58:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/10/19 16:58:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:58:51 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:58:51 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:58:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 16:58:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:58:52 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 16:58:52 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 16:59:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 16:59:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:59:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/19 16:59:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 16:59:23 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 16:59:23 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 16:59:23 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/19 17:12:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/19 17:12:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:21 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/19 17:25:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 17:25:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 17:25:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 17:25:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 17:25:25 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = "1"
+2017/10/19 17:25:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/19 17:25:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/19 17:25:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/19 17:25:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 17:25:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/19 17:25:31 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/19 17:25:31 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/19 17:25:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 17:25:31 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/19 17:25:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 17:25:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/19 17:25:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/19 17:25:35 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/19 17:25:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 17:25:35 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/19 17:25:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/19 17:25:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/19 17:25:41 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/19 17:25:41 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/19 17:25:41 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/19 17:25:41 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"

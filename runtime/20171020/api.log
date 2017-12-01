@@ -1,0 +1,103 @@
+2017/10/20 09:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/10/20 09:16:33 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 09:16:33 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 09:16:34 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 09:16:34 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 09:50:38 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.sort" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:173
+Stack trace:
+#0 D:\zyweb\pcb_wl\library\form\base\CarouselfigureBaseForm.php(76): CComponent->__set('sort', 'sort desc')
+#1 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php(361): CarouselfigureBaseForm->search()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): CController->run('index')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/index')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#11 {main}
+REQUEST_URI=/index/index
+---
+2017/10/20 09:58:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'state' in 'where clause'. The SQL statement executed was: SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15.
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\form\base\ShortCutBaseForm.php (82)
+2017/10/20 09:58:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'state' in 'where clause'. The SQL statement executed was: SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT id,title...', 'queryAll')
+#3 D:\zyweb\pcb_wl\library\form\base\ShortCutBaseForm.php(82): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php(365): ShortCutBaseForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): CController->run('index')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/index')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/index/index
+---
+2017/10/20 10:00:23 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 10:00:23 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 10:00:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/giixAll/index
+---
+2017/10/20 10:00:24 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 10:00:24 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 15:33:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/10/20 15:33:40 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 15:33:40 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 15:33:42 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 15:33:42 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/20 16:37:39 [error] [php] Undefined index: id (D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php:407)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): IndexController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/UnRegister
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (407)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_wl\website\api\index.php (47)

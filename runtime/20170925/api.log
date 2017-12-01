@@ -1,0 +1,344 @@
+2017/09/25 11:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/25 11:24:31 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:31 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:32 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:32 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:32 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:32 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:39 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:39 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:40 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 11:24:40 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 15:36:37 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' at line 1. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C `  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 15:36:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' at line 1. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C `  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 15:37:45 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C `  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 15:37:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C `  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 15:38:42 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.deriverId' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 15:38:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.deriverId' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 15:38:56 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` ` AS C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 15:38:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` ` AS C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 15:39:07 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'C``  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' at line 1. The SQL statement executed was: SELECT  V.dId  FROM `Cost` ` AS `C``  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 15:39:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'C``  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' at line 1. The SQL statement executed was: SELECT  V.dId  FROM `Cost` ` AS `C``  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 15:39:20 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.deriverId' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 15:39:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.deriverId' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 15:56:46 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 15:56:46 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 15:56:48 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 15:56:48 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 16:09:24 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `as  C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 16:09:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `as  C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 16:09:46 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cost.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (Cost.deriverId = V.dId)  WHERE Cost.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (32)
+2017/09/25 16:09:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cost.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (Cost.deriverId = V.dId)  WHERE Cost.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(32): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 16:10:03 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` ` C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 16:10:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'C.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` ` C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 16:30:40 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cost.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (Cost.deriverId = V.dId)  WHERE Cost.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 16:30:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cost.id' in 'where clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (Cost.deriverId = V.dId)  WHERE Cost.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 16:30:53 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.deriverId' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.deriverId = V.dId)  WHERE t.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 16:30:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.deriverId' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.deriverId = V.dId)  WHERE t.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 16:33:14 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.driverId1' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId1 = V.dId)  WHERE t.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 16:33:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.driverId1' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId1 = V.dId)  WHERE t.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 16:34:22 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.driverId1' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId1 = V.tId)  WHERE t.id="1".
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\Cost.php (33)
+2017/09/25 16:34:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.driverId1' in 'on clause'. The SQL statement executed was: SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId1 = V.tId)  WHERE t.id="1"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT  V.dId  ...', 'queryRow')
+#3 D:\zyweb\pcb_wl\library\model\base\Cost.php(33): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(60): Cost->getDriverByCostId('1')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionAddOrder()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('addorder')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('addorder')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/addorder')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/addorder
+---
+2017/09/25 17:19:41 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 17:19:41 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 17:19:42 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/25 17:19:42 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)

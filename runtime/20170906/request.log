@@ -1,0 +1,374 @@
+2017/09/06 14:32:28 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => '安徽省-芜湖市-南陵县顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => '福建省-南平市-顺昌县tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:34:02 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => '安徽省芜湖市南陵县顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => '福建省南平市顺昌县tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:34:42 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:35:20 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县 顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县 tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:35:34 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县
+顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县
+tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:35:45 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县\\n顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县\\ntes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:36:03 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县
+	\'\'顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县
+	\'\'tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:36:13 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县
+	顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县
+	tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:37:11 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县
+ 顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县
+ tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:40:44 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县<br />顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县<br />tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:40:51 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县<br/>顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县<br/>tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:42:28 [info] [request] 
+url: /getArea
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县<br />顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县<br />tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)
+2017/09/06 14:44:58 [info] [request] 
+url: /getArea
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'aId' => '2'
+            'address' => ' 安徽省 芜湖市 南陵县'
+            'detail' => '顺昌'
+        )
+        1 => array
+        (
+            'aId' => '4'
+            'address' => ' 福建省 南平市 顺昌县'
+            'detail' => 'tes '
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (53)

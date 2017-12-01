@@ -1,0 +1,67 @@
+2017/09/08 16:34:12 [info] [request] 
+url: /VehicleType
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'type' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'type' => '卡车'
+            )
+            1 => array
+            (
+                'id' => '2'
+                'type' => '货车'
+            )
+        )
+        'length' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'length' => '12'
+            )
+            1 => array
+            (
+                'id' => '2'
+                'length' => '13'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (50)
+2017/09/08 17:25:07 [info] [request] 
+url: /itemType
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (67)
+2017/09/08 17:27:19 [info] [request] 
+url: /itemType
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (67)

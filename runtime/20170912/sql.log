@@ -1,0 +1,272 @@
+2017/09/12 09:45:49 [profile] [sql] SELECT * FROM `TransportDetail` `t` WHERE (demandId="2") AND (state="1")
+2017/09/12 09:46:10 [profile] [sql] SELECT * FROM `TransportDetail` `t` WHERE (demandId="2") AND (state="1")
+2017/09/12 09:46:31 [profile] [sql] SELECT * FROM `TransportDetail` `t` WHERE (demandId="2") AND (state="1")
+2017/09/12 10:00:53 [profile] [sql] SELECT * FROM `ItemInventory` `t` WHERE (orderId="2") AND (state="1")
+2017/09/12 10:14:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/12 10:14:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 10:14:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 10:14:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:14:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:14:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:42:57 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:42:57 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:42:57 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:43:17 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:43:17 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:43:17 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:43:21 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:44:39 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:44:39 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:44:39 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:47:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:50:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:50:33 [profile] [sql] UPDATE `UserDemand` SET `startTime`=:startTime, `endTime`=:endTime, `deliveryTime`=:deliveryTime, `userId`=:userId, `userName`=:userName, `userMobile`=:userMobile, `loadMsg`=:loadMsg, `unloadMsg`=:unloadMsg, `vehicleType`=:vehicleType, `vehicleVolume`=:vehicleVolume, `vehicleCapacity`=:vehicleCapacity, `vehicleDesc`=:vehicleDesc, `orderType`=:orderType, `vehicleId`=:vehicleId, `sumVolume`=:sumVolume, `sumWeight`=:sumWeight, `descript`=:descript, `itemName`=:itemName, `itemType`=:itemType, `createTime`=:createTime, `updateTime`=:updateTime, `vehicleLength`=:vehicleLength WHERE `id` IN(8)
+array
+(
+    'startTime' => '2017-08-09 15:36:12'
+    'endTime' => '2017-08-09 15:36:12'
+    'deliveryTime' => '2017-08-09 15:36:12'
+    'userId' => '2'
+    'userName' => 'testd'
+    'userMobile' => '18649717819'
+    'loadMsg' => '开门网_2'
+    'unloadMsg' => 'PCBDOOR_2'
+    'vehicleType' => '2'
+    'vehicleVolume' => null
+    'vehicleCapacity' => null
+    'vehicleDesc' => null
+    'orderType' => '1'
+    'vehicleId' => null
+    'sumVolume' => '20.00公斤'
+    'sumWeight' => '80'
+    'descript' => null
+    'itemName' => '水果'
+    'itemType' => '1/2'
+    'createTime' => '2017-09-01 16:08:21'
+    'updateTime' => '2017-09-12 10:50:33'
+    'vehicleLength' => null
+)
+2017/09/12 10:50:33 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:50:33 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:53:02 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:53:02 [profile] [sql] UPDATE `UserDemand` SET `startTime`=:startTime, `endTime`=:endTime, `deliveryTime`=:deliveryTime, `userId`=:userId, `userName`=:userName, `userMobile`=:userMobile, `loadMsg`=:loadMsg, `unloadMsg`=:unloadMsg, `vehicleType`=:vehicleType, `vehicleVolume`=:vehicleVolume, `vehicleCapacity`=:vehicleCapacity, `vehicleDesc`=:vehicleDesc, `orderType`=:orderType, `vehicleId`=:vehicleId, `sumVolume`=:sumVolume, `sumWeight`=:sumWeight, `descript`=:descript, `itemName`=:itemName, `itemType`=:itemType, `createTime`=:createTime, `updateTime`=:updateTime, `vehicleLength`=:vehicleLength WHERE `id` IN(8)
+array
+(
+    'startTime' => '2017-08-09 15:36:12'
+    'endTime' => '2017-08-09 15:36:12'
+    'deliveryTime' => '2017-08-09 15:36:12'
+    'userId' => '2'
+    'userName' => 'testd'
+    'userMobile' => '18649717819'
+    'loadMsg' => '开门网_2'
+    'unloadMsg' => 'PCBDOOR_2'
+    'vehicleType' => '2'
+    'vehicleVolume' => null
+    'vehicleCapacity' => null
+    'vehicleDesc' => null
+    'orderType' => '1'
+    'vehicleId' => null
+    'sumVolume' => '20.00公斤'
+    'sumWeight' => '80'
+    'descript' => null
+    'itemName' => '水果'
+    'itemType' => '1/2'
+    'createTime' => '2017-09-01 16:08:21'
+    'updateTime' => '2017-09-12 10:53:02'
+    'vehicleLength' => null
+)
+2017/09/12 10:53:02 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:53:02 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:53:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:53:05 [profile] [sql] UPDATE `UserDemand` SET `startTime`=:startTime, `endTime`=:endTime, `deliveryTime`=:deliveryTime, `userId`=:userId, `userName`=:userName, `userMobile`=:userMobile, `loadMsg`=:loadMsg, `unloadMsg`=:unloadMsg, `vehicleType`=:vehicleType, `vehicleVolume`=:vehicleVolume, `vehicleCapacity`=:vehicleCapacity, `vehicleDesc`=:vehicleDesc, `orderType`=:orderType, `vehicleId`=:vehicleId, `sumVolume`=:sumVolume, `sumWeight`=:sumWeight, `descript`=:descript, `itemName`=:itemName, `itemType`=:itemType, `createTime`=:createTime, `updateTime`=:updateTime, `vehicleLength`=:vehicleLength WHERE `id` IN(8)
+array
+(
+    'startTime' => '2017-08-09 15:36:12'
+    'endTime' => '2017-08-09 15:36:12'
+    'deliveryTime' => '2017-08-09 15:36:12'
+    'userId' => '2'
+    'userName' => 'testd'
+    'userMobile' => '18649717819'
+    'loadMsg' => '开门网_2'
+    'unloadMsg' => 'PCBDOOR_2'
+    'vehicleType' => '2'
+    'vehicleVolume' => null
+    'vehicleCapacity' => null
+    'vehicleDesc' => null
+    'orderType' => '1'
+    'vehicleId' => null
+    'sumVolume' => '20.00公斤'
+    'sumWeight' => '80'
+    'descript' => null
+    'itemName' => '水果'
+    'itemType' => '1/2'
+    'createTime' => '2017-09-01 16:08:21'
+    'updateTime' => '2017-09-12 10:53:05'
+    'vehicleLength' => null
+)
+2017/09/12 10:53:05 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:53:05 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:53:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:53:44 [profile] [sql] UPDATE `UserDemand` SET `startTime`=:startTime, `endTime`=:endTime, `deliveryTime`=:deliveryTime, `userId`=:userId, `userName`=:userName, `userMobile`=:userMobile, `loadMsg`=:loadMsg, `unloadMsg`=:unloadMsg, `vehicleType`=:vehicleType, `vehicleVolume`=:vehicleVolume, `vehicleCapacity`=:vehicleCapacity, `vehicleDesc`=:vehicleDesc, `orderType`=:orderType, `vehicleId`=:vehicleId, `sumVolume`=:sumVolume, `sumWeight`=:sumWeight, `descript`=:descript, `itemName`=:itemName, `itemType`=:itemType, `createTime`=:createTime, `updateTime`=:updateTime, `vehicleLength`=:vehicleLength WHERE `id` IN(8)
+array
+(
+    'startTime' => '2017-08-09 15:36:12'
+    'endTime' => '2017-08-09 15:36:12'
+    'deliveryTime' => '2017-08-09 15:36:12'
+    'userId' => '2'
+    'userName' => 'testd'
+    'userMobile' => '18649717819'
+    'loadMsg' => '开门网_2'
+    'unloadMsg' => 'PCBDOOR_2'
+    'vehicleType' => '2'
+    'vehicleVolume' => null
+    'vehicleCapacity' => null
+    'vehicleDesc' => null
+    'orderType' => '1'
+    'vehicleId' => null
+    'sumVolume' => '20.00公斤'
+    'sumWeight' => '80'
+    'descript' => null
+    'itemName' => '水果'
+    'itemType' => '1/2'
+    'createTime' => '2017-09-01 16:08:21'
+    'updateTime' => '2017-09-12 10:53:44'
+    'vehicleLength' => null
+)
+2017/09/12 10:53:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:53:52 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:53:52 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:55:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:55:05 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:55:05 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 10:55:23 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:55:49 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 10:55:49 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/12 10:55:49 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/12 13:32:20 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/12 13:32:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 13:32:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 13:32:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 13:32:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 13:34:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 13:34:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 13:34:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 13:34:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 13:34:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 13:34:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 13:35:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/12 13:35:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/12 13:44:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 13:50:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 13:52:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 13:52:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:01:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:11:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:11:42 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:11:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:11:43 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:11:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:11:43 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:11:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:11:43 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:11:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:11:53 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:50 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:50 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:51 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:52 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:52 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:52 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:53 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:54 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:17:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/09/12 14:17:54 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/09/12 14:18:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:18:48 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:19:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:19:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:19:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:19:36 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:19:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:19:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:19:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:19:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:37:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:37:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:40:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/12 14:41:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/12 14:59:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/12 15:00:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/12 15:00:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/12 15:02:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/12 15:02:57 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/12 15:15:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/12 15:15:34 [profile] [sql] UPDATE `Address` SET `state`=:state, `updateTime`=:updateTime WHERE `aId` IN(8)
+array
+(
+    'state' => 0
+    'updateTime' => '2017-09-12 15:15:34'
+)
+2017/09/12 16:00:45 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/12 16:00:45 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (state="1") AND (userId="2")
+2017/09/12 16:01:15 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/12 16:01:15 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (state="1") AND (userId="2")
+2017/09/12 16:01:21 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad871"
+2017/09/12 16:01:25 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/12 16:01:25 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (state="1") AND (userId="2")
+2017/09/12 16:01:43 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/12 16:01:43 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (state="1") AND (userId="2")
+2017/09/12 16:07:49 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/12 16:07:49 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (state="1") AND (userId="2")
+2017/09/12 16:08:43 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/12 16:08:43 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (state="1") AND (userId="2")

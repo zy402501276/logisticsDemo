@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+/*combobox*/
+.selectPluginRadius{background-color:#f5f5f5;border: 1px solid #c1c4c8;border-radius: 3px;box-shadow:inset 0px 1px 2px #dadada;}
+.selectPluginRadius .ui-combobox {position: relative;display: inline-block;width:100%;height:100%;}
+.selectPluginRadius .ui-combobox-toggle {position: absolute;top: 0;bottom: 0;margin-left: -1px;padding: 0;/* adjust styles for IE 6/7 */*height: 1.7em;*top: 0.1em;}
+.selectPluginRadius .ui-autocomplete-input{border:none;background:none;padding-left:10px;}
+.selectPluginRadius .ui-button{border:none;background:none;right:5px;cursor: pointer;}
+.selectPluginRadius .ui-button-icon-primary{background:url(../images/down.png) no-repeat !important;height:100%;}
+.ui-menu{max-height:420px;overflow: auto;}
+.ui-menu .ui-menu-item{line-height:28px;height:28px;border-radius: 2px;margin:0 2px !important;width:auto !important;}
+.ui-menu .ui-menu-item a{line-height:2 !important;}

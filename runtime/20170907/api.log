@@ -1,0 +1,70 @@
+2017/09/07 10:06:00 [error] [php] preg_match(): No ending delimiter '^' found (D:\zyweb\pcb_wl\applications\api\form\buyer\v1\ItemInventoryForm.php:24)
+Stack trace:
+#0 D:\zyweb\Yii1\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 D:\zyweb\Yii1\base\CModel.php(159): CInlineValidator->validate()
+#2 D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php(185): ItemInventoryForm->validate()
+#3 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php(117): DemandService->addInventory()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionInventory()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#8 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/inventory
+in D:\zyweb\pcb_wl\applications\api\form\buyer\v1\ItemInventoryForm.php (24)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (185)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/07 14:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/07 14:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/07 14:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/07 14:59:20 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 14:59:20 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 14:59:20 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 14:59:20 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:18:18 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:18:18 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:18:19 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:18:19 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:21:08 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:21:08 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:21:08 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/07 15:21:08 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)

@@ -1,0 +1,1895 @@
+2017/10/18 09:20:15 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/18 09:20:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/18 09:20:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:20:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:20:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:21:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:21:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:21:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:25:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:25:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:25:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:25:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:25:06 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="2"
+2017/10/18 09:25:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:25:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:25:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:25:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:25:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:25:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:25:19 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:25:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:28:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:28:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:28:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:30:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:31:24 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 09:31:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:31:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:31:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:31:28 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:31:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:36:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:36:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:36:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:36:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:37:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:01 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:37:01 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:02 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:37:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:37:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:15 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:37:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:16 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:37:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:55 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:37:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:37:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:38:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:38:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:38:08 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:38:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:38:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:38:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:38:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:38:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:39:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:39:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:39:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:39:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:42 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:39:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:39:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:39:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:41:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:41:34 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:41:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:41:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:41:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:41:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:41:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:41:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 09:41:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 09:41:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:41:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:41:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:41:43 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:41:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:25 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:43:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:43:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:36 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:43:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:43:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:44:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:44:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:44:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:44:06 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:44:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:44:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:44:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:46:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:46:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:46:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:46:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:46:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:46:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:46:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:46:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:47:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:47:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:47:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:47:55 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:47:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:47:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:47:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:50:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:50:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:50:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:51:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:01 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:51:01 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:51:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:51:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:51:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:51:18 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:20 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:51:20 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:20 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:21 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:51:21 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:21 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:51:21 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:51:33 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:51:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:52:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:52:08 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:52:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:52:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:52:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:52:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:52:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:52:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:52:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:53:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:53:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:53:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:53:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:53:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:54:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:54:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:54:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:54:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:55:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:48 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:55:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:55:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:55:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:55:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:56:42 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:56:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:56:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:56:43 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:56:43 [profile] [sql] UPDATE `User` SET `userName`=:userName, `trueName`=:trueName, `nickName`=:nickName, `avatar`=:avatar, `qq`=:qq, `state`=:state, `utoken`=:utoken, `mobile`=:mobile, `email`=:email, `sex`=:sex, `isAuth`=:isAuth, `companyAuth`=:companyAuth, `identityType`=:identityType, `isRole`=:isRole, `uId`=:uId, `createTime`=:createTime, `updateTime`=:updateTime, `telephone`=:telephone WHERE `id` IN(2)
+array
+(
+    'userName' => 'zy19930727'
+    'trueName' => '车市'
+    'nickName' => 'testd'
+    'avatar' => null
+    'qq' => '2147483647'
+    'state' => '1'
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'mobile' => '18649717819'
+    'email' => '4025012762@qq.com'
+    'sex' => '1'
+    'isAuth' => '2'
+    'companyAuth' => '0'
+    'identityType' => null
+    'isRole' => '2'
+    'uId' => '1536'
+    'createTime' => '2017-08-16 10:05:24'
+    'updateTime' => '2017-10-18 09:56:43'
+    'telephone' => null
+)
+2017/10/18 09:56:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 09:56:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 09:56:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:56:48 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 09:56:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:56:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 09:56:59 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 09:56:59 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:01:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:01:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:01:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:01:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:01:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:01:06 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:01:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:01:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:02:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:02:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:02:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:02:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:06 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:09 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:11 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:25 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:25 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:32 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:36 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:36 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:03:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:03:41 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:03:41 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:04:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:46 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:05:46 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:05:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:46 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:05:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:05:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:05:53 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:05:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:07:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:07:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:07:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:07:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:07:54 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:07:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:08:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:08:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:08:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:08:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:08:38 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:08:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:08:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:08:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:08:41 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:08:41 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:26 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:27 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:27 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:28 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:28 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:29 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:30 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:31 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:35 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:36 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:37 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:12:38 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:39 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:12:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:12:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:23:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:23:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:23:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:23:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:26:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:35 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:26:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:26:36 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:26:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:26:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:26:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:26:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:27:44 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:27:44 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:01 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:01 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:39 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 10:28:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:40 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:42 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:28:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:28:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:39:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:39:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:39:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:39:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:43:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:43:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 10:43:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 10:43:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 10:43:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 10:43:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 10:43:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 10:43:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 10:43:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 10:43:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 10:43:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 10:43:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 10:43:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 10:43:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 10:43:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 11:07:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 11:07:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 11:08:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 11:08:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 11:08:07 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:08:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/18 11:08:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 11:08:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 11:08:32 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:08:32 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:10:55 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:10:55 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:12:51 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:12:51 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:18:12 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:18:12 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:18:30 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:18:30 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:21:50 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:21:50 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:30:19 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:30:19 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:40:55 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:40:55 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:41:59 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:41:59 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:42:05 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:42:05 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:21 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:21 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:22 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:23 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:23 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:23 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:23 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:23 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:23 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:39 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:39 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:45 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:45 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:43:47 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:43:47 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:44:14 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:44:14 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:44:15 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:44:15 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:44:56 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:44:56 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:46:35 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:46:35 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:47:19 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:47:19 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:47:24 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:47:24 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:48:07 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:48:07 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 11:48:16 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 11:48:16 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:14:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/18 13:14:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/18 13:14:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 13:15:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 13:15:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 13:15:28 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:15:28 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:15:57 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:15:57 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:17:13 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:17:13 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:17:24 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:17:24 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:19:33 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:19:33 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:19:53 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:19:53 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:19:58 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:19:58 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:20:05 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:20:05 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:20:17 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:20:17 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:22:26 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:22:26 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:24:01 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:24:01 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:24:10 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:24:10 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:25:38 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:25:38 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:26:16 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:26:16 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:26:17 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:26:17 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:26:18 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:26:18 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:27:15 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:27:15 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:27:41 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:27:41 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:27:44 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:27:44 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:27:51 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:27:51 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:04 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:04 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:33 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:33 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:34 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:34 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:34 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:34 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:34 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:34 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:35 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:35 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:35 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:35 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:28:35 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:28:35 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:31:57 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:31:57 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:32:02 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:32:02 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:37:46 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:37:46 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:38:35 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:38:35 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:40:17 [profile] [sql] SELECT * FROM `Drivers` `t`
+2017/10/18 13:40:17 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 13:40:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 13:40:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 13:40:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 13:40:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 13:40:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 13:40:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 13:40:20 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 13:40:20 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:14:15 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:14:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:36:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:38:25 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:38:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:38:32 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:38:32 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 14:38:32 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 14:38:32'
+)
+2017/10/18 14:38:37 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:38:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:38:58 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:38:58 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:38:58 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 14:38:58 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 14:38:58'
+)
+2017/10/18 14:39:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:39:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:39:06 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:39:06 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:39:06 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 14:39:06 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 14:39:06'
+)
+2017/10/18 14:39:08 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:39:08 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:39:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:39:16 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:39:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 14:39:35 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 14:39:35 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 14:39:35 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 14:39:35'
+)
+2017/10/18 15:26:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/18 15:26:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/18 15:26:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:26:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:26:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:26:47 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:26:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:27:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:27:26 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:27:26 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:27:26 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:27:26'
+)
+2017/10/18 15:28:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:28:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:28:14 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:28:14 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:28:14'
+)
+2017/10/18 15:29:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:29:09 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:29:09 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:29:09 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:29:09'
+)
+2017/10/18 15:29:09 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => null
+    'driverCard' => '/upload/g/20171018/77a739376f621ecf.png'
+    'driverExp' => '2'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '18649717819'
+    'companyPhone' => null
+    'createTime' => null
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:30:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:30:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:30:00 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:30:00 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:30:00'
+)
+2017/10/18 15:30:00 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => null
+    'driverCard' => '/upload/g/20171018/9af4e9f447ebcccd.png'
+    'driverExp' => '2'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '18649717819'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:30:00'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:30:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:30:11 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:30:11 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:30:11 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:30:11'
+)
+2017/10/18 15:30:11 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => null
+    'driverCard' => '/upload/g/20171018/b2137feb5e623ffc.png'
+    'driverExp' => '2'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '18649717819'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:30:11'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:35:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:35:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:35:50 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:35:50 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:35:50'
+)
+2017/10/18 15:35:50 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => null
+    'driverCard' => '/upload/g/20171018/af19c7305cbf2f5b.png'
+    'driverExp' => '2'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '18649717819'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:35:50'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:35:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:35:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:36:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 15:36:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 15:36:11 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:36:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:36:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:31 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:31 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:36:31 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:36:31'
+)
+2017/10/18 15:36:31 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 15:36:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/18 15:36:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:36:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:36:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:36:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:36:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:36:53 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:36:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:00 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:37:00 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:37:00'
+)
+2017/10/18 15:37:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:13 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:13 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:13 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:25 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:25 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:25 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:37:25 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:37:25'
+)
+2017/10/18 15:37:25 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => null
+    'driverCard' => '/upload/g/20171018/32fa9e058b086646.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '186497178819'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:37:25'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:37:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:37:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:37:28 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:28 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:49 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:53 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:37:53 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:37:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:38:07 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:38:07 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:38:07 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:38:07 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:38:07'
+)
+2017/10/18 15:38:07 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => null
+    'driverCard' => '/upload/g/20171018/adeef4c5823fab16.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:38:07'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:38:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:38:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:38:10 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:38:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:39:36 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:43:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:43:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:43:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:43:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:43:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:43:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:43:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:43:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:43:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:43:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:43:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:43:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:44:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:44:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:44:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:44:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:44:09 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:44:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:44:20 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:44:20 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:44:20 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:44:20 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:44:20'
+)
+2017/10/18 15:44:20 [profile] [sql] INSERT INTO `Drivers` (`userId`, `driverCard`, `driverExp`, `frequenceCity`, `vehicleId`, `mobile`, `companyPhone`, `createTime`, `updateTime`, `dToken`) VALUES (:userId, :driverCard, :driverExp, :frequenceCity, :vehicleId, :mobile, :companyPhone, :createTime, :updateTime, :dToken)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:44:20'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:44:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:44:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:44:23 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:44:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:44:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:44:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:44:29 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:44:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:44:35 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:44:35 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:44:35 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:44:35 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270015'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:44:35'
+)
+2017/10/18 15:44:35 [profile] [sql] UPDATE `Drivers` SET `userId`=:userId, `driverCard`=:driverCard, `driverExp`=:driverExp, `frequenceCity`=:frequenceCity, `vehicleId`=:vehicleId, `mobile`=:mobile, `companyPhone`=:companyPhone, `createTime`=:createTime, `updateTime`=:updateTime, `dToken`=:dToken WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:44:35'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:44:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:44:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:44:39 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:44:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:49:14 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:49:14 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:49:14 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:49:14 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270014'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:49:14'
+)
+2017/10/18 15:49:14 [profile] [sql] UPDATE `Drivers` SET `userId`=:userId, `driverCard`=:driverCard, `driverExp`=:driverExp, `frequenceCity`=:frequenceCity, `vehicleId`=:vehicleId, `mobile`=:mobile, `companyPhone`=:companyPhone, `createTime`=:createTime, `updateTime`=:updateTime, `dToken`=:dToken WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:49:14'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:49:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:49:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:49:17 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:49:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:51:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:53:32 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:53:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:53:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:53:51 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:53:51 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270014'
+    'idcardUrl' => null
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:53:51'
+)
+2017/10/18 15:53:51 [profile] [sql] UPDATE `Drivers` SET `userId`=:userId, `driverCard`=:driverCard, `driverExp`=:driverExp, `frequenceCity`=:frequenceCity, `vehicleId`=:vehicleId, `mobile`=:mobile, `companyPhone`=:companyPhone, `createTime`=:createTime, `updateTime`=:updateTime, `dToken`=:dToken WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:53:51'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:53:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:53:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:53:54 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:53:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:54:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:54:00 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:54:00 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 15:54:00 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270014'
+    'idcardUrl' => '/upload/g/20171018/8148fb1075baf0a7.png'
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 15:54:00'
+)
+2017/10/18 15:54:00 [profile] [sql] UPDATE `Drivers` SET `userId`=:userId, `driverCard`=:driverCard, `driverExp`=:driverExp, `frequenceCity`=:frequenceCity, `vehicleId`=:vehicleId, `mobile`=:mobile, `companyPhone`=:companyPhone, `createTime`=:createTime, `updateTime`=:updateTime, `dToken`=:dToken WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 15:54:00'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 15:54:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:54:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 15:54:02 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 15:54:02 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 15:54:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 15:54:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:17:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:17:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:17:56 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:17:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:17:56 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/18 16:18:23 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:18:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:22:30 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:22:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:22:30 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:22:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:23:12 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:23:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:23:41 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:23:41 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:23:54 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:23:54 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:25:03 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:25:03 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:25:04 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:25:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:25:04 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:25:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:25:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/18 16:25:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/18 16:25:27 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/18 16:25:27 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/18 16:25:27 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/18 16:25:27 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/18 16:25:38 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/18 16:25:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/18 16:25:40 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/18 16:25:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/18 16:25:40 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/18 16:25:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:25:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:25:48 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:25:48 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:30:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:30:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:32:51 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:32:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:32:59 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:32:59 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:34:31 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:34:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:35:16 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:35:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:35:17 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:35:18 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:35:38 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:35:38 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:35:51 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/18 16:35:52 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '188' AND  `aState` = 1
+2017/10/18 16:36:11 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:36:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:36:47 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/18 16:39:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:39:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:39:05 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 16:39:05 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270014'
+    'idcardUrl' => '/upload/g/20171018/8148fb1075baf0a7.png'
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 16:39:05'
+)
+2017/10/18 16:39:05 [profile] [sql] UPDATE `Drivers` SET `userId`=:userId, `driverCard`=:driverCard, `driverExp`=:driverExp, `frequenceCity`=:frequenceCity, `vehicleId`=:vehicleId, `mobile`=:mobile, `companyPhone`=:companyPhone, `createTime`=:createTime, `updateTime`=:updateTime, `dToken`=:dToken WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => null
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 16:39:05'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 16:39:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:39:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:39:20 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:39:20 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:39:31 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/18 16:41:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:41:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:41:05 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 16:41:05 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270014'
+    'idcardUrl' => '/upload/g/20171018/8148fb1075baf0a7.png'
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 16:41:05'
+)
+2017/10/18 16:41:05 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:41:05 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:41:59 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/18 16:42:06 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/18 16:42:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/18 16:42:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:42:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:42:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:42:11 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:42:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:42:16 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/18 16:42:19 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:42:19 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:42:19 [profile] [sql] UPDATE `User` SET `isAuth`=:isAuth WHERE `id` IN(2)
+array
+(
+    'isAuth' => '1'
+)
+2017/10/18 16:42:19 [profile] [sql] UPDATE `UserPerson` SET `userId`=:userId, `companyUsername`=:companyUsername, `companyIdCard`=:companyIdCard, `idcardUrl`=:idcardUrl, `reversImage`=:reversImage, `frontImage`=:frontImage, `provinceId`=:provinceId, `cityId`=:cityId, `areaId`=:areaId, `remark`=:remark, `createTime`=:createTime, `updateTime`=:updateTime WHERE `pId` IN(4)
+array
+(
+    'userId' => '2'
+    'companyUsername' => 'adfsadf'
+    'companyIdCard' => '350721199307270014'
+    'idcardUrl' => '/upload/g/20171018/8148fb1075baf0a7.png'
+    'reversImage' => null
+    'frontImage' => null
+    'provinceId' => null
+    'cityId' => null
+    'areaId' => null
+    'remark' => '测试'
+    'createTime' => '2017-08-15 10:47:22'
+    'updateTime' => '2017-10-18 16:42:19'
+)
+2017/10/18 16:42:19 [profile] [sql] UPDATE `Drivers` SET `userId`=:userId, `driverCard`=:driverCard, `driverExp`=:driverExp, `frequenceCity`=:frequenceCity, `vehicleId`=:vehicleId, `mobile`=:mobile, `companyPhone`=:companyPhone, `createTime`=:createTime, `updateTime`=:updateTime, `dToken`=:dToken WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+    'driverCard' => '/upload/g/20171018/647bcdc30759df8b.png'
+    'driverExp' => '1'
+    'frequenceCity' => '安徽省'
+    'vehicleId' => null
+    'mobile' => '1'
+    'companyPhone' => null
+    'createTime' => '2017-10-18 16:42:19'
+    'updateTime' => null
+    'dToken' => null
+)
+2017/10/18 16:42:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:42:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:42:22 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:43:55 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:44:07 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:44:43 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:44:49 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:44:49 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:45:29 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:45:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:45:29 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="12") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/18 16:45:47 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:45:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:45:47 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="12") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/18 16:45:58 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:45:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:46:46 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:46:46 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:46:46 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="12") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/18 16:49:10 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:49:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:49:10 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="12") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/18 16:49:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:49:20 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:49:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:49:20 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="12") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/18 16:50:36 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:50:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:50:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/18 16:50:52 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/18 16:50:52 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/18 16:50:52 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/18 16:50:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:51:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:51:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:51:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:45 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:46 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:51:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:51:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:51:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:51:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="3"
+2017/10/18 16:51:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="3"
+2017/10/18 16:51:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:59 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:51:59 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="3"
+2017/10/18 16:51:59 [profile] [sql] SELECT * FROM `User` WHERE `id` = "3"
+2017/10/18 16:52:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:52:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:52:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:52:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:52:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:52:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:52:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:52:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:52:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:52:46 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:52:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:53:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:53:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:53:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:53:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:53:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:53:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 16:53:29 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/18 16:53:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/18 16:53:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:53:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:53:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:53:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:53:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:53:44 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:53:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:53:47 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:53:49 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:53:50 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:53:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:53:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:54:01 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:54:03 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:54:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:54:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:55:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:55:24 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:56:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:56:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 16:56:12 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 16:59:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/18 16:59:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/18 16:59:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:59:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) LIMIT 15
+2017/10/18 16:59:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/18 16:59:48 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 16:59:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:00:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:00:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:01:48 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:01:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:02:18 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:02:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:02:20 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:22 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:22 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:25 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:27 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:28 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:29 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:36 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:02:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:02:45 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:02:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:02:47 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:48 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:02:51 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:03:20 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:03:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:03:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:03:51 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:05:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:05:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:05:23 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:05:24 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:05:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:25 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:05:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:26 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:05:27 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:29 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:05:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:31 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:05:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:05:34 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:06:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:06:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:06:05 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:06:08 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:06:09 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:06:10 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:06:10 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:06:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:07:12 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:07:12 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:07:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:18 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:07:21 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:32 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:07:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:07:41 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:07:42 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:43 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:07:46 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:07:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:56 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:07:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:08:11 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:08:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:08:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:08:54 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:11 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:09:12 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:09:14 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:15 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:16 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:17 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:17 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:18 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:18 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:18 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:09:19 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:20 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:09:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:09:43 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:09:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:09:44 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:10:16 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:10:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:11:30 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:11:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/18 17:11:30 [profile] [sql] SELECT * FROM `UserPerson` `t`
+2017/10/18 17:11:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/18 17:11:33 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:11:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:11:35 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:44 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:14:46 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:47 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:49 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:50 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:50 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:51 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:51 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:52 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:52 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:53 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:53 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:55 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:14:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:14:59 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:14:59 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:15:00 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:15:00 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:15:02 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:15:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:15:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:15:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:19:04 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:19:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:21:37 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:21:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "1"
+2017/10/18 17:21:38 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"
+2017/10/18 17:21:39 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="1"
+2017/10/18 17:21:39 [profile] [sql] SELECT * FROM `UserCompany` `t` WHERE userId="1"

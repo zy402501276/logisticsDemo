@@ -1,0 +1,65 @@
+2017/09/21 09:38:16 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/21 09:38:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/21 09:38:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/21 09:38:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/21 09:38:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/21 09:38:32 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/21 09:38:32 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/21 09:38:32 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/21 09:38:32 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/21 09:38:32 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/21 09:38:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/21 09:38:32 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/21 09:41:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/21 09:41:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/21 09:43:07 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/21 09:43:07 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/21 09:43:07 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/21 09:43:07 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/21 09:43:07 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/21 09:43:07 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/21 09:43:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/21 09:43:07 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/21 09:43:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/21 09:43:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/21 09:43:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/09/21 09:43:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/21 09:43:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:43:13 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:43:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:43:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:43:22 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:43:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:43:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:43:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:43:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:47:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:47:45 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:47:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:49:03 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:49:03 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:49:03 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:52:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:52:06 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:52:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:52:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:52:06 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:52:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:52:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 09:52:26 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/21 09:52:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/21 10:35:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/09/21 10:35:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/21 11:00:34 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/21 11:00:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/21 11:00:34 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/09/21 11:00:34 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "1"
+2017/09/21 13:25:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/21 13:25:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/21 13:25:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/21 13:25:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/21 13:25:34 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/21 13:25:34 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/21 13:25:34 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/21 13:25:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/21 13:25:34 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"

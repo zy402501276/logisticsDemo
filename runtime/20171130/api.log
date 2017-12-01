@@ -1,0 +1,53 @@
+2017/11/30 16:58:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OV.vehicleIn11foId' in 'on clause'. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `OV` ON(`OV`.orderId = t.id)
+                                     LEFT JOIN `VehicleInfo` AS `VI` ON(`OV`.vehicleIn11foId = `VI`.id) 
+                                     LEFT JOIN `Drives` AS `D` ON (`D`.dId = `VI`.dId) WHERE ((`D`.dId="1") AND (orderState="4")) AND (state="1") LIMIT 10.
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\applications\api\form\buyer\v1\ApiOrdersForm.php (29)
+2017/11/30 16:58:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'OV.vehicleIn11foId' in 'on clause'. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `OV` ON(`OV`.orderId = t.id)
+                                     LEFT JOIN `VehicleInfo` AS `VI` ON(`OV`.vehicleIn11foId = `VI`.id) 
+                                     LEFT JOIN `Drives` AS `D` ON (`D`.dId = `VI`.dId) WHERE ((`D`.dId="1") AND (orderState="4")) AND (state="1") LIMIT 10' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT SQL_CALC...', 'queryAll')
+#3 D:\zyweb\pcb_logistics\applications\api\form\buyer\v1\ApiOrdersForm.php(29): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php(19): ApiOrdersForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionList()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): CController->run('list')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('list')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/list')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\api\index.php(46): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/list
+---
+2017/11/30 17:19:50 [error] [php] Undefined index: distributes (D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php:49)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): OrderController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): OrderController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): OrderController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): OrderController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\api\index.php(46): CWebApplication->run()
+REQUEST_URI=/order/list
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (49)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_logistics\website\api\index.php (46)
+2017/11/30 17:20:00 [error] [php] Undefined index: distributesTime (D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php:49)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): OrderController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): OrderController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): OrderController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): OrderController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\api\index.php(46): CWebApplication->run()
+REQUEST_URI=/order/list
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (49)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_logistics\website\api\index.php (46)

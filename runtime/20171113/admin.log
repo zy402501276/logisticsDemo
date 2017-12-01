@@ -1,0 +1,723 @@
+2017/11/13 09:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/address/edit
+---
+2017/11/13 10:57:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "management".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('management')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/management
+---
+2017/11/13 10:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "management".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('management')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/management
+---
+2017/11/13 10:57:38 [error] [exception.CException] exception 'CException' with message 'ManageController cannot find the requested view "index".' in D:\zyweb\Yii1\web\CController.php:878
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('index', Array, false)
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(15): Controller->render('index')
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('manage')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/manage
+---
+2017/11/13 10:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Avatar-sample-281.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/Avatar-samp...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/Avatar-sample-281.png
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 11:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Avatar-sample-281.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/Avatar-samp...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/Avatar-sample-281.png
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 11:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Avatar-sample-281.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/Avatar-samp...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/Avatar-sample-281.png
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 11:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Avatar-sample-281.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/Avatar-samp...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/Avatar-sample-281.png
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 11:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/Avatar-sample-281.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/Avatar-samp...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/Avatar-sample-281.png
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 11:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 11:09:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.getId" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\auth\CWebUser.php(146): CComponent->__get('getId')
+#1 D:\zyweb\pcb_logistics\applications\home\form\OrdersForm.php(18): CWebUser->__get('getId')
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(65): OrdersForm->search()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('list')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('list')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/list')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/orders/list
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/13 11:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 11:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/13 11:22:31 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:22:31 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:22:32 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:22:32 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:30:56 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:30:56 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:30:57 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:30:57 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:31:08 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:31:08 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:31:09 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:31:09 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:37:10 [error] [exception.CException] exception 'CException' with message 'Infomation and its behaviors do not have a method or closure named "findByUserId".' in D:\zyweb\Yii1\base\CComponent.php:266
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(17): CComponent->__call('findByUserId', Array)
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(17): Infomation->findByUserId()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('manage')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/manage
+---
+2017/11/13 11:39:02 [error] [php] Missing argument 1 for Infomation::findByUserId(), called in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php on line 17 and defined (D:\zyweb\pcb_logistics\library\model\base\Infomation.php:16)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\library\model\base\Infomation.php (16)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (17)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/13 11:41:56 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:41:56 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:41:56 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 11:41:56 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/13 14:06:57 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.getId" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\auth\CWebUser.php(146): CComponent->__get('getId')
+#1 D:\zyweb\pcb_logistics\applications\home\form\OrdersForm.php(18): CWebUser->__get('getId')
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(22): OrdersForm->search()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('manage')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/manage
+---
+2017/11/13 14:43:28 [error] [php] A non well formed numeric value encountered (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:61)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CBaseController.php(95): ManageController->renderInternal()
+#1 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#2 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#8 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (61)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 14:44:41 [error] [php] A non well formed numeric value encountered (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:61)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CBaseController.php(95): ManageController->renderInternal()
+#1 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#2 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#8 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (61)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:03:09 [error] [php] Undefined index: id     (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:65)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (65)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 15:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 15:12:49 [error] [exception.CException] exception 'CException' with message 'OrdersController cannot find the requested view "index".' in D:\zyweb\Yii1\web\CController.php:878
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('index', Array, false)
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(68): Controller->render('index', Array)
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('list')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('list')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/list')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/orders/list
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/13 15:12:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:12:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:15:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/13 15:39:58 [error] [php] Undefined variable: model (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:162)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (162)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:40:06 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:40:31 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:28 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:29 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:29 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:30 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:30 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:39 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:42 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 15:47:43 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 15:47:43 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 15:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/13 15:48:17 [error] [php] Undefined variable: timer (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:181)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(23): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (181)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (23)
+2017/11/13 17:11:22 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.attributes" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\pcb_logistics\library\model\base\Orders.php(189): CComponent->__get('attributes')
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(25): Orders->getTransTimes(3)
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('manage')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/manage
+---
+2017/11/13 17:22:32 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "queryOne".' in D:\zyweb\Yii1\base\CComponent.php:266
+Stack trace:
+#0 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CComponent->__call('queryOne', Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryOne()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT sum(sumW...', 'queryOne')
+#3 D:\zyweb\pcb_logistics\library\model\base\Orders.php(221): BaseModel->query(Object(CDbCriteria), 'queryOne')
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(26): Orders->getSumWeight()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('manage')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/manage
+---
+2017/11/13 18:49:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---

@@ -1,0 +1,330 @@
+2017/09/13 13:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/13 13:57:55 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 13:57:55 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 13:57:56 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 13:57:56 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 15:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "DetailList".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('DetailList')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/DetailList
+---
+2017/09/13 15:16:50 [error] [php] Undefined offset: 3 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:259)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (259)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (237)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/13 15:17:58 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:257)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (257)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/13 15:19:44 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/13 15:20:21 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/13 15:50:08 [error] [php] preg_match(): Unknown modifier ']' (D:\zyweb\pcb_wl\applications\api\form\buyer\v1\ItemInventoryForm.php:19)
+Stack trace:
+#0 D:\zyweb\Yii1\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 D:\zyweb\Yii1\base\CModel.php(159): CInlineValidator->validate()
+#2 D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php(213): ItemInventoryForm->validate()
+#3 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php(115): DemandService->addInventory()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionInventory()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#8 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/inventory
+in D:\zyweb\pcb_wl\applications\api\form\buyer\v1\ItemInventoryForm.php (19)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (213)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (115)
+2017/09/13 15:56:43 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 15:56:55 [error] [php] Undefined offset: 2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 15:56:56 [error] [php] Undefined offset: 2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 15:56:57 [error] [php] Undefined offset: 2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 15:56:57 [error] [php] Undefined offset: 2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 15:57:57 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:259)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (259)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 15:58:25 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:259)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (259)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 16:00:48 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:257)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (257)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 16:01:50 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:257)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (257)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 16:04:31 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:04:31 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:04:32 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:04:32 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:14:55 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:257)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (257)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 16:15:33 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 16:17:06 [error] [php] Undefined offset: -2 (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:258)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (258)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (238)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+2017/09/13 16:31:01 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:31:01 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:31:02 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:31:02 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:36:57 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:36:57 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:36:57 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:36:57 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:38:09 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:38:09 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:38:09 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:38:09 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/13 16:46:33 [error] [php] Undefined index: loadMsg (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:240)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailList
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (240)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (146)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (64)

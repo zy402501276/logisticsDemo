@@ -1,0 +1,63 @@
+2017/10/27 14:31:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND ' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`vehicleLength`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`unloadId`, `t`.`loadId`, `t`.`demandState` FROM `UserDemand` `t` LEFT JOIN `Cost` ON (`Cost`.demandId = `t`.id) LEFT JOIN `Orders` ON (`Cost`.id = `Orders`.costId)1  WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2").
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\UserDemand.php (108)
+2017/10/27 14:31:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND ' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`vehicleLength`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`unloadId`, `t`.`loadId`, `t`.`demandState` FROM `UserDemand` `t` LEFT JOIN `Cost` ON (`Cost`.demandId = `t`.id) LEFT JOIN `Orders` ON (`Cost`.id = `Orders`.costId)1  WHERE (((loadMsg LIKE "%合肥市%") AND (unloadMsg LIKE "%深圳市%")) AND (startTime LIKE "%2017-09-11%")) AND (orderType="2")' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT `t`.`id`...', 'queryAll')
+#3 D:\zyweb\pcb_wl\library\model\base\UserDemand.php(108): BaseModel->query(Object(CDbCriteria), 'queryAll')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(86): UserDemand->getRouter('\xE5\x90\x88\xE8\x82\xA5\xE5\xB8\x82', '\xE6\xB7\xB1\xE5\x9C\xB3\xE5\xB8\x82', '2017-09-11')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionSearchRouter()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): CController->run('searchrouter')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('searchrouter')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/searchrou...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/searchrouter
+---
+2017/10/27 14:49:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  WHERE ((((loadMsg LIKE "%天津市%") AND (unloadMsg LIKE "%北京市%")) AND' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`demandState`, `t`.`vehicleLength`, `t`.`state`, `t`.`unloadId`, `t`.`loadId`, `t`.`createTime`, `t`.`updateTime` FROM `UserDemand` `t` INNER JOIN `Cost` ON (`Cost`.demandId = `t`.id) INNER JOIN `Orders` ON (`Cost`.id = `Orders`.costId)1  WHERE ((((loadMsg LIKE "%天津市%") AND (unloadMsg LIKE "%北京市%")) AND (startTime LIKE "%2017-10-27%")) AND (`Orders`.paymentState="1")) AND (orderType="2").
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\library\model\base\UserDemand.php (109)
+2017/10/27 14:49:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  WHERE ((((loadMsg LIKE "%天津市%") AND (unloadMsg LIKE "%北京市%")) AND' at line 1. The SQL statement executed was: SELECT `t`.`id`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`userId`, `t`.`userName`, `t`.`userMobile`, `t`.`loadMsg`, `t`.`unloadMsg`, `t`.`vehicleType`, `t`.`vehicleVolume`, `t`.`vehicleCapacity`, `t`.`vehicleDesc`, `t`.`orderType`, `t`.`vehicleId`, `t`.`sumVolume`, `t`.`sumWeight`, `t`.`descript`, `t`.`itemName`, `t`.`itemType`, `t`.`demandState`, `t`.`vehicleLength`, `t`.`state`, `t`.`unloadId`, `t`.`loadId`, `t`.`createTime`, `t`.`updateTime` FROM `UserDemand` `t` INNER JOIN `Cost` ON (`Cost`.demandId = `t`.id) INNER JOIN `Orders` ON (`Cost`.id = `Orders`.costId)1  WHERE ((((loadMsg LIKE "%天津市%") AND (unloadMsg LIKE "%北京市%")) AND (startTime LIKE "%2017-10-27%")) AND (`Orders`.paymentState="1")) AND (orderType="2")' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT `t`.`id`...', 'queryAll')
+#3 D:\zyweb\pcb_wl\library\model\base\UserDemand.php(109): BaseModel->query(Object(CDbCriteria), 'queryAll')
+#4 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php(86): UserDemand->getRouter('\xE5\xA4\xA9\xE6\xB4\xA5\xE5\xB8\x82', '\xE5\x8C\x97\xE4\xBA\xAC\xE5\xB8\x82', '2017-10-27')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionSearchRouter()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): CController->run('searchrouter')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('searchrouter')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/searchrou...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/searchrouter
+---
+2017/10/27 15:40:44 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.size" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:173
+Stack trace:
+#0 D:\zyweb\pcb_wl\library\model\base\UserDemand.php(76): CComponent->__set('size', 10)
+#1 D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php(242): UserDemand->getListByUserId('23', '1')
+#2 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php(165): DemandService->tsDetailList('23', '1')
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): DemandController->actionDetailList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): CController->run('DetailList')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('DetailList')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('demand/DetailLi...')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#12 {main}
+REQUEST_URI=/demand/DetailList
+---

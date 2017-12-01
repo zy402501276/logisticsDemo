@@ -1,0 +1,182 @@
+2017/09/08 15:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 15:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 15:27:15 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:27:15 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:27:16 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:27:16 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:35:24 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:35:24 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:35:25 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 15:35:25 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 16:03:59 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:03:59 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:04:00 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:04:00 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:04:06 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:04:06 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:04:06 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:04:06 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:11:57 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "select".' in D:\zyweb\Yii1\base\CComponent.php:266
+Stack trace:
+#0 D:\zyweb\pcb_wl\library\model\base\VehicleLength.php(26): CComponent->__call('select', Array)
+#1 D:\zyweb\pcb_wl\library\model\base\VehicleLength.php(26): CDbCriteria->select('id,type')
+#2 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php(35): VehicleLength::getVehicleLength()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): SupportController->actionVehicleType()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('VehicleType')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleType')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('support/Vehicle...')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#12 {main}
+REQUEST_URI=/support/VehicleType
+---
+2017/09/08 16:12:14 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "select".' in D:\zyweb\Yii1\base\CComponent.php:266
+Stack trace:
+#0 D:\zyweb\pcb_wl\library\model\base\VehicleLength.php(26): CComponent->__call('select', Array)
+#1 D:\zyweb\pcb_wl\library\model\base\VehicleLength.php(26): CDbCriteria->select('id,type')
+#2 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php(35): VehicleLength::getVehicleLength()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): SupportController->actionVehicleType()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('VehicleType')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleType')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('support/Vehicle...')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#12 {main}
+REQUEST_URI=/support/VehicleType
+---
+2017/09/08 16:12:54 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "select".' in D:\zyweb\Yii1\base\CComponent.php:266
+Stack trace:
+#0 D:\zyweb\pcb_wl\library\model\base\VehicleLength.php(26): CComponent->__call('select', Array)
+#1 D:\zyweb\pcb_wl\library\model\base\VehicleLength.php(26): CDbCriteria->select('id,type')
+#2 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php(35): VehicleLength::getVehicleLength()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): SupportController->actionVehicleType()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('VehicleType')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleType')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('support/Vehicle...')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#12 {main}
+REQUEST_URI=/support/VehicleType
+---
+2017/09/08 16:18:54 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:18:54 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:18:55 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:18:55 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:19:01 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:19:01 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:19:01 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:19:01 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:19:01 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 16:19:01 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 17:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 17:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 17:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/08 17:21:57 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:21:57 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:21:58 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:21:58 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:22:12 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:22:12 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:22:14 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/08 17:22:14 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)

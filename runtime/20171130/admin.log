@@ -1,0 +1,301 @@
+2017/11/30 09:30:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/30 14:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/30 14:50:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/30 14:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/address/list
+---
+2017/11/30 14:50:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/30 14:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/30 14:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/address/list
+---
+2017/11/30 14:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:51:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/30 14:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/30 14:51:50 [error] [php] Non-static method InfomationService::add() should not be called statically, assuming $this from incompatible context (D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php:237)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/edit
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (237)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (57)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/30 14:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/Orders/list
+---
+2017/11/30 15:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/Orders/list
+---
+2017/11/30 16:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/30 17:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/30 17:04:11 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/30 17:04:11 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/30 17:04:12 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/30 17:04:12 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)

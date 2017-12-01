@@ -1,0 +1,318 @@
+2017/10/20 09:20:05 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/20 09:20:08 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/20 09:20:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 09:20:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:20:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 09:20:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:20:16 [profile] [sql] SELECT * FROM `Carouselfigure` WHERE `id` = "6"
+2017/10/20 09:21:06 [profile] [sql] SELECT * FROM `Carouselfigure` WHERE `id` = "6"
+2017/10/20 09:21:07 [profile] [sql] SELECT * FROM `Carouselfigure` WHERE `id` = "6"
+2017/10/20 09:21:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 09:21:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:21:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 09:21:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:21:59 [profile] [sql] SELECT * FROM `ShortCut` WHERE `id` = "2"
+2017/10/20 09:22:04 [profile] [sql] SELECT * FROM `ShortCut` WHERE `id` = "2"
+2017/10/20 09:22:04 [profile] [sql] UPDATE `ShortCut` SET `title`=:title, `img`=:img, `url`=:url, `sort`=:sort, `createTime`=:createTime, `updateTime`=:updateTime, `adminId`=:adminId WHERE `id` IN(2)
+array
+(
+    'title' => '测试'
+    'img' => '/upload/g/20171013/4e15bff6485562d1.png'
+    'url' => 'www'
+    'sort' => '2'
+    'createTime' => '2017-10-13 16:58:06'
+    'updateTime' => '2017-10-20 09:22:04'
+    'adminId' => null
+)
+2017/10/20 09:22:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 09:22:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:22:07 [profile] [sql] SELECT * FROM `ShortCut` WHERE `id` = "2"
+2017/10/20 09:22:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 09:22:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:36:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 09:36:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:37:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 09:37:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:49:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 09:49:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:49:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 09:49:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:50:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` ORDER BY sort desc LIMIT 15
+2017/10/20 09:50:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:50:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 09:50:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:57:08 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 09:57:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:57:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` ORDER BY sort asc LIMIT 15
+2017/10/20 09:57:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:57:19 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 09:57:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:57:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` ORDER BY sort asc LIMIT 15
+2017/10/20 09:57:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:57:44 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 09:57:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:57:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` ORDER BY sort asc LIMIT 15
+2017/10/20 09:57:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:58:58 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 09:58:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 09:58:58 [profile] [sql] SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:00:36 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:00:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:00:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 10:00:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:00:48 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:00:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:00:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 10:00:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:00:57 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:00:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:00:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 10:00:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:01:09 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:01:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:01:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 10:01:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:01:43 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:01:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:01:43 [profile] [sql] SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:01:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:03:23 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:03:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:03:23 [profile] [sql] SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:03:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:03:58 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:03:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:03:58 [profile] [sql] SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:03:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:12:45 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:12:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:12:56 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:12:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:13:38 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:13:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:15:53 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:15:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:16:12 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:16:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:18:28 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:18:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:18:28 [profile] [sql] SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:18:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:20:05 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:20:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:20:05 [profile] [sql] SELECT id,title,img,url FROM `ShortCut` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:20:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:45:49 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/20 10:45:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 10:45:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:45:52 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:45:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:47:11 [profile] [sql] SELECT id,img,linkUrl FROM `Carouselfigure` `t` WHERE state="1" ORDER BY sort asc LIMIT 15
+2017/10/20 10:47:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:48:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 10:48:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:52:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 10:52:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:52:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 10:52:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:52:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `ShortCut` `t` LIMIT 15
+2017/10/20 10:52:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 10:57:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 10:57:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:04:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 11:04:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:04:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/20 11:04:57 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/20 11:04:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/20 11:13:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/20 11:13:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:13:00 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 11:13:00 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 11:13:00 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 11:13:01 [profile] [sql] SELECT * FROM `Vehicle` WHERE `tId` = "1"
+2017/10/20 11:13:01 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE id="7"
+2017/10/20 11:13:01 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 11:14:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/10/20 11:14:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:16:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 11:16:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:16:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Carouselfigure` `t` LIMIT 15
+2017/10/20 11:16:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:26:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/20 11:26:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 11:26:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 11:26:42 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 11:26:42 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 13:19:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/20 13:19:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 13:19:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 13:28:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/10/20 13:28:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 13:28:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/10/20 13:28:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/10/20 13:28:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 13:28:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 13:28:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 13:28:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:03:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:03:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:03:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:03:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:23:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:23:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:31:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:31:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:32:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:32:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:49:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:49:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:50:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:50:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:50:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:50:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/20 14:54:26 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/20 14:54:26 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/20 14:54:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 14:54:26 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/20 14:54:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/20 14:54:36 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/20 14:54:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 14:54:36 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/10/20 14:54:39 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '7' AND  `aState` = 1
+2017/10/20 14:54:53 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '121' AND  `aState` = 1
+2017/10/20 14:55:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:55:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:57:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 14:57:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 14:57:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 14:57:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:02:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:02:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:05:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:05:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:06:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:06:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:08:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:08:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 15:08:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/20 15:08:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 15:08:11 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 15:08:11 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 15:08:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 15:08:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/20 15:08:17 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/20 15:08:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/20 15:08:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 15:08:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/20 15:08:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/20 15:08:26 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 15:08:26 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE id="1"
+2017/10/20 15:08:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/20 15:08:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:08:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:08:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:12:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:12:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:13:03 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/20 15:13:04 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '189' AND  `aState` = 1
+2017/10/20 15:13:14 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '12' AND  `aState` = 1
+2017/10/20 15:13:14 [profile] [sql] SELECT * FROM `Areas` WHERE `pId` = '187' AND  `aState` = 1
+2017/10/20 15:14:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:14:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:14:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:14:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:14:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:14:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:15:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:15:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:15:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:15:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:15:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:15:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:21:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:21:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:41:20 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/20 15:41:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:41:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:41:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/20 15:41:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/20 15:44:59 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/20 16:37:39 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/10/20 16:37:39 [profile] [sql] SELECT * FROM `UserAppKey` WHERE `userId` IN (2) AND `state` = 1
+2017/10/20 16:38:19 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/10/20 16:38:35 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/10/20 16:38:35 [profile] [sql] SELECT * FROM `UserAppKey` WHERE `userId` IN (2) AND `state` = 1
+2017/10/20 16:38:56 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/10/20 16:38:56 [profile] [sql] SELECT * FROM `UserAppKey` WHERE `userId` = '2' AND `state` = 1 ORDER BY `id` DESC
+2017/10/20 16:39:05 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/10/20 16:39:05 [profile] [sql] SELECT * FROM `UserAppKey` WHERE `userId` = '2' AND `state` = 1 ORDER BY `id` DESC
+2017/10/20 16:39:05 [profile] [sql] UPDATE `UserAppKey` SET `phoneKey`=:phoneKey WHERE `id` IN(1)
+array
+(
+    'phoneKey' => ''
+)

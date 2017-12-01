@@ -1,0 +1,89 @@
+2017/12/01 10:02:34 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pcb_logistics.OrderReciver' doesn't exist. The SQL statement executed was: SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)
+                           LEFT JOIN `OrderReciver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE (routerId="9") AND (orderId="21").
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php (152)
+2017/12/01 10:02:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pcb_logistics.OrderReciver' doesn't exist. The SQL statement executed was: SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)
+                           LEFT JOIN `OrderReciver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE (routerId="9") AND (orderId="21")' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT `t`.`id`...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php(152): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php(68): RouterInfo->getRouterDetail('9', '21')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionOrderInfo()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): CController->run('orderInfo')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('orderInfo')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/orderInfo')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\api\index.php(46): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/orderInfo
+---
+2017/12/01 10:14:27 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pcb_logistics.OrderReciver' doesn't exist. The SQL statement executed was: SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReciver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1").
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php (156)
+2017/12/01 10:14:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pcb_logistics.OrderReciver' doesn't exist. The SQL statement executed was: SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReciver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT `t`.`id`...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php(156): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php(68): RouterInfo->getRouterDetail('9', '21')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionOrderInfo()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): CController->run('orderInfo')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('orderInfo')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/orderInfo')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\api\index.php(46): CApplication->run()
+#14 {main}
+REQUEST_URI=/order/orderInfo
+---
+2017/12/01 10:36:44 [error] [php] Undefined index: orderNubmer (D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php:72)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): OrderController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): OrderController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): OrderController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): OrderController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\api\index.php(46): CWebApplication->run()
+REQUEST_URI=/order/orderInfo
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (72)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_logistics\website\api\index.php (46)
+2017/12/01 10:41:19 [error] [php] Array to string conversion (D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php:76)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): OrderController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): OrderController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): OrderController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): OrderController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\api\index.php(46): CWebApplication->run()
+REQUEST_URI=/order/orderInfo
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (76)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_logistics\website\api\index.php (46)
+2017/12/01 10:41:25 [error] [php] Array to string conversion (D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php:76)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): OrderController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): OrderController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): OrderController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): OrderController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\api\index.php(46): CWebApplication->run()
+REQUEST_URI=/order/orderInfo
+in D:\zyweb\pcb_logistics\applications\api\controllers\buyer\v1\OrderController.php (76)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_logistics\website\api\index.php (46)

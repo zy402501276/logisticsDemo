@@ -1,0 +1,509 @@
+2017/11/14 09:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/14 09:13:31 [error] [php] Undefined variable: goodsArray (D:\zyweb\pcb_logistics\applications\home\views\manage\index.php:109)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): ManageController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): ManageController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): ManageController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(33): ManageController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionIndex()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage
+in D:\zyweb\pcb_logistics\applications\home\views\manage\index.php (109)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (33)
+2017/11/14 09:50:23 [error] [exception.CException] exception 'CException' with message 'OrdersController cannot find the requested view "index".' in D:\zyweb\Yii1\web\CController.php:878
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('index', Array, false)
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(68): Controller->render('index', Array)
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('list')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('list')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/list')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/orders/list
+HTTP_REFERER=http://www.wllogistics.com/goods/edit
+---
+2017/11/14 10:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/14 10:00:50 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 10:00:50 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 10:00:50 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 10:00:50 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 11:20:55 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 11:20:55 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 11:20:55 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 11:20:55 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/14 14:01:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:01:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\zyweb\Yii1\web\CController.php:336
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail')
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#8 {main}
+REQUEST_URI=/orders/detail
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 14:02:06 [error] [php] Undefined variable: vehicle (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:27)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(128): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/10
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (27)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (128)
+2017/11/14 14:02:12 [error] [php] Undefined variable: vehicle (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:27)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(128): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (27)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (128)
+2017/11/14 14:02:28 [error] [php] Undefined variable: vehicleInfo (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:33)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(128): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (33)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (128)
+2017/11/14 14:02:28 [error] [php] Undefined variable: vehicleInfo (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:33)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(128): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (33)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (128)
+2017/11/14 14:32:32 [error] [php] Undefined variable: receivers (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:52)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(129): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (52)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (129)
+2017/11/14 14:32:49 [error] [php] Invalid argument supplied for foreach() (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:52)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(129): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (52)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (129)
+2017/11/14 14:53:54 [error] [php] Array to string conversion (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:100)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(130): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (100)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (130)
+2017/11/14 15:07:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'D.id' in 'on clause'. The SQL statement executed was: SELECT `D`.* FROM `OrderVehicle` `t` LEFT JOIN `VehicleInfo`as VI ON(`t`.vehicleInfoId = `VI`.id) LEFT JOIN `Drives` AS `D` ON (`VI`.dId = `D`.id)  WHERE orderId="9".
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\OrderVehicle.php (22)
+2017/11/14 15:07:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'D.id' in 'on clause'. The SQL statement executed was: SELECT `D`.* FROM `OrderVehicle` `t` LEFT JOIN `VehicleInfo`as VI ON(`t`.vehicleInfoId = `VI`.id) LEFT JOIN `Drives` AS `D` ON (`VI`.dId = `D`.id)  WHERE orderId="9"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT `D`.* FR...', 'queryAll')
+#3 D:\zyweb\pcb_logistics\library\model\base\OrderVehicle.php(22): BaseModel->query(Object(CDbCriteria), 'queryAll')
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(129): OrderVehicle->findDriverByOrder('9')
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('detail')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('detail')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/detail/i...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/detail/id/9
+---
+2017/11/14 15:20:03 [error] [php] Undefined index: type (D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php:124)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(131): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (124)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (131)
+2017/11/14 15:37:12 [error] [php] include(OrdersGoods.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php(6): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\CBaseController.php(126): require()
+#2 D:\zyweb\Yii1\web\CBaseController.php(95): OrdersController->renderInternal()
+#3 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#4 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#5 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#6 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(131): OrdersController->render()
+#7 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionDetail()
+#8 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#10 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#11 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#12 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#13 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/detail/id/9
+in D:\zyweb\pcb_logistics\applications\home\views\orders\detail.php (6)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (131)
+2017/11/14 15:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/14 15:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 15:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 15:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/list
+---
+2017/11/14 17:13:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "order/edit/goodsId/4".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/edit/good...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/order/edit/goodsId/4
+HTTP_REFERER=http://www.wllogistics.com/manage
+---

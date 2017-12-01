@@ -1,0 +1,56 @@
+2017/09/25 11:47:25 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/25 11:47:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/25 11:47:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/25 11:47:28 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/25 11:47:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/25 11:47:28 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/25 15:36:37 [profile] [sql] SELECT  V.dId  FROM `Cost` `C `  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 15:37:45 [profile] [sql] SELECT  V.dId  FROM `Cost` `C `  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 15:38:42 [profile] [sql] SELECT  V.dId  FROM `Cost` `C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 15:38:56 [profile] [sql] SELECT  V.dId  FROM `Cost` ` AS C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 15:39:07 [profile] [sql] SELECT  V.dId  FROM `Cost` ` AS `C``  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 15:39:20 [profile] [sql] SELECT  V.dId  FROM `Cost` `C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 16:09:24 [profile] [sql] SELECT  V.dId  FROM `Cost` `as  C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 16:09:46 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (Cost.deriverId = V.dId)  WHERE Cost.id="1"
+2017/09/25 16:10:03 [profile] [sql] SELECT  V.dId  FROM `Cost` ` C`  LEFT JOIN  Vehicle AS  V ON (C.deriverId = V.dId)  WHERE C.id="1"
+2017/09/25 16:30:40 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (Cost.deriverId = V.dId)  WHERE Cost.id="1"
+2017/09/25 16:30:53 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.deriverId = V.dId)  WHERE t.id="1"
+2017/09/25 16:31:22 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.dId)  WHERE t.id="1"
+2017/09/25 16:32:43 [profile] [sql] SELECT `t`.`id`, `t`.`costMsg`, `t`.`demandId`, `t`.`driverId`, `t`.`otherCost`, `t`.`createTime`, `t`.`updateTime` FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.dId)  WHERE t.id="1"
+2017/09/25 16:33:14 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId1 = V.dId)  WHERE t.id="1"
+2017/09/25 16:34:22 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId1 = V.tId)  WHERE t.id="1"
+2017/09/25 16:34:30 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/25 17:02:59 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/25 17:02:59 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/25 17:09:29 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/25 17:09:29 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/25 17:19:48 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/25 17:19:48 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/25 17:19:48 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => null
+    'exception' => null
+    'deliverId' => '12'
+    'receiverId' => '34'
+    'inventoryId' => '1,2,3,4'
+    'insuranceId' => null
+    'insuracePrice' => null
+    'createTime' => '2017-09-25 17:19:48'
+    'updateTime' => '2017-09-25 17:19:48'
+)

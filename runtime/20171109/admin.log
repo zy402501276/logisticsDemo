@@ -1,0 +1,438 @@
+2017/11/09 09:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/router/edit
+---
+2017/11/09 13:53:39 [error] [exception.CException] exception 'CException' with message 'RouterController cannot find the requested view "index".' in D:\zyweb\Yii1\web\CController.php:878
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('index', Array, false)
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(72): Controller->render('index', Array)
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionRouterList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('routerlist')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('routerlist')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('router/routerli...')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/router/routerlist
+HTTP_REFERER=http://www.wllogistics.com/router/editrouter
+---
+2017/11/09 13:58:26 [error] [exception.CException] exception 'CException' with message 'RouterForm has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in D:\zyweb\Yii1\base\CModel.php:289
+Stack trace:
+#0 D:\zyweb\Yii1\base\CModel.php(260): CModel->createValidators()
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2236): CModel->getValidators('name')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RouterForm), 'name', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RouterForm), 'name', Array)
+#4 D:\zyweb\pcb_logistics\applications\home\views\router\edit.php(26): CActiveForm->textField(Object(RouterForm), 'name', Array)
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('edit', Array, true)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('edit', Array, false)
+#10 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(27): Controller->render('edit', Array)
+#11 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionEditRouter()
+#12 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('editrouter')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('editrouter')
+#17 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('router/editrout...')
+#18 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/router/editrouter
+---
+2017/11/09 13:58:53 [error] [exception.CException] exception 'CException' with message 'RouterForm has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in D:\zyweb\Yii1\base\CModel.php:289
+Stack trace:
+#0 D:\zyweb\Yii1\base\CModel.php(260): CModel->createValidators()
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2236): CModel->getValidators('name')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RouterForm), 'name', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RouterForm), 'name', Array)
+#4 D:\zyweb\pcb_logistics\applications\home\views\router\edit.php(26): CActiveForm->textField(Object(RouterForm), 'name', Array)
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('edit', Array, true)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('edit', Array, false)
+#10 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(27): Controller->render('edit', Array)
+#11 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionEditRouter()
+#12 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('editrouter')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('editrouter')
+#17 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('router/editrout...')
+#18 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/router/editrouter
+---
+2017/11/09 13:59:31 [error] [exception.CException] exception 'CException' with message 'RouterForm has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in D:\zyweb\Yii1\base\CModel.php:289
+Stack trace:
+#0 D:\zyweb\Yii1\base\CModel.php(260): CModel->createValidators()
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2236): CModel->getValidators('name')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RouterForm), 'name', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RouterForm), 'name', Array)
+#4 D:\zyweb\pcb_logistics\applications\home\views\router\edit.php(26): CActiveForm->textField(Object(RouterForm), 'name', Array)
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('edit', Array, true)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('edit', Array, false)
+#10 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(27): Controller->render('edit', Array)
+#11 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionEditRouter()
+#12 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('editrouter')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('editrouter')
+#17 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('router/editrout...')
+#18 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/router/editrouter
+---
+2017/11/09 16:20:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/router/editrouter
+---
+2017/11/09 17:15:04 [error] [exception.CException] exception 'CException' with message 'Property "RouterForm.userId" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:173
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\service\RouterService.php(46): CComponent->__set('userId', 1)
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(20): RouterService->addRouter(Array, Object(RouterForm))
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionEditRouter()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('editrouter')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('editrouter')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('router/editrout...')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/router/editrouter
+HTTP_REFERER=http://www.wllogistics.com/router/editrouter
+---
+2017/11/09 17:16:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/09 17:16:07 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:16:07 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:16:08 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:16:08 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:21:48 [error] [php] Undefined index: addressName (D:\zyweb\pcb_logistics\applications\home\service\RouterService.php:74)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/router/editrouter
+in D:\zyweb\pcb_logistics\applications\home\service\RouterService.php (74)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (20)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 17:22:18 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:22:18 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:22:18 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:22:18 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/09 17:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/09 17:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/09 17:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/09 17:48:01 [error] [php] Illegal string offset 'type' (D:\zyweb\pcb_logistics\applications\home\views\router\list.php:28)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): RouterController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): RouterController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(72): RouterController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionRouterList()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/router/routerlist
+in D:\zyweb\pcb_logistics\applications\home\views\router\list.php (28)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (72)
+2017/11/09 18:54:43 [error] [php] Undefined variable: urlAddRouter (D:\zyweb\pcb_logistics\applications\home\views\router\list.php:134)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): RouterController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): RouterController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(80): RouterController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionRouterList()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/router/routerlist
+in D:\zyweb\pcb_logistics\applications\home\views\router\list.php (134)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (80)
+2017/11/09 18:54:51 [error] [php] Undefined variable: urlAddRouter (D:\zyweb\pcb_logistics\applications\home\views\router\list.php:134)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): RouterController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): RouterController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(80): RouterController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionRouterList()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/router/routerlist
+in D:\zyweb\pcb_logistics\applications\home\views\router\list.php (134)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (80)
+2017/11/09 18:55:07 [error] [php] Undefined variable: urlAddRouter (D:\zyweb\pcb_logistics\applications\home\views\router\list.php:134)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): RouterController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): RouterController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(76): RouterController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionRouterList()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/router/routerlist
+in D:\zyweb\pcb_logistics\applications\home\views\router\list.php (134)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (76)
+2017/11/09 19:06:47 [error] [php] Undefined index: router (D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php:71)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/AddVehicle?id=1&type=1&length=4&weight=1
+in D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php (71)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (47)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 19:06:57 [error] [php] Undefined index: router (D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php:71)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/AddVehicle?id=1&type=1&length=4&weight=1
+in D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php (71)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (47)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 19:07:30 [error] [php] Undefined index: router (D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php:71)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/AddVehicle?id=1&type=1&length=4&weight=1
+in D:\zyweb\pcb_logistics\library\model\base\RouterInfo.php (71)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (47)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 19:20:47 [error] [php] Undefined variable: val (D:\zyweb\pcb_logistics\applications\home\views\router\addVehicle.php:6)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(56): RouterController->renderPartial()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionAddVehicle()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#5 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/AddVehicle?id=1&type=1&length=4&weight=1
+in D:\zyweb\pcb_logistics\applications\home\views\router\addVehicle.php (6)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (56)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 19:20:58 [error] [php] Undefined variable: val (D:\zyweb\pcb_logistics\applications\home\views\router\addVehicle.php:6)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(56): RouterController->renderPartial()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionAddVehicle()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#5 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/AddVehicle?id=1&type=1&length=4&weight=1
+in D:\zyweb\pcb_logistics\applications\home\views\router\addVehicle.php (6)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (56)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 19:58:46 [error] [php] Undefined variable: vehicleArr (D:\zyweb\pcb_logistics\applications\home\views\router\vehicleList.php:1)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(37): RouterController->renderPartial()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionVehicleList()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#5 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/VehicleList?id=1
+in D:\zyweb\pcb_logistics\applications\home\views\router\vehicleList.php (1)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (37)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 19:58:50 [error] [php] Undefined variable: vehicleArr (D:\zyweb\pcb_logistics\applications\home\views\router\vehicleList.php:1)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): RouterController->renderFile()
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php(37): RouterController->renderPartial()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): RouterController->actionVehicleList()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\zyweb\Yii1\web\CController.php(286): RouterController->runAction()
+#5 D:\zyweb\Yii1\web\CController.php(265): RouterController->runActionWithFilters()
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): RouterController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): RouterController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/Router/VehicleList?id=1
+in D:\zyweb\pcb_logistics\applications\home\views\router\vehicleList.php (1)
+in D:\zyweb\pcb_logistics\applications\home\controllers\RouterController.php (37)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/09 20:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DelVehicle ".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('DelVehicle ')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('DelVehicle ')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('DelVehicle ')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Router/DelVehic...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/Router/DelVehicle%20?id=1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/09 20:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DelVehicle ".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('DelVehicle ')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('DelVehicle ')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('DelVehicle ')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Router/DelVehic...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/Router/DelVehicle%20?id=1
+---
+2017/11/09 20:11:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DelVehicle ".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('DelVehicle ')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('DelVehicle ')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('DelVehicle ')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Router/DelVehic...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/Router/DelVehicle%20?id=1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---
+2017/11/09 20:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DelVehicle ".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('DelVehicle ')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('DelVehicle ')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('DelVehicle ')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Router/DelVehic...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/Router/DelVehicle%20?id=1
+---
+2017/11/09 20:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DelVehicle ".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('DelVehicle ')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('DelVehicle ')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('DelVehicle ')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Router/DelVehic...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/Router/DelVehicle%20?id=1
+HTTP_REFERER=http://www.wllogistics.com/router/routerlist
+---

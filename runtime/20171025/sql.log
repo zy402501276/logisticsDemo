@@ -1,0 +1,1844 @@
+2017/10/25 09:12:45 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/25 09:12:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/25 09:12:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 09:12:45 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 09:12:45 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 09:20:11 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 09:20:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 09:20:11 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/10/25 09:20:11 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%气体%") AND (state="1")
+2017/10/25 09:20:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:20:40 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:20:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/25 09:20:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 09:20:42 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 09:20:42 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/25 09:20:43 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/25 09:20:43 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:20:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/25 09:20:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 09:20:44 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 09:20:44 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%气体%") AND (state="1")
+2017/10/25 09:20:47 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:20:47 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:25:07 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 09:25:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 09:27:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 09:27:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 09:29:22 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 09:29:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 09:29:22 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:30:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 09:30:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 09:30:33 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/10/25 09:30:33 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:30:55 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:30:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:30:55 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:30:55 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:37:47 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:37:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:37:47 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:37:47 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:39:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:39:03 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:39:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:39:03 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:39:14 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:39:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:39:14 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:39:14 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:40:13 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:40:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:40:14 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:40:14 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:40:22 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:40:22 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:40:22 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:40:22 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:40:39 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:40:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:40:39 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:40:39 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:40:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:40:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:40:54 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:41:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:41:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:41:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:41:58 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:42:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:42:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:42:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:42:28 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 09:42:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 09:42:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 09:42:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 09:42:51 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:04:50 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:04:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:04:50 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:04:50 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:05:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:05:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:05:31 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:05:31 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:07:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:07:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:07:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:07:53 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:09:13 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 10:09:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 10:09:13 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/10/25 10:09:13 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:09:14 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/10/25 10:09:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 10:09:14 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/10/25 10:09:14 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:09:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/25 10:09:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 10:09:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:09:21 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/25 10:09:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:09:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/25 10:09:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 10:09:24 [profile] [sql] SELECT * FROM `Drivers` `t` WHERE userId="2"
+2017/10/25 10:09:24 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:09:24 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/25 10:09:24 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/10/25 10:10:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/25 10:10:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 10:10:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/25 10:10:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 10:10:15 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 10:10:15 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%气体%") AND (state="1")
+2017/10/25 10:10:17 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:10:17 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:10:23 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:10:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:10:23 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:10:23 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:11:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:11:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:11:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:11:53 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:12:20 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:12:20 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:12:20 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:13:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:13:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:13:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:13:42 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:13:49 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:13:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:13:49 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:19:20 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:19:20 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:19:20 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:20:02 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:20:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:02 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%气体%") AND (state="1")
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:20:04 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 10:20:04 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:20:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LEFT JOIN `UserPerson` ON (`t`.id = `UserPerson`.userId) WHERE isUsing="1" LIMIT 15
+2017/10/25 10:20:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 10:20:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/25 10:20:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 10:20:09 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 10:20:09 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/25 10:20:11 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/25 10:20:11 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/25 10:20:19 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/25 10:20:19 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/25 10:20:19 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/25 10:20:21 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%2%") AND (state="1")
+2017/10/25 10:20:21 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/10/25 10:20:21 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 10:26:38 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:26:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:26:38 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:27:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:27:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:27:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:28:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:28:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:28:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:33:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:33:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:33:05 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:38:49 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:38:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:38:49 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:38:56 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:38:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:38:56 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 10:40:38 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 10:40:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 10:40:38 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:16:43 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:16:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:16:44 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:16:59 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:16:59 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:16:59 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:19:00 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "UserDemand"
+2017/10/25 11:19:00 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 11:19:00 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="UserDemand" ORDER BY id asc
+2017/10/25 11:19:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:19:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:19:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:19:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "UserDemand"
+2017/10/25 11:19:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 11:19:26 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="UserDemand" ORDER BY id asc
+2017/10/25 11:22:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:22:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:31 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:22:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:31 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:22:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:22:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:22:52 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:23:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:23:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:23:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:08 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:08 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:10 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:10 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:27:10 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:27:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:27:10 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:28:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:28:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:28:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:31:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:31:04 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:31:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:33:38 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:33:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:33:38 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:33:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:33:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:33:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:34:00 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "UserDemand"
+2017/10/25 11:34:00 [profile] [sql] SELECT * FROM `User` WHERE `id` = ""
+2017/10/25 11:34:00 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="UserDemand" ORDER BY id asc
+2017/10/25 11:34:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:34:03 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:34:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:36:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:36:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:36:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:36:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:44:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:44:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:44:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:44:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:44:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:44:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 11:46:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 11:46:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 11:46:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 13:15:25 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/25 13:15:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/10/25 13:15:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/10/25 13:15:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:15:31 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 13:15:31 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name LIKE "%气体%") AND (state="1")
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 13:15:39 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 13:15:39 [profile] [sql] SELECT id,name FROM `ItemType` `t` WHERE state="1"
+2017/10/25 13:15:49 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 13:15:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 13:15:49 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 13:16:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:16:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:17:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:17:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:21:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:21:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:34:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:34:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:35:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:35:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:37:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:37:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:41:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:41:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:41:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:41:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:42:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:42:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:46:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 13:46:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 13:46:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 13:47:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:47:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:47:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:47:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:48:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:48:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%2%" LIMIT 15
+2017/10/25 13:48:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:48:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1%" LIMIT 15
+2017/10/25 13:48:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:48:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1%" LIMIT 15
+2017/10/25 13:48:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%11%" LIMIT 15
+2017/10/25 13:48:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%11111%" LIMIT 15
+2017/10/25 13:48:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1111111111%" LIMIT 15
+2017/10/25 13:48:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1111111111%" LIMIT 15
+2017/10/25 13:48:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1111111111%" LIMIT 15
+2017/10/25 13:48:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1111111111%" LIMIT 15
+2017/10/25 13:48:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1111111111%" LIMIT 15
+2017/10/25 13:48:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:48:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE capacity LIKE "%1111111111%" LIMIT 15
+2017/10/25 13:48:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:49:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:49:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:49:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:49:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:50:14 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 13:50:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 13:50:14 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 13:50:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:50:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:54:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 13:54:26 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 13:54:26 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 13:54:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:54:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:55:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:55:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:55:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:55:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:56:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:56:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:57:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:57:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:57:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:57:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 13:59:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 13:59:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:00:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:00:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:02:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/25 14:02:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:02:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LIMIT 15
+2017/10/25 14:02:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:03:20 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length="1" LIMIT 15
+2017/10/25 14:03:20 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:03:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:03:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:03:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:03:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length="1" LIMIT 15
+2017/10/25 14:03:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:04:20 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:04:20 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:04:20 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:04:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:04:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:04:33 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:04:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length LIKE "%1%" LIMIT 15
+2017/10/25 14:04:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:04:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length LIKE "%2%" LIMIT 15
+2017/10/25 14:04:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:04:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length LIKE "%3%" LIMIT 15
+2017/10/25 14:04:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:04:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:04:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:05:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:05:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:06:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:06:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:06:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:06:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:08:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:08:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:08:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:08:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:12:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:12:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:12:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:12:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:12:32 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:12:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:12:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:12:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:12:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:12:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:12:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:12:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:12:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length LIKE "%1%" LIMIT 15
+2017/10/25 14:12:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:17:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE length LIKE "%1%" LIMIT 15
+2017/10/25 14:17:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:17:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:20:38 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:20:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:20:38 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:20:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:20:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:20:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:20:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:20:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:21:08 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:21:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:21:08 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:21:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:21:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:21:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:21:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:21:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:23:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:23:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:23:05 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:23:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:23:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:23:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:23:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:23:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:23:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:23:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:23:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:27:45 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:27:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:27:45 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:27:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:28:07 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:28:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:28:07 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:28:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:28:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:29:08 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:29:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:29:08 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:29:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:31:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:31:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:31:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:31:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:31:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:31:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:31:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:31:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:32:01 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:32:01 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:32:01 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:32:01 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:33:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:33:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:33:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:33:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:35:27 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:35:27 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:35:27 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:35:27 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:35:27 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:35:27 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:35:27 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:35:27 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:35:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:35:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:35:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:35:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:35:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:35:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:35:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:35:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:36:49 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:36:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:36:49 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:36:49 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:36:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:36:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE type="请选择" LIMIT 15
+2017/10/25 14:36:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:42:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:42:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:42:52 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:42:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:43:48 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:43:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:43:48 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:43:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:43:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:43:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:43:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:43:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:44:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:44:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:44:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:44:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:44:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:44:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:44:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:44:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:44:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:44:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:51:10 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:51:10 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:51:10 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:51:10 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:51:10 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:53:46 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:53:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:53:46 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:53:46 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:53:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:54:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:54:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:54:33 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:54:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:55:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:55:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:55:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:55:29 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:55:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:55:56 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:55:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:55:56 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:55:56 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:55:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:56:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:52 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:56:52 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:56:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:56:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:56:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:56:55 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:57:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:57:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:57:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:57:29 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:57:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:57:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:57:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:57:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:57:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:57:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:57:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/25 14:57:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%合肥市%" LIMIT 15
+2017/10/25 14:57:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:57:53 [profile] [sql] SELECT * FROM `Areas` `t` WHERE pId="12"
+2017/10/25 14:59:38 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 14:59:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:59:38 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 14:59:38 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 14:59:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 14:59:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:59:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:59:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:59:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:59:43 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` = "1"
+2017/10/25 14:59:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%北京%" LIMIT 15
+2017/10/25 14:59:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:59:45 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` = "12"
+2017/10/25 14:59:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) WHERE `Drivers`.frequenceCity LIKE "%安徽省%" LIMIT 15
+2017/10/25 14:59:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 14:59:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:59:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 14:59:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 14:59:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:14:56 [profile] [sql] SELECT `t`.`tId`, `t`.`type`, `t`.`length`, `t`.`licenseNumber`, `t`.`capacity`, `t`.`capability`, `t`.`permission`, `t`.`state`, `t`.`dId`, `t`.`img1`, `t`.`img2`, `t`.`createTime`, `t`.`updateTime` FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:15:36 [profile] [sql] SELECT `t`.`tId`, `t`.`type`, `t`.`length`, `t`.`licenseNumber`, `t`.`capacity`, `t`.`capability`, `t`.`permission`, `t`.`state`, `t`.`dId`, `t`.`img1`, `t`.`img2`, `t`.`createTime`, `t`.`updateTime` FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:15:50 [profile] [sql] SELECT * FROM `Vehicle` `t` WHERE tId="1"
+2017/10/25 15:16:33 [profile] [sql] SELECT `t`.`tId`, `t`.`type`, `t`.`length`, `t`.`licenseNumber`, `t`.`capacity`, `t`.`capability`, `t`.`permission`, `t`.`state`, `t`.`dId`, `t`.`img1`, `t`.`img2`, `t`.`createTime`, `t`.`updateTime` FROM `Vehicle` `t` LEFT fJOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:17:35 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:28:24 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:29:14 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:29:14 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:25 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id)
+2017/10/25 15:31:25 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:26 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id)
+2017/10/25 15:31:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:31:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:31:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:31:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:31:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:31:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:31:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:31:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:31:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:31:39 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:34:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:34:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:34:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:34:29 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:34:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:34:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:34:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:34:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:34:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:34:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:34:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:34:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:34:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:36:50 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:36:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:36:50 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:36:50 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:36:50 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:36:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:36:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:36:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:36:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:36:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:36:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:36:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:36:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:37:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:37:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:37:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:37:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:37:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:37:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:37:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:37:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:37:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:37:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:37:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:37:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:37:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:38:48 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:38:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:38:48 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:38:48 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:38:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:38:49 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:38:49 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:38:49 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:38:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:38:49 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:38:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:38:49 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:38:49 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:39:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:39:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:39:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:39:18 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:39:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:39:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:39:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:39:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:39:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:39:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:39:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:39:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:39:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:08 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:08 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:08 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:37 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:37 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:37 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:40:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:40:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:46 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:46 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:46 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:53 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:40:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:40:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:40:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:40:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:41:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:41:16 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:41:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:41:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:41:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:41:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:41:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:41:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:41:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:42:50 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:42:50 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:42:50 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:42:50 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:42:50 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:42:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:42:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:42:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:42:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:42:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:42:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:42:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:15 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:46:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:15 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:46:15 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:46:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:46:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:46:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:46:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:46:53 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:46:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:46:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:46:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:46:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:46:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:47:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:47:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:47:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:47:54 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:47:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:47:56 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:47:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:47:56 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:47:56 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:47:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:47:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:47:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:47:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:47:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:47:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:47:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:47:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:47:58 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:48:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:48:32 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:48:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:48:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:48:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:48:33 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:48:33 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:48:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:48:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:48:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:48:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:48:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:48:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:48:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:48:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:48:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:49:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:49:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:49:18 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:49:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:49:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:49:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:49:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:49:54 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:49:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:49:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:49:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:49:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:49:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:54:33 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:54:33 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:54:33 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:54:33 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:54:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:54:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:54:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:54:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:54:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:54:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:54:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:54:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:54:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:55:46 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:55:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:55:46 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:55:46 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:55:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:55:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:55:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:55:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:55:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:55:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:55:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:55:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:55:48 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:57:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:57:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:57:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:57:29 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:57:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:57:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:57:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:57:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:57:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:57:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:57:31 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:57:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:04 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:04 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:05 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 15:58:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:06 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:06 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:58:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:07 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:07 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:07 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:58:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:08 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:08 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 15:58:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:08 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:09 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:58:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:09 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:09 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 15:58:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:09 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:10 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:58:10 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:58:29 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:58:29 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:58:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:58:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:58:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:31 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:58:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:32 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 15:58:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:33 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:34 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:34 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:35 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:35 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 15:58:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 15:58:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 15:58:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 15:58:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 15:58:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 15:58:38 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 15:58:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:39 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 15:58:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 15:58:40 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 15:58:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:00:05 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:05 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:00:05 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:00:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:00:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:00:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:06 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:00:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:07 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:00:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:07 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:00:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:17 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:00:17 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:17 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:00:17 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:00:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:00:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:00:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:18 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:00:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:19 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:00:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:00:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:00:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:00:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:38 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:00:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:00:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:00:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:00:42 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:00:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:00:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:00:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:43 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:00:43 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:00:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:44 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:00:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:44 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:00:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:00:44 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:00:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:12 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:02:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:12 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:02:12 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:02:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:02:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:02:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:15 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:02:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:16 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:02:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:16 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:02:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:17 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:02:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:37 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id)
+2017/10/25 16:02:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:45 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:02:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:45 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:02:45 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:02:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:02:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:02:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:47 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:02:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:48 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:02:48 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:50 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id)
+2017/10/25 16:02:50 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:02:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:52 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:02:52 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:02:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:02:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:02:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:02:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:02:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:03:11 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:03:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:03:11 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:03:11 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:03:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:03:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:03:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:03:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:03:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:03:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:03:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:03:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:03:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:03:12 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:03:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:05:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:05:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:05:06 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:05:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:05:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:05:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:07 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:08 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:05:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:11 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:05:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:11 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:05:11 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:05:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:05:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:05:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:12 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:12 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:05:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:05:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:05:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:05:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:05:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:05:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:05:55 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:05:55 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:07:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:07:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:07:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:07:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:07:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:07:47 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:07:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:52 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:07:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:54 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:07:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:54 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:07:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:07:56 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:07:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:18:15 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:18:15 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:18:15 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:18:15 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:18:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:18:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:18:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:18:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:18:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:18:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:18:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:18:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:18:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:18:20 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:18:20 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:24:46 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:24:46 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:24:46 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:24:46 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:24:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:24:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:24:47 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:24:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:24:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:24:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:24:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:24:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:24:47 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:24:57 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:24:57 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:05 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:25:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:25:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:25:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:25:18 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:25:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:25:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:25:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:25:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:25:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:25:22 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:25:22 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:25:24 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:25:24 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:27:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:27:53 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:27:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:27:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:27:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:27:54 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:27:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:27:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:27:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:27:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:27:56 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:27:56 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:27:57 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:27:57 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:28:30 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:28:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:28:30 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:28:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:28:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:28:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:28:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:28:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:32 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:28:33 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:28:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:33 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:28:33 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:28:34 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:28:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:36:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:36:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:36:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:36:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:36:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:36:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:36:36 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:36:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:36:36 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:36:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:36:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:36:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:36:37 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:36:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:36:45 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:36:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:36:45 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:36:45 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:36:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:39:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:39:08 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:39:08 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:39:11 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:39:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:39:11 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:39:11 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:39:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:39:13 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:39:13 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:39:13 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:39:13 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:39:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:39:21 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:39:21 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:39:21 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:39:21 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:39:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:40:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:40:54 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:40:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:40:54 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:40:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:41:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:41:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:41:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:41:16 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:41:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:41:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:41:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:41:32 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:41:32 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:41:32 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:42:16 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:42:16 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:42:16 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:42:16 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:42:16 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:42:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:42:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:42:31 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:42:31 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:42:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:42:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:42:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:42:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:42:40 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:42:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:43:14 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:43:14 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:43:14 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:43:14 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:43:14 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:51 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:44:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:44:52 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:44:52 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:44:52 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:44:52 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:49:23 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:49:23 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:49:23 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:49:23 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:49:23 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:50:00 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:50:00 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:50:00 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:50:00 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:50:00 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:51:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:51:18 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:51:18 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:51:18 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:51:18 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:51:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:51:19 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:51:19 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:51:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:51:44 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:51:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:51:45 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:51:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:51:45 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:51:45 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:51:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:53:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:53:40 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:53:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:53:40 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:53:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:53:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:53:41 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:53:41 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:53:41 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:53:41 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:54:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:54:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:54:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:54:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:54:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:54:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:54:02 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:54:02 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:54:03 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:54:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:55:09 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:55:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:55:09 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:55:09 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:55:09 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:55:11 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:55:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:55:11 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:55:11 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:55:11 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:57:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:57:28 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:57:28 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:57:28 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:57:28 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:57:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:57:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:57:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:57:42 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:57:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:57:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:57:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:57:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:57:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:57:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:57:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:57:45 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:57:45 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:57:46 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:57:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:37 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:58:37 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:58:37 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:58:37 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:58:37 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:38 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 16:58:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:58:38 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 16:58:38 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 16:58:38 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LIMIT 15
+2017/10/25 16:58:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/10/25 16:58:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:58:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:58:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:42 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 16:58:43 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="2"
+2017/10/25 16:58:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:46 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="4"
+2017/10/25 16:58:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 16:58:47 [profile] [sql] SELECT t.*,Drivers.*,User.userName FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE tId="1"
+2017/10/25 16:58:47 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/10/25 17:08:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/10/25 17:08:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/10/25 17:08:31 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/10/25 17:08:31 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/10/25 17:08:31 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"

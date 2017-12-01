@@ -1,0 +1,30 @@
+2017/11/29 16:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('list')
+#1 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): CController->run('list')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('list')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('order/list')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\api\index.php(47): CApplication->run()
+#6 {main}
+REQUEST_URI=/order/list
+---
+2017/11/29 16:30:31 [error] [php] include(OrderBaseForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\api\form\driver\v1\ApiOrderForm.php(2): spl_autoload_call()
+#1 D:\zyweb\Yii1\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php(15): spl_autoload_call()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrderController->actionList()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrderController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrderController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\api\components\Controller.php(68): OrderController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrderController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/order/list
+in D:\zyweb\pcb_logistics\applications\api\form\driver\v1\ApiOrderForm.php (2)
+in D:\zyweb\pcb_logistics\applications\api\controllers\driver\v1\OrderController.php (15)
+in D:\zyweb\pcb_logistics\applications\api\components\Controller.php (68)

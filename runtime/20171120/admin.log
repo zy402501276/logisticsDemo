@@ -1,0 +1,433 @@
+2017/11/20 09:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/20 09:33:30 [error] [php] Undefined index: isFirst (D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php:72)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/Declare
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (72)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/20 09:33:30 [error] [php] Undefined index: isFirst (D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php:72)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/Declare
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (72)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/20 09:33:30 [error] [php] Undefined index: isFirst (D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php:72)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/Declare
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (72)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/20 09:33:30 [error] [php] Undefined index: isFirst (D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php:72)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/Declare
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (72)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/20 09:40:54 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6".
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\User.php (60)
+2017/11/20 09:40:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT * FROM `...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\User.php(60): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php(14): User::checkFirst()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(281): AddressController->init()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('address/list')
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/address/list
+HTTP_REFERER=http://www.wllogistics.com/manage/Declare
+---
+2017/11/20 09:40:54 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6".
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\User.php (60)
+2017/11/20 09:40:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT * FROM `...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\User.php(60): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php(14): User::checkFirst()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(281): AddressController->init()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('address/list')
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/address/list
+HTTP_REFERER=http://www.wllogistics.com/manage/Declare
+---
+2017/11/20 09:40:55 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6".
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\User.php (60)
+2017/11/20 09:40:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT * FROM `...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\User.php(60): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php(14): User::checkFirst()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(281): AddressController->init()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('address/list')
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/address/list
+HTTP_REFERER=http://www.wllogistics.com/manage/Declare
+---
+2017/11/20 09:40:55 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6".
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\User.php (60)
+2017/11/20 09:40:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT * FROM `...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\User.php(60): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\AddressController.php(14): User::checkFirst()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(281): AddressController->init()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('address/list')
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#9 {main}
+REQUEST_URI=/address/list
+HTTP_REFERER=http://www.wllogistics.com/manage/Declare
+---
+2017/11/20 09:48:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage/declare
+---
+2017/11/20 10:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/20 14:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/20 14:57:30 [error] [php] Missing argument 1 for CController::__construct(), called in D:\zyweb\pcb_logistics\applications\home\service\AppService.php on line 69 and defined (D:\zyweb\Yii1\web\CController.php:110)
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(76): UserService->getUserInfo()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionDeclare()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#5 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/declare/isFirst/1
+in D:\zyweb\pcb_logistics\applications\home\service\AppService.php (69)
+in D:\zyweb\pcb_logistics\applications\home\service\UserService.php (61)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (76)
+2017/11/20 14:58:14 [error] [php] Missing argument 1 for CController::__construct(), called in D:\zyweb\pcb_logistics\applications\home\service\AppService.php on line 69 and defined (D:\zyweb\Yii1\web\CController.php:110)
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(76): UserService->getUserInfo()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionDeclare()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#5 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/declare/isFirst/1
+in D:\zyweb\pcb_logistics\applications\home\service\AppService.php (69)
+in D:\zyweb\pcb_logistics\applications\home\service\UserService.php (61)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (76)
+2017/11/20 14:58:34 [error] [php] Missing argument 1 for CController::__construct(), called in D:\zyweb\pcb_logistics\applications\home\service\AppService.php on line 69 and defined (D:\zyweb\Yii1\web\CController.php:110)
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php(76): UserService->getUserInfo()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): ManageController->actionDeclare()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): ManageController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): ManageController->runActionWithFilters()
+#5 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): ManageController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): ManageController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/manage/declare/isFirst/1
+in D:\zyweb\pcb_logistics\applications\home\service\AppService.php (69)
+in D:\zyweb\pcb_logistics\applications\home\service\UserService.php (61)
+in D:\zyweb\pcb_logistics\applications\home\controllers\ManageController.php (76)
+2017/11/20 15:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/20 15:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/20 15:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/20 16:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/20 16:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/address/list
+---
+2017/11/20 17:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ids".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('ids')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('ids')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('ids')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/ids')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/ids
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:07:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ids".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('ids')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('ids')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('ids')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/ids')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/ids
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id2".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id2')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id2')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id2')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id2')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id2
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:07:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id1,2".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id1,2')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id1,2')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id1,2')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id1,2')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id1,2
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id1,2".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id1,2')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id1,2')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id1,2')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id1,2')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id1,2
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id1,2,".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id1,2,')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id1,2,')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id1,2,')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id1,2,')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id1,2,
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id1,2,".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id1,2,')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id1,2,')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id1,2,')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id1,2,')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id1,2,
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id/1,2,')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id/1,2,
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('id')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('id')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('id')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/id')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/id/
+HTTP_REFERER=http://www.wllogistics.com/user/infomation
+---
+2017/11/20 17:16:37 [error] [php] Undefined variable: infomation (D:\zyweb\pcb_logistics\applications\home\views\user\newsDetail.php:6)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): UserController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\UserController.php(67): UserController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionDelAll()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/user/delAll/id/1+2+
+in D:\zyweb\pcb_logistics\applications\home\views\user\newsDetail.php (6)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\UserController.php (67)
+2017/11/20 17:16:47 [error] [php] Undefined variable: infomation (D:\zyweb\pcb_logistics\applications\home\views\user\newsDetail.php:6)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): UserController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\UserController.php(68): UserController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionDelAll()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/user/delAll/id/1+2+
+in D:\zyweb\pcb_logistics\applications\home\views\user\newsDetail.php (6)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\UserController.php (68)
+2017/11/20 17:19:24 [error] [php] Invalid argument supplied for foreach() (D:\zyweb\Yii1\db\CDbCommand.php:1323)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionDelAll()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#4 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): UserController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/user/delAll/id/2+
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\applications\home\controllers\UserController.php (67)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/20 17:19:51 [error] [php] Invalid argument supplied for foreach() (D:\zyweb\Yii1\db\CDbCommand.php:1323)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionDelAll()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#4 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): UserController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/user/delAll/id/2+
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\applications\home\controllers\UserController.php (67)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)

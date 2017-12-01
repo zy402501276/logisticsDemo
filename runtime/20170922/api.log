@@ -1,0 +1,108 @@
+2017/09/22 09:43:51 [error] [php] Undefined index: deviceName (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php:36)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): IndexController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/login
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (36)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (159)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (64)
+2017/09/22 09:44:09 [error] [php] Undefined index: deviceType (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php:49)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): IndexController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/login
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (49)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (159)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (64)
+2017/09/22 09:54:00 [error] [php] Undefined index: appKey (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php:71)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): IndexController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/login
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (71)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (159)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (64)
+2017/09/22 09:57:35 [error] [php] Undefined index: username (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php:254)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): IndexController->actionLogin()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): IndexController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/login
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (254)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (71)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (159)
+2017/09/22 09:57:56 [error] [php] Use of undefined constant JPUSH_APPKEY - assumed 'JPUSH_APPKEY' (D:\zyweb\pcb_wl\library\vendor\push\JPush\JPush.php:39)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php(159): LoginAndRegisterService->loginLogic()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): IndexController->actionLogin()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): IndexController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/login
+in D:\zyweb\pcb_wl\library\vendor\push\JPush\JPush.php (39)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (256)
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php (71)
+2017/09/22 10:03:48 [error] [php] Undefined index: X-Rate-Limit-Limit (D:\zyweb\pcb_wl\library\vendor\push\JPush\core\JPushException.php:51)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php(258): DevicePayload->updateDevice()
+#1 D:\zyweb\pcb_wl\applications\api\service\buyer\v1\LoginAndRegisterService.php(71): LoginAndRegisterService->RegisterAppKey()
+#2 D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php(159): LoginAndRegisterService->loginLogic()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): IndexController->actionLogin()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): IndexController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/index/login
+in D:\zyweb\pcb_wl\library\vendor\push\JPush\core\JPushException.php (51)
+in D:\zyweb\pcb_wl\library\vendor\push\JPush\core\DevicePayload.php (253)
+in D:\zyweb\pcb_wl\library\vendor\push\JPush\core\DevicePayload.php (87)
+2017/09/22 16:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/22 16:46:25 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/22 16:46:25 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/22 16:46:26 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/22 16:46:26 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)

@@ -1,0 +1,190 @@
+2017/09/28 10:27:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/28 10:27:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/28 10:27:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/28 10:27:39 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/28 10:27:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/28 10:27:39 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/28 14:47:29 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 14:47:29 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 14:47:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 14:47:42 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 14:47:42 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 14:47:42 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092814433204278717'
+    'createTime' => '2017-09-28 14:47:42'
+    'updateTime' => '2017-09-28 14:47:42'
+)
+2017/09/28 14:47:42 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/28 14:48:25 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 14:48:25 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 14:48:25 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 14:48:25 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092814192204178771'
+    'createTime' => '2017-09-28 14:48:25'
+    'updateTime' => '2017-09-28 14:48:25'
+)
+2017/09/28 14:48:25 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/28 15:00:16 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 15:00:16 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 15:00:16 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 15:00:16 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092815442204581634'
+    'createTime' => '2017-09-28 15:00:16'
+    'updateTime' => '2017-09-28 15:00:16'
+)
+2017/09/28 15:00:16 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/28 15:00:43 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 15:00:43 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 15:00:43 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 15:00:43 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092815366204853027'
+    'createTime' => '2017-09-28 15:00:43'
+    'updateTime' => '2017-09-28 15:00:43'
+)
+2017/09/28 15:00:43 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/28 15:06:38 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 15:06:38 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 15:06:38 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 15:06:38 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092815454204606719'
+    'createTime' => '2017-09-28 15:06:38'
+    'updateTime' => '2017-09-28 15:06:38'
+)
+2017/09/28 15:06:38 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/28 15:07:20 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 15:07:20 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 15:07:20 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 15:07:20 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092815834204493591'
+    'createTime' => '2017-09-28 15:07:20'
+    'updateTime' => '2017-09-28 15:07:20'
+)
+2017/09/28 15:07:20 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"
+2017/09/28 15:20:17 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/28 15:20:17 [profile] [sql] SELECT  V.dId  FROM `Cost` `t`  LEFT JOIN  Vehicle AS  V ON (t.driverId = V.tId)  WHERE t.id="1"
+2017/09/28 15:20:17 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/28 15:20:17 [profile] [sql] INSERT INTO `Orders` (`costId`, `paymentState`, `orderState`, `transportDetail`, `driverId`, `userId`, `desc`, `exception`, `deliverId`, `receiverId`, `inventoryId`, `insuranceId`, `insuracePrice`, `orderNumber`, `createTime`, `updateTime`) VALUES (:costId, :paymentState, :orderState, :transportDetail, :driverId, :userId, :desc, :exception, :deliverId, :receiverId, :inventoryId, :insuranceId, :insuracePrice, :orderNumber, :createTime, :updateTime)
+array
+(
+    'costId' => '1'
+    'paymentState' => 1
+    'orderState' => 1
+    'transportDetail' => 3
+    'driverId' => '2'
+    'userId' => '2'
+    'desc' => '测试'
+    'exception' => null
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'inventoryId' => '1,2,3'
+    'insuranceId' => '2'
+    'insuracePrice' => null
+    'orderNumber' => '17092815701204209442'
+    'createTime' => '2017-09-28 15:20:17'
+    'updateTime' => '2017-09-28 15:20:17'
+)
+2017/09/28 15:20:17 [profile] [sql] SELECT * FROM `Cost` WHERE `id` = "1"

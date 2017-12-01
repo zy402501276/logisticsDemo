@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload UI Plugin CSS 9.0.0
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2010, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+.fileupload-buttonbar{ text-align: left;}
+
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle {
+  margin-bottom: 5px;
+}
+.progress-animated .progress-bar,
+.progress-animated .bar {
+  background: url("../img/progressbar.gif") !important;
+  filter: none;
+}
+.fileupload-process {
+  float: right;
+  display: none;
+}
+.fileupload-processing .fileupload-process,
+.files .processing .preview {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url("../img/loading.gif") center no-repeat;
+  background-size: contain;
+}
+.files audio,
+.files video {
+  max-width: 300px;
+}
+
+@media (max-width: 778px) {
+  .fileupload-buttonbar .toggle,
+  .files .toggle,
+  .files .btn span {
+    display: none;
+  }
+  .files .name {
+    width: 80px;
+    word-wrap: break-word;
+  }
+  .files audio,
+  .files video {
+    max-width: 80px;
+  }
+  .files img,
+  .files canvas {
+    max-width: 100%;
+  }
+}
+
+.files{ padding: 0px 5px; clear: both;}
+
+.fileupload-buttonbar{
+	padding-top: 10px;
+}
+
+.fileupload-buttons{
+	padding: 0px 10px;
+	float: left;
+}
+
+.fileupload-progress{
+	padding: 0px 10px;
+	float: left;
+	line-height: 12px;
+}
+
+.galleryList{
+	float: left;
+	width: 110px;
+	height: 150px;
+	text-align: center;
+	position: relative;
+}
+
+.galleryList .preview{
+	width: 96px;
+	height: 96px;
+	line-height: 96px;
+	border: 1px solid #d3d3d3;
+	padding: 1px;
+	margin: 0 auto 5px;
+	background: #FFF;
+	overflow: hidden;
+	font-size: 0px;
+	position: relative;
+}
+
+.galleryList .preview input.thumb{
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+.galleryList .preview *{
+	vertical-align: middle;
+}
+
+.template-download .preview img{
+	width: 96px;
+	height: 96px;
+}
+
+.galleryList .progress{
+	width: 98px;
+	height: 10px;
+	box-shadow: none;
+	border-radius: none;
+	background-color: transparent;
+	position: absolute;
+	top: 89px;
+	left: 6px;
+}
+
+.galleryList .error{
+	width: 98px;
+	height: 98px;
+	border: 1px solid #d3d3d3;
+	margin: 0 auto 5px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.galleryList .btn{
+	padding: 2px 3px;
+	font-size: 12px;
+}
+
+.progress{
+	width: 200px;
+	margin-right: 20px;
+	margin: 0px;
+}
+
+.progress-extended{
+	font-family: '微软雅黑';
+}
+
+.notice{
+	padding: 10px;
+}

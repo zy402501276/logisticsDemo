@@ -1,0 +1,30 @@
+2017/09/05 14:53:34 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/05 14:53:40 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:41 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:41 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:53:54 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:54:14 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 14:54:14 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/05 14:54:36 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 15:24:03 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 15:24:03 [profile] [sql] SELECT * FROM `Address` WHERE `aId` = "3"
+2017/09/05 15:24:03 [profile] [sql] UPDATE `Address` SET `state`=:state, `updateTime`=:updateTime WHERE `aId` IN(3)
+array
+(
+    'state' => 0
+    'updateTime' => '2017-09-05 15:24:03'
+)
+2017/09/05 15:29:57 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/05 15:29:57 [profile] [sql] SELECT * FROM `Address` WHERE `aId` = "3"
+2017/09/05 15:29:57 [profile] [sql] UPDATE `Address` SET `state`=:state, `updateTime`=:updateTime WHERE `aId` IN(3)
+array
+(
+    'state' => 0
+    'updateTime' => '2017-09-05 15:29:57'
+)

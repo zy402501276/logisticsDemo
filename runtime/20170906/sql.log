@@ -1,0 +1,110 @@
+2017/09/06 14:32:28 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:32:28 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:32:28 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:32:28 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:34:02 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:34:02 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:34:02 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:34:02 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:34:42 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:34:42 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:34:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:34:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:35:20 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:35:20 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:35:20 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:35:20 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:35:34 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:35:34 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:35:34 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:35:34 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:35:45 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:35:45 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:35:45 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:35:45 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:36:03 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:36:03 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:36:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:36:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:36:13 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:36:13 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:36:13 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:36:13 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:37:11 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:37:11 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:37:11 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:37:11 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:40:44 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:40:44 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:40:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:40:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:40:51 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:40:51 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:40:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:40:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:42:28 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:42:28 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:42:28 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:42:28 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 14:44:58 [profile] [sql] SELECT * FROM `User` `t` WHERE utoken="867d47f2eddcd528033af143e21fad87"
+2017/09/06 14:44:58 [profile] [sql] SELECT * FROM `Address` `t` WHERE (userId="2") AND (state="1")
+2017/09/06 14:44:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,187,2232)
+2017/09/06 14:44:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(13,209,2397)
+2017/09/06 16:54:21 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/06 16:54:47 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/06 16:54:47 [profile] [sql] INSERT INTO `ItemInventory` (`amount`, `sumVolume`, `format`, `orderId`, `name`, `type`, `desc`, `createTime`, `updateTime`) VALUES (:amount, :sumVolume, :format, :orderId, :name, :type, :desc, :createTime, :updateTime)
+array
+(
+    'amount' => '12'
+    'sumVolume' => '20'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-06 16:54:47'
+)
+2017/09/06 16:55:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/06 16:55:18 [profile] [sql] INSERT INTO `ItemInventory` (`amount`, `sumVolume`, `format`, `orderId`, `name`, `type`, `desc`, `createTime`, `updateTime`) VALUES (:amount, :sumVolume, :format, :orderId, :name, :type, :desc, :createTime, :updateTime)
+array
+(
+    'amount' => '12'
+    'sumVolume' => '20'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:55:18'
+    'updateTime' => '2017-09-06 16:55:18'
+)
+2017/09/06 16:56:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/06 16:56:31 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/06 16:56:31 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '12'
+    'sumVolume' => '20'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-06 16:56:31'
+)
+2017/09/06 16:56:50 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/06 16:56:50 [profile] [sql] INSERT INTO `ItemInventory` (`amount`, `sumVolume`, `format`, `orderId`, `name`, `type`, `desc`, `createTime`, `updateTime`) VALUES (:amount, :sumVolume, :format, :orderId, :name, :type, :desc, :createTime, :updateTime)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '20'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:56:50'
+    'updateTime' => '2017-09-06 16:56:50'
+)

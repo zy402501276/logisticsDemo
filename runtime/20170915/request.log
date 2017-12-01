@@ -1,0 +1,223 @@
+2017/09/15 13:53:57 [info] [request] 
+url: /InsuranceType
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '保险1'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '保险2'
+        )
+        2 => array
+        (
+            'id' => '3'
+            'name' => '保险3'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (82)
+2017/09/15 13:54:36 [info] [request] 
+url: /InsuranceType
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '保险1'
+            'price' => '40'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '保险2'
+            'price' => '50'
+        )
+        2 => array
+        (
+            'id' => '3'
+            'name' => '保险3'
+            'price' => '60'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (82)
+2017/09/15 13:56:51 [info] [request] 
+url: /InsuranceType
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '保险1'
+            'price' => '40'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '保险2'
+            'price' => '50'
+        )
+        2 => array
+        (
+            'id' => '3'
+            'name' => '保险3'
+            'price' => '60'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (82)
+2017/09/15 16:08:08 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'cId' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'demandId' => '8'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '深圳市'
+            'unloadMsgArea' => '南山区'
+            'descript' => null
+            'createTime' => '2017-09-01 16:08:21'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '20'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '35'
+                )
+            )
+        )
+        1 => array
+        (
+            'demandId' => '9'
+            'loadMsg' => '合肥市'
+            'loadMsgArea' => '包河区'
+            'unloadMsg' => '深圳市'
+            'unloadMsgArea' => '南山区'
+            'descript' => '测试'
+            'createTime' => '2017-09-11 10:50:08'
+            'price' => array()
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/15 16:09:07 [info] [request] 
+url: /DetailInfo
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'cId' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'loadMsg' => '深圳市'
+        'loadMsgArea' => '南山区'
+        'unloadMsg' => '深圳市'
+        'unloadMsgArea' => '南山区'
+        'descript' => null
+        'createTime' => '2017-09-01 16:08:21'
+        'vehicleType' => '1'
+        'vehicleLength' => '2'
+        'capacity' => '2吨'
+        'permission' => '1'
+        'startTime' => '2017-08-09 15:36:12'
+        'startArea' => '开门网最牛'
+        'capability' => '1吨'
+        'deliveryTime' => '2017-08-09 15:36:12'
+        'vehicleCost' => '20'
+        'insurance' => '40'
+        'otherCost' => '15'
+        'sumCost' => 75
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (167)
+2017/09/15 16:09:28 [info] [request] 
+url: /DetailInfo
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'cId' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'loadMsg' => '深圳市'
+        'loadMsgArea' => '南山区'
+        'unloadMsg' => '深圳市'
+        'unloadMsgArea' => '南山区'
+        'descript' => null
+        'createTime' => '2017-09-01 16:08:21'
+        'vehicleType' => '1'
+        'vehicleLength' => '2'
+        'capacity' => '2吨'
+        'permission' => '1'
+        'startTime' => '2017-08-09 15:36:12'
+        'startArea' => '开门网最牛'
+        'capability' => '1吨'
+        'deliveryTime' => '2017-08-09 15:36:12'
+        'vehicleCost' => '20'
+        'insurance' => '40'
+        'otherCost' => '15'
+        'sumCost' => 75
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (167)

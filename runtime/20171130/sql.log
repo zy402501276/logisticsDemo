@@ -1,0 +1,1235 @@
+2017/11/30 09:57:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  LEFT JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 09:57:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:01:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 10:01:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:02:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 10:02:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:03:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  INNER JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 10:03:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:03:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  RIGHT JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 10:03:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:03:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  LEFT JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 10:03:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:05:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  LEFT JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 10:05:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:05:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  LEFT JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 10:05:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:05:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t`  LEFT JOIN `OrderGoods` AS `OG` ON(OG.orderId = t.id) LIMIT 15
+2017/11/30 10:05:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 10:11:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 10:11:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 11:24:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 11:24:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 11:24:23 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 11:24:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 11:24:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 11:24:42 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 11:25:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 11:25:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 11:25:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="5") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:39:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:39:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:39:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:39:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:39:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:39:15 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="5") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:40:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:40:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:40:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="5") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:40:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:40:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:40:24 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="5") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:41:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:41:23 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:23 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:23 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:23 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:23 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15 OFFSET 15
+2017/11/30 13:41:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:41:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:41:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:41:59 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:59 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:59 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:59 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:41:59 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:42:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:42:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:47:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:47:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:47:24 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:47:24 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 13:52:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:52:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:01 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 13:52:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:52:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:52:40 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 13:53:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:53:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:53:46 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 13:56:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 15
+2017/11/30 13:56:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:56:02 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 13:57:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 1
+2017/11/30 13:57:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 13:57:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 13:57:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 14:03:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 10
+2017/11/30 14:03:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 14:03:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `Dynamic` `t` ORDER BY id desc
+2017/11/30 14:50:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (userId="6") AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59") LIMIT 15
+2017/11/30 14:50:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:00 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 14:50:00 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 14:50:00 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="6") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="6") AND (isFrequence="1")) AND (state="1") LIMIT 4
+2017/11/30 14:50:00 [profile] [sql] SELECT * FROM `Slides` `t`
+2017/11/30 14:50:01 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:01 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:03 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE userId="6" LIMIT 15
+2017/11/30 14:50:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:03 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="1")
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="3")
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="list")
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:04 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:50:05 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:50:05 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:05 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:50:05 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:05 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:05 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:05 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:50:08 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:50:08 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:08 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:50:08 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:50:08 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:50:08 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:08 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:50:08 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:50:08 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:50:08 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:08 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:50:08 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:08 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:11 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Address` `t` WHERE (state="1") AND (userId="6") LIMIT 15
+2017/11/30 14:50:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:11 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (addressId="13") AND (state="1")
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (addressId="14") AND (state="1")
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="address") AND (pId="0")
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="address") AND (action="list")
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:12 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:13 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:13 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:13 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:13 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:14 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:15 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:16 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:17 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE userId="6" LIMIT 15
+2017/11/30 14:50:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="1")
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="3")
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="list")
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Goods` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:26 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "24"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "24"
+2017/11/30 14:50:26 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "27"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "27"
+2017/11/30 14:50:26 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "30"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "30"
+2017/11/30 14:50:26 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "31"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "31"
+2017/11/30 14:50:26 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "32"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "32"
+2017/11/30 14:50:26 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "33"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "33"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="goods") AND (pId="0")
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="goods") AND (action="list")
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:26 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:50:27 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:50:27 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:50:27 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:50:27 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:27 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:27 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:50:27 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Address` `t` WHERE (state="1") AND (userId="6") LIMIT 15
+2017/11/30 14:50:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (addressId="13") AND (state="1")
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (addressId="14") AND (state="1")
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="address") AND (pId="0")
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="address") AND (action="list")
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:35 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:50:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:50:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:50:36 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:50:36 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:50:36 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:50:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:51:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:51:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:51:24 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:51:24 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:51:24 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:51:24 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:51:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Router` `t` WHERE (userId="6") AND (state="1") LIMIT 15
+2017/11/30 14:51:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:51:29 [profile] [sql] SELECT id,name FROM `VehicleType` `t` WHERE state="1"
+2017/11/30 14:51:29 [profile] [sql] SELECT id,name FROM `VehicleLength` `t` WHERE state="1"
+2017/11/30 14:51:29 [profile] [sql] SELECT id,name FROM `VehicleWeight` `t` WHERE state="1"
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (pId="0")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="router") AND (action="routerlist")
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/30 14:51:29 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:51:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE userId="6" LIMIT 15
+2017/11/30 14:51:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="1")
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="3")
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="list")
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:51:31 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:51:33 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:51:33 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:51:33 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:51:33 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:51:33 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "9"
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 14:51:33 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 14:51:33 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="14")
+2017/11/30 14:51:33 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="13")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:51:33 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 14:51:37 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:51:37 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 14:51:37 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 14:51:37 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 14:51:37 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "32"
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "14"
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "13"
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 14:51:50 [profile] [sql] INSERT INTO `Orders` (`routerId`, `userId`, `startTime`, `endTime`, `deliveryTime`, `orderNumber`, `tranCost`, `routerCost`, `serviceCost`, `sumCost`, `exceptionCost`, `startRouter`, `endRouter`, `sumWeight`, `sumVolumn`, `state`, `createTime`, `updateTime`, `orderState`, `arrivaled`, `receiver`, `isRemind`) VALUES (:routerId, :userId, :startTime, :endTime, :deliveryTime, :orderNumber, :tranCost, :routerCost, :serviceCost, :sumCost, :exceptionCost, :startRouter, :endRouter, :sumWeight, :sumVolumn, :state, :createTime, :updateTime, :orderState, :arrivaled, :receiver, :isRemind)
+array
+(
+    'routerId' => '9'
+    'userId' => '6'
+    'startTime' => '2017-11-02 02:00:00'
+    'endTime' => '2017-11-02 02:30:00'
+    'deliveryTime' => '2017-11-08 02:30:00'
+    'orderNumber' => '17113014133209261688'
+    'tranCost' => null
+    'routerCost' => null
+    'serviceCost' => null
+    'sumCost' => null
+    'exceptionCost' => null
+    'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+    'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+    'sumWeight' => null
+    'sumVolumn' => null
+    'state' => 1
+    'createTime' => '2017-11-30 14:51:50'
+    'updateTime' => '2017-11-30 14:51:50'
+    'orderState' => 1
+    'arrivaled' => '养猪场 '
+    'receiver' => '小王'
+    'isRemind' => 0
+)
+2017/11/30 14:51:50 [profile] [sql] INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime)
+array
+(
+    'orderId' => '20'
+    'goodsId' => '32'
+    'goodsName' => '模板2'
+    'goodsType' => '1'
+    'goodsWeight' => '222'
+    'goodsLength' => '2'
+    'goodsWidth' => '2'
+    'goodsHeight' => '2'
+    'highestC' => null
+    'lowestC' => null
+    'pallet' => '1'
+    'palletSize' => '2*3'
+    'desc' => '轻拿请饭'
+    'modelName' => null
+    'isModel' => 0
+    'isUsing' => 0
+    'isFrequence' => 0
+    'createTime' => '2017-11-30 14:51:50'
+    'updateTime' => '2017-11-30 14:51:50'
+)
+2017/11/30 14:51:50 [profile] [sql] UPDATE `Orders` SET `sumWeight`=:sumWeight, `sumVolumn`=:sumVolumn WHERE `id` IN(20)
+array
+(
+    'sumWeight' => 222
+    'sumVolumn' => 8
+)
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `OrderReceiver` `t` WHERE orderId="20"
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 14:51:50 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '20'
+    'receiverId' => '45'
+    'receiver' => '小王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '养猪场 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 14:51:50'
+    'updateTime' => '2017-11-30 14:51:50'
+)
+2017/11/30 14:51:50 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "12"
+2017/11/30 14:51:50 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '20'
+    'receiverId' => '12'
+    'receiver' => '老王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '开门网 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 14:51:50'
+    'updateTime' => '2017-11-30 14:51:50'
+)
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "14"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "13"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 14:52:51 [profile] [sql] INSERT INTO `Orders` (`routerId`, `userId`, `startTime`, `endTime`, `deliveryTime`, `orderNumber`, `tranCost`, `routerCost`, `serviceCost`, `sumCost`, `exceptionCost`, `startRouter`, `endRouter`, `sumWeight`, `sumVolumn`, `state`, `createTime`, `updateTime`, `orderState`, `arrivaled`, `receiver`, `isRemind`) VALUES (:routerId, :userId, :startTime, :endTime, :deliveryTime, :orderNumber, :tranCost, :routerCost, :serviceCost, :sumCost, :exceptionCost, :startRouter, :endRouter, :sumWeight, :sumVolumn, :state, :createTime, :updateTime, :orderState, :arrivaled, :receiver, :isRemind)
+array
+(
+    'routerId' => '9'
+    'userId' => '6'
+    'startTime' => '2017-11-02 02:00:00'
+    'endTime' => '2017-11-02 02:30:00'
+    'deliveryTime' => '2017-11-08 02:30:00'
+    'orderNumber' => '17113014089209291381'
+    'tranCost' => null
+    'routerCost' => null
+    'serviceCost' => null
+    'sumCost' => null
+    'exceptionCost' => null
+    'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+    'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+    'sumWeight' => null
+    'sumVolumn' => null
+    'state' => 1
+    'createTime' => '2017-11-30 14:52:51'
+    'updateTime' => '2017-11-30 14:52:51'
+    'orderState' => 1
+    'arrivaled' => '养猪场 '
+    'receiver' => '小王'
+    'isRemind' => 0
+)
+2017/11/30 14:52:51 [profile] [sql] INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime)
+array
+(
+    'orderId' => '21'
+    'goodsId' => '32'
+    'goodsName' => '模板2'
+    'goodsType' => '1'
+    'goodsWeight' => '222'
+    'goodsLength' => '2'
+    'goodsWidth' => '2'
+    'goodsHeight' => '2'
+    'highestC' => null
+    'lowestC' => null
+    'pallet' => '1'
+    'palletSize' => '2*3'
+    'desc' => '轻拿请饭'
+    'modelName' => null
+    'isModel' => 0
+    'isUsing' => 0
+    'isFrequence' => 0
+    'createTime' => '2017-11-30 14:52:51'
+    'updateTime' => '2017-11-30 14:52:51'
+)
+2017/11/30 14:52:51 [profile] [sql] UPDATE `Orders` SET `sumWeight`=:sumWeight, `sumVolumn`=:sumVolumn WHERE `id` IN(21)
+array
+(
+    'sumWeight' => 222
+    'sumVolumn' => 8
+)
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `OrderReceiver` `t` WHERE orderId="21"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 14:52:51 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '21'
+    'receiverId' => '45'
+    'receiver' => '小王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '养猪场 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 14:52:51'
+    'updateTime' => '2017-11-30 14:52:51'
+)
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "12"
+2017/11/30 14:52:51 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '21'
+    'receiverId' => '12'
+    'receiver' => '老王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '开门网 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 14:52:51'
+    'updateTime' => '2017-11-30 14:52:51'
+)
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 14:52:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE userId="6" LIMIT 15
+2017/11/30 14:52:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="1")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="3")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="list")
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 14:52:51 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 15:01:36 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (userId="6")) AND (isModel="1")
+2017/11/30 15:01:36 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/30 15:01:36 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/30 15:01:36 [profile] [sql] SELECT t.id,name FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 15:01:36 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "9"
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="9") AND (state="1")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/30 15:01:36 [profile] [sql] SELECT `t`.`id`, `t`.`userId`, `t`.`name`, `t`.`type`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `Router` `t` LEFT JOIN `RouterVehicle`AS RV ON (`t`.id=`RV`.routerId) WHERE ((t.state="1") AND (userId="6")) AND (RV.costState="3")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (state="1") ORDER BY sort asc
+2017/11/30 15:01:36 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="14")
+2017/11/30 15:01:36 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="13")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="edit")
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 15:01:36 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "14"
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "13"
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 15:02:02 [profile] [sql] INSERT INTO `Orders` (`routerId`, `userId`, `startTime`, `endTime`, `deliveryTime`, `orderNumber`, `tranCost`, `routerCost`, `serviceCost`, `sumCost`, `exceptionCost`, `startRouter`, `endRouter`, `sumWeight`, `sumVolumn`, `state`, `createTime`, `updateTime`, `orderState`, `arrivaled`, `receiver`, `isRemind`) VALUES (:routerId, :userId, :startTime, :endTime, :deliveryTime, :orderNumber, :tranCost, :routerCost, :serviceCost, :sumCost, :exceptionCost, :startRouter, :endRouter, :sumWeight, :sumVolumn, :state, :createTime, :updateTime, :orderState, :arrivaled, :receiver, :isRemind)
+array
+(
+    'routerId' => '9'
+    'userId' => '6'
+    'startTime' => '2017-11-01 09:00:00'
+    'endTime' => '2017-11-01 07:00:00'
+    'deliveryTime' => '2017-11-12 08:30:00'
+    'orderNumber' => '17113015855209449859'
+    'tranCost' => null
+    'routerCost' => null
+    'serviceCost' => null
+    'sumCost' => null
+    'exceptionCost' => null
+    'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+    'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+    'sumWeight' => null
+    'sumVolumn' => null
+    'state' => 1
+    'createTime' => '2017-11-30 15:02:02'
+    'updateTime' => '2017-11-30 15:02:02'
+    'orderState' => 1
+    'arrivaled' => '养猪场 '
+    'receiver' => '小王'
+    'isRemind' => 0
+)
+2017/11/30 15:02:02 [profile] [sql] INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime)
+array
+(
+    'orderId' => '22'
+    'goodsId' => null
+    'goodsName' => '买个包子'
+    'goodsType' => '1'
+    'goodsWeight' => '1'
+    'goodsLength' => '1'
+    'goodsWidth' => '2'
+    'goodsHeight' => '3'
+    'highestC' => '5'
+    'lowestC' => '4'
+    'pallet' => '1'
+    'palletSize' => '3*2*33'
+    'desc' => '吃包子'
+    'modelName' => null
+    'isModel' => 0
+    'isUsing' => 1
+    'isFrequence' => 0
+    'createTime' => '2017-11-30 15:02:02'
+    'updateTime' => '2017-11-30 15:02:02'
+)
+2017/11/30 15:02:02 [profile] [sql] UPDATE `Orders` SET `sumWeight`=:sumWeight, `sumVolumn`=:sumVolumn WHERE `id` IN(22)
+array
+(
+    'sumWeight' => 1
+    'sumVolumn' => 6
+)
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `OrderReceiver` `t` WHERE orderId="22"
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 15:02:02 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '22'
+    'receiverId' => '45'
+    'receiver' => '小王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '养猪场 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 15:02:02'
+    'updateTime' => '2017-11-30 15:02:02'
+)
+2017/11/30 15:02:02 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "12"
+2017/11/30 15:02:02 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '22'
+    'receiverId' => '12'
+    'receiver' => '老王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '开门网 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 15:02:02'
+    'updateTime' => '2017-11-30 15:02:02'
+)
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "14"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "13"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 15:03:38 [profile] [sql] INSERT INTO `Orders` (`routerId`, `userId`, `startTime`, `endTime`, `deliveryTime`, `orderNumber`, `tranCost`, `routerCost`, `serviceCost`, `sumCost`, `exceptionCost`, `startRouter`, `endRouter`, `sumWeight`, `sumVolumn`, `state`, `createTime`, `updateTime`, `orderState`, `arrivaled`, `receiver`, `isRemind`) VALUES (:routerId, :userId, :startTime, :endTime, :deliveryTime, :orderNumber, :tranCost, :routerCost, :serviceCost, :sumCost, :exceptionCost, :startRouter, :endRouter, :sumWeight, :sumVolumn, :state, :createTime, :updateTime, :orderState, :arrivaled, :receiver, :isRemind)
+array
+(
+    'routerId' => '9'
+    'userId' => '6'
+    'startTime' => '2017-11-01 09:00:00'
+    'endTime' => '2017-11-01 07:00:00'
+    'deliveryTime' => '2017-11-12 08:30:00'
+    'orderNumber' => '17113015174209208312'
+    'tranCost' => null
+    'routerCost' => null
+    'serviceCost' => null
+    'sumCost' => null
+    'exceptionCost' => null
+    'startRouter' => '广东省 深圳市 南山区 中山大学产学研大楼1705'
+    'endRouter' => '北京 北京市 丰台区 朝阳区配pcbdoor'
+    'sumWeight' => null
+    'sumVolumn' => null
+    'state' => 1
+    'createTime' => '2017-11-30 15:03:38'
+    'updateTime' => '2017-11-30 15:03:38'
+    'orderState' => 1
+    'arrivaled' => '养猪场 '
+    'receiver' => '小王'
+    'isRemind' => 0
+)
+2017/11/30 15:03:38 [profile] [sql] INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime)
+array
+(
+    'orderId' => '23'
+    'goodsId' => null
+    'goodsName' => '买个包子'
+    'goodsType' => '1'
+    'goodsWeight' => '1'
+    'goodsLength' => '1'
+    'goodsWidth' => '2'
+    'goodsHeight' => '3'
+    'highestC' => '5'
+    'lowestC' => '4'
+    'pallet' => '1'
+    'palletSize' => '3*2*33'
+    'desc' => '吃包子'
+    'modelName' => null
+    'isModel' => 0
+    'isUsing' => 1
+    'isFrequence' => 0
+    'createTime' => '2017-11-30 15:03:38'
+    'updateTime' => '2017-11-30 15:03:38'
+)
+2017/11/30 15:03:38 [profile] [sql] UPDATE `Orders` SET `sumWeight`=:sumWeight, `sumVolumn`=:sumVolumn WHERE `id` IN(23)
+array
+(
+    'sumWeight' => 1
+    'sumVolumn' => 6
+)
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `OrderReceiver` `t` WHERE orderId="23"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "45"
+2017/11/30 15:03:38 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '23'
+    'receiverId' => '45'
+    'receiver' => '小王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '养猪场 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 15:03:38'
+    'updateTime' => '2017-11-30 15:03:38'
+)
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "12"
+2017/11/30 15:03:38 [profile] [sql] INSERT INTO `OrderReceiver` (`orderId`, `receiverId`, `receiver`, `getTime`, `getState`, `area`, `exceptionDesc`, `state`, `createTime`, `updateTime`) VALUES (:orderId, :receiverId, :receiver, :getTime, :getState, :area, :exceptionDesc, :state, :createTime, :updateTime)
+array
+(
+    'orderId' => '23'
+    'receiverId' => '12'
+    'receiver' => '老王'
+    'getTime' => null
+    'getState' => 1
+    'area' => '开门网 '
+    'exceptionDesc' => null
+    'state' => 1
+    'createTime' => '2017-11-30 15:03:38'
+    'updateTime' => '2017-11-30 15:03:38'
+)
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 15:03:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE userId="6" LIMIT 15
+2017/11/30 15:03:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="1")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="7") AND (type="3")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="1")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="9") AND (type="3")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (pId="0")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (controller="orders") AND (action="list")
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="0") ORDER BY sort asc
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="1") ORDER BY sort asc
+2017/11/30 15:03:38 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="3") AND (pId="4") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 10
+2017/11/30 15:05:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="8") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="16"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="8") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="17"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="8") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="18"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="19"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="12") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="22"
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="12") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:05:13 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/11/30 15:42:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 10
+2017/11/30 15:42:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:42:28 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/11/30 15:43:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LIMIT 10
+2017/11/30 15:43:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:04 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 15:43:05 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:05 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/11/30 15:43:05 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:05 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/11/30 15:43:05 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:43:05 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/11/30 15:44:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (orderState="4") AND (state="1") LIMIT 10
+2017/11/30 15:44:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 15:44:56 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 15:44:56 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `User` `t` WHERE id="6"
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Dynamic` `t` ORDER BY id desc
+2017/11/30 16:43:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (userId="6") AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59") LIMIT 15
+2017/11/30 16:43:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 16:43:34 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:34 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:34 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="6") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="6") AND (isFrequence="1")) AND (state="1") LIMIT 4
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Slides` `t`
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 16:43:34 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Dynamic` `t` ORDER BY id desc
+2017/11/30 16:43:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (userId="6") AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59") LIMIT 15
+2017/11/30 16:43:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 16:43:57 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:57 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:57 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="6") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="6") AND (isFrequence="1")) AND (state="1") LIMIT 4
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Slides` `t`
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 16:43:57 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 16:58:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `OV` ON(`OV`.orderId = t.id)
+                                     LEFT JOIN `VehicleInfo` AS `VI` ON(`OV`.vehicleInfoId = `VI`.id) 
+                                     LEFT JOIN `Drives` AS `D` ON (`D`.dId = `VI`.dId) WHERE ((`D`.dId="1") AND (orderState="4")) AND (state="1") LIMIT 10
+2017/11/30 16:58:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 16:58:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `OV` ON(`OV`.orderId = t.id)
+                                     LEFT JOIN `VehicleInfo` AS `VI` ON(`OV`.vehicleIn11foId = `VI`.id) 
+                                     LEFT JOIN `Drives` AS `D` ON (`D`.dId = `VI`.dId) WHERE ((`D`.dId="1") AND (orderState="4")) AND (state="1") LIMIT 10
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Dynamic` `t` ORDER BY id desc
+2017/11/30 17:18:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (userId="6") AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59") LIMIT 15
+2017/11/30 17:18:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 17:18:11 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind`, `t`.`distributeTime` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 17:18:11 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="6") AND (state="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 17:18:11 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver`, `t`.`isRemind`, `t`.`distributeTime` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="6") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-30 00:00:00" AND "2017-11-30 23:59:59")
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="6") AND (isFrequence="1")) AND (state="1") LIMIT 4
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Slides` `t`
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="6") AND (state="1")) AND (isRead="0")
+2017/11/30 17:18:11 [profile] [sql] SELECT * FROM `Company` `t` WHERE userId="6"
+2017/11/30 17:19:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (orderState="4") AND (state="1") LIMIT 10
+2017/11/30 17:19:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 17:19:50 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 17:19:50 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 17:20:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (orderState="4") AND (state="1") LIMIT 10
+2017/11/30 17:20:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 17:20:00 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 17:20:00 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/11/30 17:20:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (orderState="4") AND (state="1") LIMIT 10
+2017/11/30 17:20:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/30 17:20:06 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/11/30 17:20:06 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"

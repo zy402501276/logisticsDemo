@@ -1,0 +1,252 @@
+2017/10/20 10:03:23 [info] [request] 
+url: /index
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'img' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'linkUrl' => ''
+            )
+            1 => array
+            (
+                'id' => '2'
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'linkUrl' => ''
+            )
+            2 => array
+            (
+                'id' => '6'
+                'img' => '/upload/g/20171013/ea738a464f81a9aa.png'
+                'linkUrl' => 'www.baidu.com'
+            )
+            3 => array
+            (
+                'id' => '3'
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'linkUrl' => ' '
+            )
+        )
+        'key' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'title' => null
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => 'wwww'
+            )
+            1 => array
+            (
+                'id' => '2'
+                'title' => '测试'
+                'img' => '/upload/g/20171013/4e15bff6485562d1.png'
+                'url' => 'www'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (369)
+2017/10/20 10:03:58 [info] [request] 
+url: /index
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'banner' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'linkUrl' => ''
+            )
+            1 => array
+            (
+                'id' => '2'
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'linkUrl' => ''
+            )
+            2 => array
+            (
+                'id' => '6'
+                'img' => '/upload/g/20171013/ea738a464f81a9aa.png'
+                'linkUrl' => 'www.baidu.com'
+            )
+            3 => array
+            (
+                'id' => '3'
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'linkUrl' => ' '
+            )
+        )
+        'key' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'title' => null
+                'img' => '/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => 'wwww'
+            )
+            1 => array
+            (
+                'id' => '2'
+                'title' => '测试'
+                'img' => '/upload/g/20171013/4e15bff6485562d1.png'
+                'url' => 'www'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (369)
+2017/10/20 10:18:28 [info] [request] 
+url: /index
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'banner' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => ''
+            )
+            1 => array
+            (
+                'id' => '2'
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => ''
+            )
+            2 => array
+            (
+                'id' => '6'
+                'img' => 'http://static.logistics.com/upload/g/20171013/ea738a464f81a9aa.png'
+                'url' => 'www.baidu.com'
+            )
+            3 => array
+            (
+                'id' => '3'
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => ' '
+            )
+        )
+        'key' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'title' => null
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => 'wwww'
+            )
+            1 => array
+            (
+                'id' => '2'
+                'title' => '测试'
+                'img' => 'http://static.logistics.com/upload/g/20171013/4e15bff6485562d1.png'
+                'url' => 'www'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (384)
+2017/10/20 10:20:05 [info] [request] 
+url: /index
+array()
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'banner' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => ''
+            )
+            1 => array
+            (
+                'id' => '2'
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => ''
+            )
+            2 => array
+            (
+                'id' => '6'
+                'img' => 'http://static.logistics.com/upload/g/20171013/ea738a464f81a9aa.png'
+                'url' => 'www.baidu.com'
+            )
+            3 => array
+            (
+                'id' => '3'
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => ' '
+            )
+        )
+        'key' => array
+        (
+            0 => array
+            (
+                'id' => '1'
+                'title' => null
+                'img' => 'http://static.logistics.com/upload/g/20170919/f7c2e1d6ee5819f8.png'
+                'url' => 'wwww'
+            )
+            1 => array
+            (
+                'id' => '2'
+                'title' => '测试'
+                'img' => 'http://static.logistics.com/upload/g/20171013/4e15bff6485562d1.png'
+                'url' => 'www'
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (389)
+2017/10/20 16:39:05 [info] [request] 
+url: /UnRegister
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '注销成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (408)

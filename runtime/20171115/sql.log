@@ -1,0 +1,494 @@
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/15 09:22:03 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (isModel="1")) AND (userId="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/15 09:22:03 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "1"
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "1"
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="3")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "2"
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="1") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE state="1" ORDER BY sort asc
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 09:22:03 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="3")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (state="1")) AND (pId="0")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (action="edit")) AND (state="1")
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="1") ORDER BY sort asc
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="4") ORDER BY sort asc
+2017/11/15 09:22:03 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/15 09:22:13 [profile] [sql] SELECT * FROM `User` `t` WHERE (utoken="123") AND (state="1")
+2017/11/15 09:22:13 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="1") AND (state="1")) AND (isRead="0")
+2017/11/15 09:22:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59" LIMIT 15
+2017/11/15 09:22:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/15 09:22:13 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 09:22:13 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 09:22:13 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 09:22:13 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="1") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 09:22:13 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="1") AND (isFrequence="1")) AND (state="1")
+2017/11/15 09:22:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE endTime BETWEEN "2017-11-01 00:00:00" AND "2017-11-30 23:39:59" LIMIT 15
+2017/11/15 09:22:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/15 09:22:19 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-01 00:00:00" AND "2017-11-30 23:39:59")
+2017/11/15 09:22:19 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-01 00:00:00" AND "2017-11-30 23:39:59")
+2017/11/15 09:22:19 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-01 00:00:00" AND "2017-11-30 23:39:59")
+2017/11/15 09:22:19 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="1") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-01 00:00:00" AND "2017-11-30 23:39:59")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "4"
+2017/11/15 09:22:47 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (isModel="1")) AND (userId="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/15 09:22:47 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/15 09:22:47 [profile] [sql] SELECT id,name FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "1"
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "1"
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="3")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "2"
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="1") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:22:47 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "4"
+2017/11/15 09:23:19 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (isModel="1")) AND (userId="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/15 09:23:19 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/15 09:23:19 [profile] [sql] SELECT id,name FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "1"
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "1"
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="3")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "2"
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="1") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:23:19 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Goods` WHERE `id` = "4"
+2017/11/15 09:23:46 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (isModel="1")) AND (userId="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/15 09:23:46 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "1"
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "1"
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="3")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "2"
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="1") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="2") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE state="1" ORDER BY sort asc
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 09:23:46 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="3")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (state="1")) AND (pId="0")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (action="edit")) AND (state="1")
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="1") ORDER BY sort asc
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="4") ORDER BY sort asc
+2017/11/15 09:23:46 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/15 10:49:28 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (isModel="1")) AND (userId="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/15 10:49:28 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "1"
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "1"
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="3")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "2"
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="1") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="2") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="2") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE state="1" ORDER BY sort asc
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 10:49:28 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="3")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (state="1")) AND (pId="0")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (action="edit")) AND (state="1")
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="1") ORDER BY sort asc
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="4") ORDER BY sort asc
+2017/11/15 10:49:28 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/15 11:01:24 [profile] [sql] SELECT * FROM `User` `t` WHERE (utoken="123") AND (state="1")
+2017/11/15 11:01:24 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="1") AND (state="1")) AND (isRead="0")
+2017/11/15 11:01:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59" LIMIT 15
+2017/11/15 11:01:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/15 11:01:24 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:24 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:24 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:24 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="1") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:24 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="1") AND (isFrequence="1")) AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = ""
+2017/11/15 11:01:30 [profile] [sql] SELECT id,goodsName FROM `Goods` `t` WHERE ((state="1") AND (isModel="1")) AND (userId="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/11/15 11:01:30 [profile] [sql] SELECT id,num FROM `PalletNum` `t` WHERE state="1"
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Router` WHERE `id` = "1"
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "1"
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE (routerId="1") AND (type="3")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Address` WHERE `id` = "2"
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `RouterVehicle` `t` WHERE (routerId="1") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="1") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="1") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="4") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleType` `t` WHERE (id="2") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleWeight` `t` WHERE (id="2") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `VehicleLength` `t` WHERE (id="5") AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Router` `t` WHERE (state="1") AND (userId="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE state="1" ORDER BY sort asc
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="2")
+2017/11/15 11:01:30 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="3")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (state="1")) AND (pId="0")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE ((controller="orders") AND (action="edit")) AND (state="1")
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="0") ORDER BY sort asc
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="10") ORDER BY sort asc
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="1") ORDER BY sort asc
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="4") ORDER BY sort asc
+2017/11/15 11:01:30 [profile] [sql] SELECT * FROM `Menu` `t` WHERE (state="1") AND (pId="7") ORDER BY sort asc
+2017/11/15 11:01:36 [profile] [sql] SELECT * FROM `User` `t` WHERE (utoken="123") AND (state="1")
+2017/11/15 11:01:36 [profile] [sql] SELECT * FROM `Infomation` `t` WHERE ((userId="1") AND (state="1")) AND (isRead="0")
+2017/11/15 11:01:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59" LIMIT 15
+2017/11/15 11:01:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/11/15 11:01:36 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:36 [profile] [sql] SELECT sum(sumWeight) FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:36 [profile] [sql] SELECT * FROM `Orders` `t` WHERE ((userId="1") AND (state="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:36 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`userId`, `t`.`startTime`, `t`.`endTime`, `t`.`deliveryTime`, `t`.`orderNumber`, `t`.`tranCost`, `t`.`routerCost`, `t`.`serviceCost`, `t`.`sumCost`, `t`.`exceptionCost`, `t`.`startRouter`, `t`.`endRouter`, `t`.`sumWeight`, `t`.`sumVolumn`, `t`.`state`, `t`.`createTime`, `t`.`updateTime`, `t`.`orderState`, `t`.`arrivaled`, `t`.`receiver` FROM `Orders` `t` LEFT JOIN `OrderVehicle` AS `ov` ON (`t`.id = `ov`.orderId)   WHERE (((userId="1") AND (state="1")) AND (islate="1")) AND (endTime BETWEEN "2017-11-15 00:00:00" AND "2017-11-15 23:59:59")
+2017/11/15 11:01:36 [profile] [sql] SELECT * FROM `Goods` `t` WHERE ((userId="1") AND (isFrequence="1")) AND (state="1")
+2017/11/15 16:00:03 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:01:16 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:01:16 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:02:29 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:03:14 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:03:14 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:03:45 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:03:45 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:04:33 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:04:51 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:04:51 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:06:52 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:06:52 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:07:08 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:07:38 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:07:38 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:11:57 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:11:57 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:11:57 [profile] [sql] INSERT INTO `User` (`name`, `licenseCode`, `companyName`, `companyPhone`, `mobile`, `contacts`, `gender`, `address`, `email`, `licenseUrl`, `verifyState`, `verifyAdvice`, `state`, `utoken`, `createTime`, `updateTime`, `pId`) VALUES (:name, :licenseCode, :companyName, :companyPhone, :mobile, :contacts, :gender, :address, :email, :licenseUrl, :verifyState, :verifyAdvice, :state, :utoken, :createTime, :updateTime, :pId)
+array
+(
+    'name' => 'zy19930727'
+    'licenseCode' => null
+    'companyName' => null
+    'companyPhone' => null
+    'mobile' => '18649717819'
+    'contacts' => null
+    'gender' => null
+    'address' => null
+    'email' => '402501276@qq.com'
+    'licenseUrl' => null
+    'verifyState' => null
+    'verifyAdvice' => null
+    'state' => null
+    'utoken' => null
+    'createTime' => null
+    'updateTime' => null
+    'pId' => '1536'
+)
+2017/11/15 16:11:57 [profile] [sql] UPDATE `UnionLogin` SET `userId`=:userId WHERE `id` IN(7)
+array
+(
+    'userId' => '2'
+)
+2017/11/15 16:11:57 [profile] [sql] SELECT * FROM `User` `t` WHERE passportId="2"
+2017/11/15 16:13:31 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:13:31 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:13:31 [profile] [sql] INSERT INTO `User` (`name`, `licenseCode`, `companyName`, `companyPhone`, `mobile`, `contacts`, `gender`, `address`, `email`, `licenseUrl`, `verifyState`, `verifyAdvice`, `state`, `utoken`, `createTime`, `updateTime`, `pId`) VALUES (:name, :licenseCode, :companyName, :companyPhone, :mobile, :contacts, :gender, :address, :email, :licenseUrl, :verifyState, :verifyAdvice, :state, :utoken, :createTime, :updateTime, :pId)
+array
+(
+    'name' => 'zy19930727'
+    'licenseCode' => null
+    'companyName' => null
+    'companyPhone' => null
+    'mobile' => '18649717819'
+    'contacts' => null
+    'gender' => null
+    'address' => null
+    'email' => '402501276@qq.com'
+    'licenseUrl' => null
+    'verifyState' => null
+    'verifyAdvice' => null
+    'state' => null
+    'utoken' => null
+    'createTime' => null
+    'updateTime' => null
+    'pId' => '1536'
+)
+2017/11/15 16:13:31 [profile] [sql] UPDATE `UnionLogin` SET `userId`=:userId WHERE `id` IN(8)
+array
+(
+    'userId' => '3'
+)
+2017/11/15 16:13:31 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="3"
+2017/11/15 16:16:18 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:16:18 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:16:18 [profile] [sql] INSERT INTO `User` (`name`, `licenseCode`, `companyName`, `companyPhone`, `mobile`, `contacts`, `gender`, `address`, `email`, `licenseUrl`, `verifyState`, `verifyAdvice`, `state`, `utoken`, `createTime`, `updateTime`, `pId`) VALUES (:name, :licenseCode, :companyName, :companyPhone, :mobile, :contacts, :gender, :address, :email, :licenseUrl, :verifyState, :verifyAdvice, :state, :utoken, :createTime, :updateTime, :pId)
+array
+(
+    'name' => 'zy19930727'
+    'licenseCode' => null
+    'companyName' => null
+    'companyPhone' => null
+    'mobile' => '18649717819'
+    'contacts' => null
+    'gender' => null
+    'address' => null
+    'email' => '402501276@qq.com'
+    'licenseUrl' => null
+    'verifyState' => null
+    'verifyAdvice' => null
+    'state' => null
+    'utoken' => null
+    'createTime' => null
+    'updateTime' => null
+    'pId' => '1536'
+)
+2017/11/15 16:16:18 [profile] [sql] UPDATE `UnionLogin` SET `userId`=:userId WHERE `id` IN(9)
+array
+(
+    'userId' => '4'
+)
+2017/11/15 16:16:18 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="4"
+2017/11/15 16:17:07 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:17:07 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:17:07 [profile] [sql] INSERT INTO `User` (`name`, `licenseCode`, `companyName`, `companyPhone`, `mobile`, `contacts`, `gender`, `address`, `email`, `licenseUrl`, `verifyState`, `verifyAdvice`, `state`, `utoken`, `createTime`, `updateTime`, `pId`) VALUES (:name, :licenseCode, :companyName, :companyPhone, :mobile, :contacts, :gender, :address, :email, :licenseUrl, :verifyState, :verifyAdvice, :state, :utoken, :createTime, :updateTime, :pId)
+array
+(
+    'name' => 'zy19930727'
+    'licenseCode' => null
+    'companyName' => null
+    'companyPhone' => null
+    'mobile' => '18649717819'
+    'contacts' => null
+    'gender' => null
+    'address' => null
+    'email' => '402501276@qq.com'
+    'licenseUrl' => null
+    'verifyState' => null
+    'verifyAdvice' => null
+    'state' => null
+    'utoken' => null
+    'createTime' => null
+    'updateTime' => null
+    'pId' => '1536'
+)
+2017/11/15 16:17:07 [profile] [sql] UPDATE `UnionLogin` SET `userId`=:userId WHERE `id` IN(10)
+array
+(
+    'userId' => '5'
+)
+2017/11/15 16:56:31 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 16:56:31 [profile] [sql] INSERT INTO `UnionLogin` (`name`, `onlyCode`, `type`, `userId`, `bindTime`) VALUES (:name, :onlyCode, :type, :userId, :bindTime)
+array
+(
+    'name' => 'zy19930727'
+    'onlyCode' => 'da8e674d48893572e2d1644bccfa54fb'
+    'type' => 1
+    'userId' => null
+    'bindTime' => null
+)
+2017/11/15 16:56:31 [profile] [sql] INSERT INTO `User` (`name`, `licenseCode`, `companyName`, `companyPhone`, `mobile`, `contacts`, `gender`, `address`, `email`, `licenseUrl`, `verifyState`, `verifyAdvice`, `state`, `utoken`, `createTime`, `updateTime`, `pId`) VALUES (:name, :licenseCode, :companyName, :companyPhone, :mobile, :contacts, :gender, :address, :email, :licenseUrl, :verifyState, :verifyAdvice, :state, :utoken, :createTime, :updateTime, :pId)
+array
+(
+    'name' => 'zy19930727'
+    'licenseCode' => null
+    'companyName' => null
+    'companyPhone' => null
+    'mobile' => '18649717819'
+    'contacts' => null
+    'gender' => null
+    'address' => null
+    'email' => '402501276@qq.com'
+    'licenseUrl' => null
+    'verifyState' => null
+    'verifyAdvice' => null
+    'state' => null
+    'utoken' => null
+    'createTime' => null
+    'updateTime' => null
+    'pId' => '1536'
+)
+2017/11/15 16:56:31 [profile] [sql] UPDATE `UnionLogin` SET `userId`=:userId WHERE `id` IN(11)
+array
+(
+    'userId' => '6'
+)
+2017/11/15 16:56:31 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/15 17:00:04 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:00:04 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:00:19 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:00:19 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:01:40 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:01:40 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:02:01 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:02:01 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:17:13 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:17:13 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:18:30 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:18:30 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:18:50 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:18:50 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:19:24 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:19:24 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:19:44 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:19:44 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:20:39 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:20:39 [profile] [sql] SELECT * FROM `User` `t` WHERE pId="6"
+2017/11/15 17:21:29 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:23:32 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:23:49 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:23:49 [profile] [sql] SELECT * FROM `User` `t` WHERE userId="6"
+2017/11/15 17:26:08 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:26:08 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"
+2017/11/15 17:26:24 [profile] [sql] SELECT * FROM `UnionLogin` `t` WHERE (onlyCode="da8e674d48893572e2d1644bccfa54fb") AND (type="1")
+2017/11/15 17:26:24 [profile] [sql] SELECT * FROM `User` WHERE `id` = "6"

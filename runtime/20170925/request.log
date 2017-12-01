@@ -1,0 +1,20 @@
+2017/09/25 15:38:36 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => '18649717819'
+    'password' => 'zhangye'
+    'loginType' => '1'
+    'deviceName' => 'iPhone'
+    'deviceType' => '1'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '账户名或密码错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (120)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (165)

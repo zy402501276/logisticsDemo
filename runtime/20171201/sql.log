@@ -1,0 +1,148 @@
+2017/12/01 09:38:38 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:02:34 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:02:34 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)
+                           LEFT JOIN `OrderReciver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE (routerId="9") AND (orderId="21")
+2017/12/01 10:14:27 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:14:27 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReciver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:14:41 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:14:41 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:14:53 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:14:53 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 10:15:15 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:15:15 [profile] [sql] SELECT `t`.`id`, `t`.`routerId`, `t`.`type`, `t`.`addressId`, `t`.`routerName`, `t`.`tag`, `t`.`addressName`, `t`.`sort`, `t`.`state`, `t`.`createTime`, `t`.`updateTime` FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 10:15:28 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:15:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 10:17:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE state="1" LIMIT 10
+2017/12/01 10:17:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:19 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/12/01 10:17:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE state="1" LIMIT 10
+2017/12/01 10:17:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="3") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="11"
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="4") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="12"
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:39 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/12/01 10:17:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (orderState="1") AND (state="1") LIMIT 10
+2017/12/01 10:17:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="1") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="9"
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="7") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="14"
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="9") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:48 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="23"
+2017/12/01 10:17:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Orders` `t` WHERE (orderState="2") AND (state="1") LIMIT 10
+2017/12/01 10:17:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/12/01 10:17:55 [profile] [sql] SELECT * FROM `RouterInfo` `t` WHERE ((routerId="2") AND (state="1")) AND (type="2") ORDER BY sort asc
+2017/12/01 10:17:55 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="10"
+2017/12/01 10:36:44 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:36:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:37:10 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:37:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:37:21 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:37:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:41:19 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:41:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:41:19 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/12/01 10:41:25 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:41:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:41:25 [profile] [sql] SELECT id,name FROM `Receiver` `t` WHERE (state="1") AND (addressId="1")
+2017/12/01 10:41:56 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:41:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:45:06 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:45:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:49:24 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:49:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:49:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 10:49:32 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:49:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:49:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 10:52:22 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:52:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:52:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 10:58:45 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 10:58:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 10:58:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 11:00:47 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 11:00:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 11:00:47 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 11:03:53 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 11:03:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 11:03:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 11:03:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 11:03:53 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 11:16:35 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 11:16:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 11:16:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 11:16:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 11:16:35 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 11:16:35 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/12/01 11:17:15 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 11:17:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 11:17:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 11:17:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 11:17:15 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 11:17:15 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"
+2017/12/01 11:23:03 [profile] [sql] SELECT * FROM `Orders` WHERE `id` = "21"
+2017/12/01 11:23:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="1")
+2017/12/01 11:23:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="3")
+2017/12/01 11:23:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `RouterInfo` `t` LEFT JOIN `Receiver` AS `r` ON(`r`.addressId = `t`.addressId)   
+                           LEFT JOIN `OrderReceiver` AS `ore` ON(`ore`.receiverId = `r`.id) WHERE ((routerId="9") AND (orderId="21")) AND (type="2")
+2017/12/01 11:23:03 [profile] [sql] SELECT * FROM `OrderGoods` `t` WHERE orderId="21"
+2017/12/01 11:23:03 [profile] [sql] SELECT id,name FROM `GoodsType` `t` WHERE state="1"

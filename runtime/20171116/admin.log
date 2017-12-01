@@ -1,0 +1,1055 @@
+2017/11/16 09:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/manage
+---
+2017/11/16 09:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:33:49 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6".
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_logistics\library\model\base\User.php (38)
+2017/11/16 09:33:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'userId' in 'where clause'. The SQL statement executed was: SELECT * FROM `User` `t` WHERE userId="6"' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(426): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(324): CDbCommand->queryRow()
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(227): BaseModel->getData('SELECT * FROM `...', 'queryRow')
+#3 D:\zyweb\pcb_logistics\library\model\base\User.php(38): BaseModel->query(Object(CDbCriteria), 'queryRow')
+#4 D:\zyweb\pcb_logistics\applications\home\service\UnionLoginService.php(49): User->findByPId('6')
+#5 D:\zyweb\pcb_logistics\applications\home\service\UnionLoginService.php(18): UnionLoginService->checkIsBind(Array, 1, 'www.wllogistics...')
+#6 D:\zyweb\pcb_logistics\applications\home\controllers\IndexController.php(90): UnionLoginService->index(1, Array, 1, 'www.wllogistics...')
+#7 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): IndexController->actionUserSystem()
+#8 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('userSystem')
+#12 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('userSystem')
+#13 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/userSyste...')
+#14 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#16 {main}
+REQUEST_URI=/index/userSystem?type=1&code=d3d3LndsbG9naXN0aWNzLmNvbSUyRmluZGV4JTJGaW5kZXg=
+HTTP_REFERER=http://www.us.com/interface/directAuth
+---
+2017/11/16 09:34:32 [error] [php] Undefined index: avatar (D:\zyweb\pcb_logistics\applications\home\components\Controller.php:108)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): IndexController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/index/userSystem?type=1&code=d3d3LndsbG9naXN0aWNzLmNvbSUyRmluZGV4JTJGaW5kZXg=
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (108)
+in D:\zyweb\pcb_logistics\applications\home\controllers\IndexController.php (93)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/16 09:34:52 [error] [php] Undefined index: avatar (D:\zyweb\pcb_logistics\applications\home\components\Controller.php:108)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): IndexController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): IndexController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): IndexController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): IndexController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/index/userSystem?type=1&code=d3d3LndsbG9naXN0aWNzLmNvbSUyRmluZGV4JTJGaW5kZXg=
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (108)
+in D:\zyweb\pcb_logistics\applications\home\controllers\IndexController.php (93)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/16 09:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-1.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon1.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-2.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon2.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-3.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 09:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon3.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-0.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-1.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon1.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-3.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon3.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon3.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon4.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon5.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 10:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('img')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('img')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('img')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('index/img/hicon...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/index/img/hicon-3.png
+HTTP_REFERER=http://www.wllogistics.com/index/index
+---
+2017/11/16 11:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/16 11:24:07 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/16 11:24:07 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/16 11:24:08 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/16 11:24:08 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/16 11:48:40 [error] [php] Undefined index: contactPhone  (D:\zyweb\pcb_logistics\applications\home\views\company\company.php:21)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): CompanyController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): CompanyController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CompanyController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php(38): CompanyController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): CompanyController->actionCompanyInfo()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): CompanyController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): CompanyController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CompanyController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): CompanyController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/company/companyInfo
+in D:\zyweb\pcb_logistics\applications\home\views\company\company.php (21)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php (38)
+2017/11/16 11:48:46 [error] [php] Undefined index: address (D:\zyweb\pcb_logistics\applications\home\views\company\company.php:33)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): CompanyController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): CompanyController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CompanyController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php(38): CompanyController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): CompanyController->actionCompanyInfo()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): CompanyController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): CompanyController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CompanyController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): CompanyController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/company/companyInfo
+in D:\zyweb\pcb_logistics\applications\home\views\company\company.php (33)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php (38)
+2017/11/16 13:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/1
+HTTP_REFERER=http://www.wllogistics.com/goods/list
+---
+2017/11/16 14:28:44 [error] [exception.CException] exception 'CException' with message 'Property "CompanyForm.adresss" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('adresss')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(CompanyForm), 'adresss')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(CompanyForm), 'adresss', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(CompanyForm), 'adresss', Array)
+#4 D:\zyweb\pcb_logistics\applications\home\views\company\editCompany.php(73): CActiveForm->textField(Object(CompanyForm), 'adresss', Array)
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('editCompany', Array, true)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CController->render('editCompany', Array, false)
+#10 D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php(47): Controller->render('editCompany', Array)
+#11 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): CompanyController->actionCompanyInfo()
+#12 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('companyInfo')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('companyInfo')
+#17 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('company/company...')
+#18 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/company/companyInfo/type/1
+---
+2017/11/16 14:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('company')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/company/
+---
+2017/11/16 14:48:00 [error] [php] Array to string conversion (D:\zyweb\pcb_logistics\applications\home\views\company\editCompany.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): CompanyController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): CompanyController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): CompanyController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php(47): CompanyController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): CompanyController->actionCompanyInfo()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): CompanyController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): CompanyController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CompanyController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): CompanyController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/company/companyInfo
+in D:\zyweb\pcb_logistics\applications\home\views\company\editCompany.php (13)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php (47)
+2017/11/16 14:50:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('company')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/company/
+---
+2017/11/16 15:14:11 [error] [php] Undefined index: id (D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php:15)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): CompanyController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): CompanyController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CompanyController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): CompanyController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/company/auth
+in D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php (15)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/16 15:14:31 [error] [php] Undefined index: id (D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php:16)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): CompanyController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): CompanyController->runActionWithFilters()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CompanyController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): CompanyController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/company/auth
+in D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php (16)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+in D:\zyweb\pcb_logistics\website\home\index.php (38)
+2017/11/16 16:35:12 [error] [exception.CException] exception 'CException' with message 'Property "CompanyInfoForm.contactPhone" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:173
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\service\CompanyService.php(81): CComponent->__set('contactPhone', 'asdfasdfasdf')
+#1 D:\zyweb\pcb_logistics\applications\home\controllers\CompanyController.php(25): CompanyService->editAuth(Object(CompanyInfoForm), Array)
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): CompanyController->actionAuth()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('auth')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('auth')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('company/auth')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/company/auth
+HTTP_REFERER=http://www.wllogistics.com/company/auth
+---

@@ -1,0 +1,122 @@
+2017/09/07 09:50:52 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:50:52 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 09:51:25 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:51:25 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 09:54:18 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:54:18 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 09:54:18 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '1'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-07 09:54:18'
+)
+2017/09/07 09:54:23 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:54:23 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 09:55:59 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:55:59 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 09:56:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:56:03 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 09:56:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 09:56:04 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:01:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:01:51 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:03:02 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:03:02 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:03:10 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:03:10 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:04:23 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:04:23 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:04:23 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '1*2'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-07 10:04:23'
+)
+2017/09/07 10:04:32 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:04:32 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:04:32 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '1-2'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-07 10:04:32'
+)
+2017/09/07 10:04:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:04:58 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:05:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:05:05 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:05:05 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '1-2a'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-07 10:05:05'
+)
+2017/09/07 10:06:00 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:06:00 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:06:15 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:06:15 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:06:20 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:06:20 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:06:20 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '1-2'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-07 10:06:20'
+)
+2017/09/07 10:06:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:06:30 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:06:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/07 10:06:34 [profile] [sql] SELECT * FROM `ItemInventory` WHERE `id` = "1"
+2017/09/07 10:06:34 [profile] [sql] UPDATE `ItemInventory` SET `amount`=:amount, `sumVolume`=:sumVolume, `format`=:format, `orderId`=:orderId, `name`=:name, `type`=:type, `desc`=:desc, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'amount' => '123'
+    'sumVolume' => '30'
+    'format' => '吨'
+    'orderId' => '8'
+    'name' => '石头'
+    'type' => '固体/液体'
+    'desc' => 'a*c*b'
+    'createTime' => '2017-09-06 16:54:47'
+    'updateTime' => '2017-09-07 10:06:34'
+)
+2017/09/07 15:26:23 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/07 15:48:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/07 16:44:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/07 16:49:26 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/07 16:53:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/07 17:23:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"

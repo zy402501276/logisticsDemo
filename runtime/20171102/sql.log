@@ -1,0 +1,215 @@
+2017/11/02 10:09:46 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "1"
+2017/11/02 10:11:01 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "1"
+2017/11/02 10:11:01 [profile] [sql] UPDATE `Receiver` SET `name`=:name, `companyPhone`=:companyPhone, `areaCode`=:areaCode, `mobile`=:mobile, `job`=:job, `gender`=:gender, `addressId`=:addressId, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'name' => 'zytest11'
+    'companyPhone' => 'zytest1'
+    'areaCode' => '100'
+    'mobile' => '123456789'
+    'job' => 'haha'
+    'gender' => '1'
+    'addressId' => '1'
+    'state' => '1'
+    'createTime' => '2017-11-02 10:02:26'
+    'updateTime' => '2017-11-02 10:02:31'
+)
+2017/11/02 10:11:01 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "2"
+2017/11/02 10:11:01 [profile] [sql] UPDATE `Receiver` SET `name`=:name, `companyPhone`=:companyPhone, `areaCode`=:areaCode, `mobile`=:mobile, `job`=:job, `gender`=:gender, `addressId`=:addressId, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(2)
+array
+(
+    'name' => 'zytest22'
+    'companyPhone' => 'zytest2'
+    'areaCode' => '111'
+    'mobile' => '6666666'
+    'job' => 'aaa'
+    'gender' => '1'
+    'addressId' => '1'
+    'state' => '1'
+    'createTime' => '2017-11-02 10:02:59'
+    'updateTime' => '2017-11-02 10:03:02'
+)
+2017/11/02 10:11:01 [profile] [sql] INSERT INTO `Receiver` (`name`, `companyPhone`, `areaCode`, `mobile`, `job`, `gender`, `addressId`, `state`, `createTime`, `updateTime`) VALUES (:name, :companyPhone, :areaCode, :mobile, :job, :gender, :addressId, :state, :createTime, :updateTime)
+array
+(
+    'name' => 'zytest444'
+    'companyPhone' => null
+    'areaCode' => null
+    'mobile' => null
+    'job' => null
+    'gender' => null
+    'addressId' => null
+    'state' => null
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 10:31:29 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "1"
+2017/11/02 10:31:29 [profile] [sql] UPDATE `Receiver` SET `name`=:name, `companyPhone`=:companyPhone, `areaCode`=:areaCode, `mobile`=:mobile, `job`=:job, `gender`=:gender, `addressId`=:addressId, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'name' => 'zytest11'
+    'companyPhone' => 'zytest1'
+    'areaCode' => '100'
+    'mobile' => '123456789'
+    'job' => 'haha'
+    'gender' => '1'
+    'addressId' => '1'
+    'state' => '1'
+    'createTime' => '2017-11-02 10:02:26'
+    'updateTime' => '2017-11-02 10:02:31'
+)
+2017/11/02 10:31:29 [profile] [sql] INSERT INTO `Receiver` (`name`, `companyPhone`, `areaCode`, `mobile`, `job`, `gender`, `addressId`, `state`, `createTime`, `updateTime`) VALUES (:name, :companyPhone, :areaCode, :mobile, :job, :gender, :addressId, :state, :createTime, :updateTime)
+array
+(
+    'name' => 'zytest66'
+    'companyPhone' => null
+    'areaCode' => null
+    'mobile' => null
+    'job' => null
+    'gender' => null
+    'addressId' => null
+    'state' => null
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 10:31:29 [profile] [sql] INSERT INTO `Receiver` (`name`, `companyPhone`, `areaCode`, `mobile`, `job`, `gender`, `addressId`, `state`, `createTime`, `updateTime`) VALUES (:name, :companyPhone, :areaCode, :mobile, :job, :gender, :addressId, :state, :createTime, :updateTime)
+array
+(
+    'name' => 'zytest55'
+    'companyPhone' => null
+    'areaCode' => null
+    'mobile' => null
+    'job' => null
+    'gender' => null
+    'addressId' => null
+    'state' => null
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 10:37:38 [profile] [sql] SELECT * FROM `Receiver` WHERE `id` = "1"
+2017/11/02 10:37:39 [profile] [sql] UPDATE `Receiver` SET `name`=:name, `companyPhone`=:companyPhone, `areaCode`=:areaCode, `mobile`=:mobile, `job`=:job, `gender`=:gender, `addressId`=:addressId, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(1)
+array
+(
+    'name' => 'zytest11'
+    'companyPhone' => 'zytest1'
+    'areaCode' => '100'
+    'mobile' => '123456789'
+    'job' => 'haha'
+    'gender' => '1'
+    'addressId' => '1'
+    'state' => '1'
+    'createTime' => '2017-11-02 10:02:26'
+    'updateTime' => '2017-11-02 10:02:31'
+)
+2017/11/02 10:37:39 [profile] [sql] INSERT INTO `Receiver` (`name`, `companyPhone`, `areaCode`, `mobile`, `job`, `gender`, `addressId`, `state`, `createTime`, `updateTime`) VALUES (:name, :companyPhone, :areaCode, :mobile, :job, :gender, :addressId, :state, :createTime, :updateTime)
+array
+(
+    'name' => 'zytest66'
+    'companyPhone' => null
+    'areaCode' => null
+    'mobile' => null
+    'job' => null
+    'gender' => null
+    'addressId' => null
+    'state' => null
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 10:37:39 [profile] [sql] INSERT INTO `Receiver` (`name`, `companyPhone`, `areaCode`, `mobile`, `job`, `gender`, `addressId`, `state`, `createTime`, `updateTime`) VALUES (:name, :companyPhone, :areaCode, :mobile, :job, :gender, :addressId, :state, :createTime, :updateTime)
+array
+(
+    'name' => 'zytest55'
+    'companyPhone' => null
+    'areaCode' => null
+    'mobile' => null
+    'job' => null
+    'gender' => null
+    'addressId' => null
+    'state' => null
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 10:37:39 [profile] [sql] UPDATE `Receiver` SET `state`=:state, `updateTime`=:updateTime WHERE `id` IN(2)
+array
+(
+    'state' => 0
+    'updateTime' => '2017-11-02 10:37:39'
+)
+2017/11/02 10:37:39 [profile] [sql] UPDATE `Receiver` SET `state`=:state, `updateTime`=:updateTime WHERE `id` IN(3)
+array
+(
+    'state' => 0
+    'updateTime' => '2017-11-02 10:37:39'
+)
+2017/11/02 10:48:47 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (addressId="1") AND (state="1")
+2017/11/02 10:49:07 [profile] [sql] SELECT * FROM `Receiver` `t` WHERE (addressId="1") AND (state="1")
+2017/11/02 14:26:46 [profile] [sql] INSERT INTO `RouterInfo` (`routerId`, `type`, `addressId`, `routerName`, `tag`, `addressName`, `sort`, `state`, `createTime`, `updateTime`) VALUES (:routerId, :type, :addressId, :routerName, :tag, :addressName, :sort, :state, :createTime, :updateTime)
+array
+(
+    'routerId' => 1
+    'type' => 1
+    'addressId' => null
+    'routerName' => null
+    'tag' => '东莞益泉'
+    'addressName' => null
+    'sort' => null
+    'state' => 1
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 14:26:46 [profile] [sql] INSERT INTO `RouterInfo` (`routerId`, `type`, `addressId`, `routerName`, `tag`, `addressName`, `sort`, `state`, `createTime`, `updateTime`) VALUES (:routerId, :type, :addressId, :routerName, :tag, :addressName, :sort, :state, :createTime, :updateTime)
+array
+(
+    'routerId' => 1
+    'type' => 3
+    'addressId' => null
+    'routerName' => null
+    'tag' => '佛山'
+    'addressName' => null
+    'sort' => null
+    'state' => 1
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 14:26:46 [profile] [sql] INSERT INTO `RouterInfo` (`routerId`, `type`, `addressId`, `routerName`, `tag`, `addressName`, `sort`, `state`, `createTime`, `updateTime`) VALUES (:routerId, :type, :addressId, :routerName, :tag, :addressName, :sort, :state, :createTime, :updateTime)
+array
+(
+    'routerId' => 1
+    'type' => 3
+    'addressId' => null
+    'routerName' => null
+    'tag' => '惠州'
+    'addressName' => null
+    'sort' => null
+    'state' => 1
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 14:26:46 [profile] [sql] INSERT INTO `RouterInfo` (`routerId`, `type`, `addressId`, `routerName`, `tag`, `addressName`, `sort`, `state`, `createTime`, `updateTime`) VALUES (:routerId, :type, :addressId, :routerName, :tag, :addressName, :sort, :state, :createTime, :updateTime)
+array
+(
+    'routerId' => 1
+    'type' => 3
+    'addressId' => null
+    'routerName' => null
+    'tag' => '深圳开门网'
+    'addressName' => null
+    'sort' => null
+    'state' => 1
+    'createTime' => null
+    'updateTime' => null
+)
+2017/11/02 14:26:47 [profile] [sql] INSERT INTO `RouterInfo` (`routerId`, `type`, `addressId`, `routerName`, `tag`, `addressName`, `sort`, `state`, `createTime`, `updateTime`) VALUES (:routerId, :type, :addressId, :routerName, :tag, :addressName, :sort, :state, :createTime, :updateTime)
+array
+(
+    'routerId' => 1
+    'type' => 2
+    'addressId' => null
+    'routerName' => null
+    'tag' => '珠海'
+    'addressName' => null
+    'sort' => null
+    'state' => 1
+    'createTime' => null
+    'updateTime' => null
+)

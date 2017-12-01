@@ -1,0 +1,49 @@
+2017/10/26 13:34:29 [error] [php] Use of undefined constant B - assumed 'B' (D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php:132)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): SupportController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): SupportController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): SupportController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): SupportController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/support/getcityMsg
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/26 13:42:58 [error] [php] array_push() expects at least 2 parameters, 1 given (D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php:133)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): SupportController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): SupportController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): SupportController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): SupportController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/support/getcityMsg
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (133)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/10/26 14:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/10/26 16:46:44 [error] [php] Undefined variable: cityArr (D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php:153)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): SupportController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): SupportController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\api\components\Controller.php(68): SupportController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): SupportController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/support/getcityMsg
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (153)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (68)
+in D:\zyweb\pcb_wl\website\api\index.php (47)

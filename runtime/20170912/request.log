@@ -1,0 +1,374 @@
+2017/09/12 09:45:49 [info] [request] 
+url: /detaillist
+array()
+array
+(
+    'dId' => '2'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (151)
+2017/09/12 09:46:31 [info] [request] 
+url: /detaillist
+array()
+array
+(
+    'dId' => '2'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'beginArea' => '北京'
+            'endArea' => '深圳'
+            'vehicleType' => '1'
+            'vehicleLength' => '2'
+            'vehicelCapacity' => '2'
+            'isPermission' => '2'
+            'beginTime' => '2017-09-12 09:43:21'
+            'beginAddress' => '2'
+            'capacity' => '2'
+            'expectTime' => '2017-09-12 09:43:24'
+            'insurance' => '2'
+            'vehicleCost' => '2'
+            'otherCost' => '2'
+            'sumCost' => '2'
+            'demandId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-12 09:43:34'
+            'updateTime' => '2017-09-12 09:43:37'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/12 10:00:53 [info] [request] 
+url: /InventoryList
+array()
+array
+(
+    'dId' => '2'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'amount' => '123'
+            'sumVolume' => '30'
+            'format' => '吨'
+            'orderId' => '2'
+            'name' => '石头'
+            'type' => '固体/液体'
+            'desc' => 'a*c*b'
+            'state' => '1'
+            'createTime' => '2017-09-06 16:54:47'
+            'updateTime' => '2017-09-07 10:06:34'
+        )
+        1 => array
+        (
+            'id' => '3'
+            'amount' => '123'
+            'sumVolume' => '20'
+            'format' => '吨'
+            'orderId' => '2'
+            'name' => '石头'
+            'type' => '固体/液体'
+            'desc' => 'a*c*b'
+            'state' => '1'
+            'createTime' => '2017-09-06 16:56:50'
+            'updateTime' => '2017-09-06 16:56:50'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (164)
+2017/09/12 14:59:34 [info] [request] 
+url: /deldemand
+array
+(
+    'did' => '8'
+)
+array()
+callback: array
+(
+    'code' => '1'
+    'message' => '该需求不存在'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (177)
+2017/09/12 15:00:06 [info] [request] 
+url: /deldemand
+array
+(
+    'did' => '8'
+)
+array()
+callback: array
+(
+    'code' => '0'
+    'message' => '该需求不存在'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (177)
+2017/09/12 15:02:57 [info] [request] 
+url: /deldemand
+array
+(
+    'did' => '8'
+)
+array()
+callback: array
+(
+    'code' => '0'
+    'message' => '该需求不存在'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (178)
+2017/09/12 15:15:34 [info] [request] 
+url: /deldemand
+array()
+array
+(
+    'dId' => '8'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '删除成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (181)
+2017/09/12 16:01:15 [info] [request] 
+url: /list
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '小张'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => null
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 16:57:27'
+            'updateTime' => '2017-09-11 16:57:27'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '小'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => null
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 17:01:20'
+            'updateTime' => '2017-09-11 17:01:20'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (48)
+2017/09/12 16:01:21 [info] [request] 
+url: /list
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad871'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '参数错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (302)
+2017/09/12 16:01:25 [info] [request] 
+url: /list
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '小张'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => null
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 16:57:27'
+            'updateTime' => '2017-09-11 16:57:27'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '小'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => null
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 17:01:20'
+            'updateTime' => '2017-09-11 17:01:20'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (48)
+2017/09/12 16:01:43 [info] [request] 
+url: /list
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (48)
+2017/09/12 16:07:49 [info] [request] 
+url: /list
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '小张'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => null
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 16:57:27'
+            'updateTime' => '2017-09-11 16:57:27'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '小'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => null
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 17:01:20'
+            'updateTime' => '2017-09-11 17:01:20'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (48)
+2017/09/12 16:08:43 [info] [request] 
+url: /list
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '1'
+            'name' => '小张'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => ''
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 16:57:27'
+            'updateTime' => '2017-09-11 16:57:27'
+        )
+        1 => array
+        (
+            'id' => '2'
+            'name' => '小'
+            'sex' => '3'
+            'job' => 'It'
+            'mobile' => '13823517819'
+            'companyPhone' => ''
+            'userId' => '2'
+            'state' => '1'
+            'createTime' => '2017-09-11 17:01:20'
+            'updateTime' => '2017-09-11 17:01:20'
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (48)

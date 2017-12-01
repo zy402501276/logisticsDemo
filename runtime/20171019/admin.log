@@ -1,0 +1,375 @@
+2017/10/19 09:13:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/10/19 09:52:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/10/19 10:42:09 [error] [exception.CException] exception 'CException' with message '属性 "VehicleForm.userName" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('userName')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(VehicleForm), 'userName')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(VehicleForm), 'userName', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(VehicleForm), 'userName', Array)
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php(11): CActiveForm->textField(Object(VehicleForm), 'userName')
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(82): CController->render('index', Array)
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#19 {main}
+REQUEST_URI=/Vehicle/VehicleList
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/19 10:42:36 [error] [exception.CException] exception 'CException' with message '属性 "VehicleForm.mobile" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('mobile')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(VehicleForm), 'mobile')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(VehicleForm), 'mobile', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(VehicleForm), 'mobile', Array)
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php(13): CActiveForm->textField(Object(VehicleForm), 'mobile')
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(82): CController->render('index', Array)
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#19 {main}
+REQUEST_URI=/Vehicle/VehicleList
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/19 10:42:44 [error] [exception.CException] exception 'CException' with message '属性 "VehicleForm.frequenceCity" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('frequenceCity')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(VehicleForm), 'frequenceCity')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(VehicleForm), 'frequenceCity', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(VehicleForm), 'frequenceCity', Array)
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php(15): CActiveForm->textField(Object(VehicleForm), 'frequenceCity')
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(82): CController->render('index', Array)
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#19 {main}
+REQUEST_URI=/Vehicle/VehicleList
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/19 10:43:14 [error] [php] Undefined index: id (D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php:39)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(82): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Vehicle/VehicleList
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php (39)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (82)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/19 10:43:31 [error] [php] Undefined index: id (D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php:47)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(82): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Vehicle/VehicleList
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php (47)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (82)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/19 10:54:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `User` ON (`Drivers`.userId = `User`.id) LIMIT 15' at line 1. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) AND LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) LIMIT 15.
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php (28)
+2017/10/19 10:54:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `User` ON (`Drivers`.userId = `User`.id) LIMIT 15' at line 1. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) AND LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) LIMIT 15' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT SQL_CALC...', 'queryAll')
+#3 D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php(28): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(78): VehicleForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#14 {main}
+REQUEST_URI=/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList
+---
+2017/10/19 10:57:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727"' at line 1. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) AND LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727" LIMIT 15.
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php (29)
+2017/10/19 10:57:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727"' at line 1. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId) AND LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE `User`.userName="zy19930727" LIMIT 15' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT SQL_CALC...', 'queryAll')
+#3 D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php(29): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(78): VehicleForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#14 {main}
+REQUEST_URI=/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList
+---
+2017/10/19 11:25:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state' in where clause is ambiguous. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15.
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php (47)
+2017/10/19 11:25:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state' in where clause is ambiguous. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT SQL_CALC...', 'queryAll')
+#3 D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php(47): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(78): VehicleForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#14 {main}
+REQUEST_URI=/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy199307270&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%8C%97%E4%BA%AC&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=1
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy199307270&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%8C%97%E4%BA%AC&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0
+---
+2017/10/19 11:25:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state' in where clause is ambiguous. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15.
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php (47)
+2017/10/19 11:25:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state' in where clause is ambiguous. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT SQL_CALC...', 'queryAll')
+#3 D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php(47): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(78): VehicleForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#14 {main}
+REQUEST_URI=/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy199307270&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%8C%97%E4%BA%AC&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=1
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy199307270&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%8C%97%E4%BA%AC&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0
+---
+2017/10/19 11:26:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state' in where clause is ambiguous. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15.
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (324)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (227)
+in D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php (47)
+2017/10/19 11:26:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'state' in where clause is ambiguous. The SQL statement executed was: SELECT SQL_CALC_FOUND_ROWS * FROM `Vehicle` `t` LEFT JOIN `Drivers` ON (`Drivers`.id = `t`.dId)  LEFT JOIN `User` ON (`Drivers`.userId = `User`.id) WHERE (((`Drivers`.frequenceCity LIKE "%安徽%") AND (`User`.userName="zy19930727")) AND (type="1")) AND (state="1") LIMIT 15' in D:\zyweb\Yii1\db\CDbCommand.php:559
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(405): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(324): CDbCommand->queryAll()
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(227): BaseModel->getData('SELECT SQL_CALC...', 'queryAll')
+#3 D:\zyweb\pcb_wl\applications\admin\form\VehicleForm.php(47): BaseModel->query(Array, Array)
+#4 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(78): VehicleForm->search()
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('VehicleList')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('VehicleList')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/Vehicle...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#14 {main}
+REQUEST_URI=/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy199307270&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%8C%97%E4%BA%AC&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=1
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList?VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy199307270&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%8C%97%E4%BA%AC&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0&VehicleForm%5BuserName%5D=zy19930727&VehicleForm%5Bmobile%5D=&VehicleForm%5BfrequenceCity%5D=%E5%AE%89%E5%BE%BD&VehicleForm%5Btype%5D=1&VehicleForm%5Bstate%5D=0
+---
+2017/10/19 13:29:39 [error] [php] Undefined variable: model (D:\zyweb\pcb_wl\applications\admin\views\vehicle\edit.php:22)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(94): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionEditVehicle()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/vehicle/EditVehicle
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\edit.php (22)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (94)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/19 13:43:13 [error] [php] Undefined variable: personModel (D:\zyweb\pcb_wl\applications\admin\views\vehicle\edit.php:51)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(94): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionEditVehicle()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/vehicle/EditVehicle
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\edit.php (51)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (94)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/19 13:45:10 [error] [php] Undefined variable: personModel (D:\zyweb\pcb_wl\applications\admin\views\vehicle\edit.php:57)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(94): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionEditVehicle()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/vehicle/EditVehicle
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\edit.php (57)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (94)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/19 14:26:58 [error] [php] Array to string conversion (D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php:44)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(82): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionVehicleList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Vehicle/VehicleList
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\index.php (44)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (82)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/19 14:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "EditVehicle" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('EditVehicle')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('EditVehicle')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('EditVehicle')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('User/EditVehicl...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/User/EditVehicle/id/2
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList
+---
+2017/10/19 15:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "EditVehicle" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('EditVehicle')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('EditVehicle')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('EditVehicle')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('User/EditVehicl...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/User/EditVehicle/id/1
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList
+---
+2017/10/19 15:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "EditVehicle" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('EditVehicle')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('EditVehicle')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('EditVehicle')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('User/EditVehicl...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/User/EditVehicle/id/1
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList
+---
+2017/10/19 15:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/10/19 16:37:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/VehicleList
+---

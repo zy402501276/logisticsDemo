@@ -1,0 +1,187 @@
+2017/10/09 11:20:30 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => '18649717819'
+    'password' => 'zy19930727'
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '账户名或密码错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (120)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (165)
+2017/10/09 11:21:03 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => '18649717819'
+    'password' => 'zy19930727'
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '账户名或密码错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (165)
+2017/10/09 11:21:48 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => 'zy19930727'
+    'password' => 'zy19930727'
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '账户名或密码错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (165)
+2017/10/09 11:22:09 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => '18649717819'
+    'password' => 'zy19930727'
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '账户名或密码错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (165)
+2017/10/09 11:22:29 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => '18649717819'
+    'password' => 'zy19930727'
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '账户名或密码错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (165)
+2017/10/09 11:23:42 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => 'MTg2NDk3MTc4MTk='
+    'password' => 'enkxOTkzMDcyNw=='
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '登录成功'
+    'obj' => array
+    (
+        'id' => '2'
+        'userName' => 'zy19930727'
+        'trueName' => '车市'
+        'nickName' => 'testd'
+        'avatar' => null
+        'qq' => '2147483647'
+        'state' => '1'
+        'utoken' => '867d47f2eddcd528033af143e21fad87'
+        'mobile' => '18649717819'
+        'email' => '4025012762@qq.com'
+        'sex' => '1'
+        'isAuth' => '2'
+        'companyAuth' => '0'
+        'identityType' => null
+        'isRole' => '1'
+        'uId' => '1536'
+        'createTime' => '2017-08-16 10:05:24'
+        'updateTime' => '2017-09-19 14:20:02'
+        'telephone' => null
+        'maskMobile' => '1864****819'
+        'setQuestion' => 1
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (163)
+2017/10/09 11:41:19 [info] [request] 
+url: /login
+array()
+array
+(
+    'userName' => 'MTg2NDk3MTc4MTk='
+    'password' => 'enkxOTkzMDcyNw=='
+    'loginType' => '1'
+    'deviceType' => '2'
+    'deviceName' => 'iPhone'
+    'appKey' => '171976fa8ab79a05830'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '登录成功'
+    'obj' => array
+    (
+        'id' => '2'
+        'userName' => 'zy19930727'
+        'trueName' => '车市'
+        'nickName' => 'testd'
+        'avatar' => null
+        'qq' => '2147483647'
+        'state' => '1'
+        'utoken' => '867d47f2eddcd528033af143e21fad87'
+        'mobile' => '18649717819'
+        'email' => '4025012762@qq.com'
+        'sex' => '1'
+        'isAuth' => '2'
+        'companyAuth' => '0'
+        'identityType' => null
+        'isRole' => '1'
+        'uId' => '1536'
+        'createTime' => '2017-08-16 10:05:24'
+        'updateTime' => '2017-09-19 14:20:02'
+        'telephone' => null
+        'maskMobile' => '1864****819'
+        'setQuestion' => 1
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\IndexController.php (163)

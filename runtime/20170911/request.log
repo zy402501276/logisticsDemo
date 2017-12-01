@@ -1,0 +1,330 @@
+2017/09/11 16:57:27 [info] [request] 
+url: /AddReceiver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'id' => ''
+    'name' => '小张'
+    'sex' => '3'
+    'job' => 'It'
+    'mobile' => '13823517819'
+    'companyPhone' => ''
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (24)
+2017/09/11 16:57:38 [info] [request] 
+url: /AddReceiver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'id' => ''
+    'name' => '小张@@@@'
+    'sex' => '3'
+    'job' => 'It'
+    'mobile' => '13823517819'
+    'companyPhone' => ''
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '名字不能有特殊符号'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (21)
+2017/09/11 17:01:20 [info] [request] 
+url: /AddReceiver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'id' => ''
+    'name' => '小'
+    'sex' => '3'
+    'job' => 'It'
+    'mobile' => '13823517819'
+    'companyPhone' => ''
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (24)
+2017/09/11 17:01:25 [info] [request] 
+url: /AddReceiver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'id' => ''
+    'name' => '小@@@@'
+    'sex' => '3'
+    'job' => 'It'
+    'mobile' => '13823517819'
+    'companyPhone' => ''
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '名字不能有特殊符号'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (21)
+2017/09/11 17:20:18 [info] [request] 
+url: /demandlist
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '8'
+            'startTime' => '2017-08-09 15:36:12'
+            'endTime' => '2017-08-09 15:36:12'
+            'deliveryTime' => '2017-08-09 15:36:12'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '开门网_2'
+            'unloadMsg' => 'PCBDOOR_2'
+            'vehicleType' => '2'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '1'
+            'vehicleId' => null
+            'sumVolume' => '20.00公斤'
+            'sumWeight' => '80'
+            'descript' => null
+            'itemName' => '水果'
+            'itemType' => '1/2'
+            'createTime' => '2017-09-01 16:08:21'
+            'updateTime' => '2017-09-08 11:08:36'
+            'vehicleLength' => null
+        )
+        1 => array
+        (
+            'id' => '9'
+            'startTime' => '2017-09-11 10:48:51'
+            'endTime' => '2017-09-11 10:48:54'
+            'deliveryTime' => '2017-09-11 10:48:56'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '中山大学_2'
+            'unloadMsg' => '于康花园_2'
+            'vehicleType' => '1'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '1'
+            'vehicleId' => null
+            'sumVolume' => '10.00公斤'
+            'sumWeight' => '20'
+            'descript' => '测试'
+            'itemName' => 'PCB板'
+            'itemType' => '2'
+            'createTime' => '2017-09-11 10:50:08'
+            'updateTime' => '2017-09-11 10:50:14'
+            'vehicleLength' => null
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (131)
+2017/09/11 17:20:41 [info] [request] 
+url: /demandlist
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '8'
+            'startTime' => '2017-08-09 15:36:12'
+            'endTime' => '2017-08-09 15:36:12'
+            'deliveryTime' => '2017-08-09 15:36:12'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '开门网_2'
+            'unloadMsg' => 'PCBDOOR_2'
+            'vehicleType' => '2'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '1'
+            'vehicleId' => null
+            'sumVolume' => '20.00公斤'
+            'sumWeight' => '80'
+            'descript' => null
+            'itemName' => '水果'
+            'itemType' => '1/2'
+            'createTime' => '2017-09-01 16:08:21'
+            'updateTime' => '2017-09-08 11:08:36'
+            'vehicleLength' => null
+        )
+        1 => array
+        (
+            'id' => '9'
+            'startTime' => '2017-09-11 10:48:51'
+            'endTime' => '2017-09-11 10:48:54'
+            'deliveryTime' => '2017-09-11 10:48:56'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '中山大学_2'
+            'unloadMsg' => '于康花园_2'
+            'vehicleType' => '1'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '1'
+            'vehicleId' => null
+            'sumVolume' => '10.00公斤'
+            'sumWeight' => '20'
+            'descript' => '测试'
+            'itemName' => 'PCB板'
+            'itemType' => '2'
+            'createTime' => '2017-09-11 10:50:08'
+            'updateTime' => '2017-09-11 10:50:14'
+            'vehicleLength' => null
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (131)
+2017/09/11 17:20:50 [info] [request] 
+url: /demandlist
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array()
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (133)
+2017/09/11 17:21:00 [info] [request] 
+url: /demandlist
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => ''
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (133)
+2017/09/11 17:21:24 [info] [request] 
+url: /demandlist
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'id' => '8'
+            'startTime' => '2017-08-09 15:36:12'
+            'endTime' => '2017-08-09 15:36:12'
+            'deliveryTime' => '2017-08-09 15:36:12'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '开门网_2'
+            'unloadMsg' => 'PCBDOOR_2'
+            'vehicleType' => '2'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '1'
+            'vehicleId' => null
+            'sumVolume' => '20.00公斤'
+            'sumWeight' => '80'
+            'descript' => null
+            'itemName' => '水果'
+            'itemType' => '1/2'
+            'createTime' => '2017-09-01 16:08:21'
+            'updateTime' => '2017-09-08 11:08:36'
+            'vehicleLength' => null
+        )
+        1 => array
+        (
+            'id' => '9'
+            'startTime' => '2017-09-11 10:48:51'
+            'endTime' => '2017-09-11 10:48:54'
+            'deliveryTime' => '2017-09-11 10:48:56'
+            'userId' => '2'
+            'userName' => 'testd'
+            'userMobile' => '18649717819'
+            'loadMsg' => '中山大学_2'
+            'unloadMsg' => '于康花园_2'
+            'vehicleType' => '1'
+            'vehicleVolume' => null
+            'vehicleCapacity' => null
+            'vehicleDesc' => null
+            'orderType' => '1'
+            'vehicleId' => null
+            'sumVolume' => '10.00公斤'
+            'sumWeight' => '20'
+            'descript' => '测试'
+            'itemName' => 'PCB板'
+            'itemType' => '2'
+            'createTime' => '2017-09-11 10:50:08'
+            'updateTime' => '2017-09-11 10:50:14'
+            'vehicleLength' => null
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (131)

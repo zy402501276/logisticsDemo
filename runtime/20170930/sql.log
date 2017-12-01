@@ -1,0 +1,603 @@
+2017/09/30 09:37:37 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/30 09:37:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/30 09:37:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/30 09:43:01 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/30 09:43:01 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/30 09:43:01 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/30 09:45:51 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/30 09:45:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/30 09:45:51 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/30 09:45:53 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/30 09:45:53 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/30 09:45:53 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/30 09:46:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/30 09:46:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 09:46:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 09:46:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 09:46:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 09:46:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 09:52:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 09:52:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 09:52:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 09:52:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 09:53:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 09:53:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 09:53:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 09:53:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 09:54:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 09:54:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 09:54:04 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 09:54:04 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:13:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:13:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:16:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:16:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:16:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:16:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:16:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:16:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:19:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:19:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:19:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:19:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:19:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:19:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:19:37 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:19:37 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:19:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:19:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:19:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:19:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:19:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:19:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:19:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:19:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:22:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:22:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:22:02 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:22:02 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:23:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:23:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:23:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:23:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:25:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:25:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:25:37 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:25:37 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:33:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:33:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:33:40 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:33:40 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:33:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:33:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:33:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:33:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:33:56 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:33:56 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:33:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:33:56 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:34:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:34:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:34:02 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:34:02 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:34:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:34:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:34:03 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:34:03 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:39:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:39:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:39:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:39:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:39:36 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:39:36 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:39:36 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:39:36 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:39:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:39:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:39:44 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:39:44 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:39:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:39:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:39:52 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:39:52 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:39:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:39:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:39:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:39:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:41:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:38 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:41:38 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:41:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:40 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:41:40 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:41:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:41:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:41:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:41:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:41:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:41:41 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:41:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:41:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:41:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:41:42 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:33 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:33 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:34 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:35 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:35 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:35 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:43 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:51:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:51:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 10:51:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 10:51:50 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 10:52:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 10:52:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:16 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:16 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:17 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:18 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:18 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:18 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:18 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:18 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:18 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:04:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:04:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:04:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:04:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:23 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:23 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:23 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:23 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:53 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:53 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:05:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:05:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:05:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:05:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:06:09 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:06:09 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:06:09 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:06:09 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:06:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:06:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:06:11 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:06:11 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:06:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:06:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:06:16 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:06:16 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:06:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:06:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:06:21 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:06:21 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:06:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:06:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:06:22 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:06:22 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:06:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:06:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:06:22 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:06:22 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:10 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:10 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:10 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:10 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:11 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:11 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:12 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:12 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:12 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:12 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:13 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:13 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:08:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:08:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:08:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:08:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:11:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:11:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:11:11 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:11:11 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:14:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:14:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:14:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:14:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:16:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` WHERE type LIKE "%货车%" LIMIT 15
+2017/09/30 11:16:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:16:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:17:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:17:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:17:05 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:17:05 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:18:43 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = "1"
+2017/09/30 11:18:46 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = "1"
+2017/09/30 11:18:54 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = "1"
+2017/09/30 11:18:54 [profile] [sql] UPDATE `VehicleType` SET `type`=:type, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime, `adminId`=:adminId WHERE `id` IN(1)
+array
+(
+    'type' => '卡车'
+    'state' => '1'
+    'createTime' => '2017-09-08 16:19:41'
+    'updateTime' => '2017-09-30 11:18:54'
+    'adminId' => '1'
+)
+2017/09/30 11:18:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:18:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:18:54 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:18:54 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:18:56 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = "1"
+2017/09/30 11:23:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:14 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:23:15 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = "1"
+2017/09/30 11:23:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:25 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:25 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:23:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:23:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:23:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:44 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:44 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:23:48 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:48 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:48 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:48 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:23:52 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:23:52 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:23:52 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:23:52 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:24:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:24:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:24:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:24:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 11:24:02 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/09/30 11:25:07 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/09/30 11:25:23 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/09/30 11:25:28 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/09/30 11:25:35 [profile] [sql] SELECT * FROM `VehicleType` WHERE `id` = ""
+2017/09/30 11:29:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 11:29:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 11:29:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 11:29:55 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 14:43:04 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/30 14:43:04 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/30 14:43:04 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:44:06 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 14:44:06 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:44:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 14:44:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:44:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 14:44:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:44:50 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 14:44:50 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:51:54 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 14:51:54 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:57:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 14:57:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:57:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 14:57:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:57:13 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 14:57:13 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 14:59:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 14:59:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 14:59:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 14:59:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:02:19 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:02:19 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:02:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:02:19 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:24:02 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:24:02 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:24:02 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:24:02 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:24:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:24:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:24:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:24:07 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:24 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:24 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:24 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:26 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:26 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:28 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:28 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:28 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:28 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:29 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:30 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:30 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:30 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:31 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:31 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:31 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:25:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:25:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:25:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:25:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:25:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:57 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:30:57 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:57 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:30:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:30:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:30:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:58 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:30:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:59 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:59 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:30:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:59 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:59 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:30:59 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:30:59 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:30:59 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:30:59 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:31:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:31:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:31:00 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:31:00 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:31:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:31:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:31:00 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:31:00 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:31:00 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleLength` `t` LIMIT 15
+2017/09/30 15:31:00 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:31:00 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:31:00 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:31:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:31:01 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:31:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:31:01 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:36:40 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `VehicleType` `t` LIMIT 15
+2017/09/30 15:36:40 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:36:40 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="1"
+2017/09/30 15:36:40 [profile] [sql] SELECT * FROM `Admin` `t` WHERE adminId="2"
+2017/09/30 15:36:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/30 15:36:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:36:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/30 15:36:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:50:05 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/30 15:50:05 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:50:58 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/30 15:50:58 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/30 15:51:01 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/30 15:51:01 [profile] [sql] SELECT FOUND_ROWS()

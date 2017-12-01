@@ -1,0 +1,402 @@
+2017/11/07 09:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/goods/edit
+---
+2017/11/07 13:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/orders/
+---
+2017/11/07 13:15:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/orders/
+---
+2017/11/07 13:49:27 [error] [exception.CException] exception 'CException' with message 'Property "GoodsForm.type" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\base\CModel.php(596): CComponent->__get('type')
+#1 D:\zyweb\pcb_logistics\applications\home\views\orders\addGoodsModel.php(16): CModel->offsetGet('type')
+#2 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#3 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#4 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#5 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(93): CController->renderPartial('addGoodsModel', Array)
+#6 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionAjaxAddGoods()
+#7 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('AjaxAddGoods')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('AjaxAddGoods')
+#12 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/AjaxAddG...')
+#13 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/orders/AjaxAddGoods?type=2&modelId=4
+---
+2017/11/07 13:57:11 [error] [exception.CException] exception 'CException' with message 'Property "GoodsForm.type" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\views\orders\addGoodsModel.php(16): CComponent->__get('type')
+#1 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#2 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#3 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(95): CController->renderPartial('addGoodsModel', Array)
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionAjaxAddGoods()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('AjaxAddGoods')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('AjaxAddGoods')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/AjaxAddG...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/AjaxAddGoods?type=2&modelId=4
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 13:57:15 [error] [exception.CException] exception 'CException' with message 'Property "GoodsForm.type" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\views\orders\addGoodsModel.php(16): CComponent->__get('type')
+#1 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#2 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#3 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(95): CController->renderPartial('addGoodsModel', Array)
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionAjaxAddGoods()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('AjaxAddGoods')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('AjaxAddGoods')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/AjaxAddG...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/AjaxAddGoods?type=2&modelId=4
+---
+2017/11/07 13:57:36 [error] [exception.CException] exception 'CException' with message 'Property "GoodsForm.palletsSize" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\pcb_logistics\applications\home\views\orders\addGoodsModel.php(73): CComponent->__get('palletsSize')
+#1 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_lo...')
+#2 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_lo...', Array, true)
+#3 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_lo...', Array, true)
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(95): CController->renderPartial('addGoodsModel', Array)
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionAjaxAddGoods()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('AjaxAddGoods')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('AjaxAddGoods')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/AjaxAddG...')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/AjaxAddGoods?type=2&modelId=4
+---
+2017/11/07 17:01:58 [error] [php] Use of undefined constant request - assumed 'request' (D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php:110)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/edit
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (110)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (32)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/07 17:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.wllogistics.com/gii/default/login
+---
+2017/11/07 17:18:25 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/07 17:18:25 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/07 17:18:25 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/07 17:18:25 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_logistics\website\admin\index.php (32)
+2017/11/07 17:27:41 [error] [exception.CException] exception 'CException' with message 'Property "OrderGoodsForm.state" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\validators\CDefaultValueValidator.php(44): CComponent->__get('state')
+#1 D:\zyweb\Yii1\validators\CValidator.php(213): CDefaultValueValidator->validateAttribute(Object(OrderGoodsForm), 'state')
+#2 D:\zyweb\Yii1\base\CModel.php(159): CValidator->validate(Object(OrderGoodsForm), NULL)
+#3 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(96): CModel->validate()
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 17:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/orders
+---
+2017/11/07 17:28:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/orders/
+---
+2017/11/07 17:33:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'goodsId' at row 1. The SQL statement executed was: INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime).
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_logistics\library\form\base\OrderGoodsBaseForm.php (88)
+2017/11/07 17:33:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'goodsId' at row 1. The SQL statement executed was: INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime)' in D:\zyweb\Yii1\db\CDbCommand.php:363
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(1301): CDbCommand->execute(Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(172): CDbCommand->insert('OrderGoods', Array)
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(131): BaseModel->insert(Array)
+#3 D:\zyweb\pcb_logistics\library\form\base\OrderGoodsBaseForm.php(88): BaseModel->save(Array)
+#4 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(97): OrderGoodsBaseForm->save()
+#5 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#6 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#7 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#12 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#13 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 17:34:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'goodsId' at row 1. The SQL statement executed was: INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime).
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_logistics\library\form\base\OrderGoodsBaseForm.php (88)
+2017/11/07 17:34:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'goodsId' at row 1. The SQL statement executed was: INSERT INTO `OrderGoods` (`orderId`, `goodsId`, `goodsName`, `goodsType`, `goodsWeight`, `goodsLength`, `goodsWidth`, `goodsHeight`, `highestC`, `lowestC`, `pallet`, `palletSize`, `desc`, `modelName`, `isModel`, `isUsing`, `isFrequence`, `createTime`, `updateTime`) VALUES (:orderId, :goodsId, :goodsName, :goodsType, :goodsWeight, :goodsLength, :goodsWidth, :goodsHeight, :highestC, :lowestC, :pallet, :palletSize, :desc, :modelName, :isModel, :isUsing, :isFrequence, :createTime, :updateTime)' in D:\zyweb\Yii1\db\CDbCommand.php:363
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(1301): CDbCommand->execute(Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(172): CDbCommand->insert('OrderGoods', Array)
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(131): BaseModel->insert(Array)
+#3 D:\zyweb\pcb_logistics\library\form\base\OrderGoodsBaseForm.php(88): BaseModel->save(Array)
+#4 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(97): OrderGoodsBaseForm->save()
+#5 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#6 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#7 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#12 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#13 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 17:52:12 [error] [php] Use of undefined constant request - assumed 'request' (D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php:114)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#3 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/edit
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (114)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (32)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (30)
+2017/11/07 17:56:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/11/07 17:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 18:05:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN().
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (122)
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (131)
+2017/11/07 18:05:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN()' in D:\zyweb\Yii1\db\CDbCommand.php:363
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(1336): CDbCommand->execute(Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(186): CDbCommand->update('OrderGoods', Array, '`id` IN()')
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(122): BaseModel->update(Array, '`id` IN()')
+#3 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(131): BaseModel->updateByPk(NULL, Array)
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 18:10:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN().
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (122)
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (131)
+2017/11/07 18:10:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN()' in D:\zyweb\Yii1\db\CDbCommand.php:363
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(1336): CDbCommand->execute(Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(186): CDbCommand->update('OrderGoods', Array, '`id` IN()')
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(122): BaseModel->update(Array, '`id` IN()')
+#3 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(131): BaseModel->updateByPk(NULL, Array)
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 18:15:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN().
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (122)
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (131)
+2017/11/07 18:15:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/orders/
+---
+2017/11/07 18:19:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('')
+#1 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/orders/
+---
+2017/11/07 18:20:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN().
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (122)
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (132)
+2017/11/07 18:22:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN().
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (186)
+in D:\zyweb\pcb_logistics\library\model\BaseModel.php (122)
+in D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php (132)
+2017/11/07 18:22:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1. The SQL statement executed was: UPDATE `OrderGoods` SET `goodsId`=:goodsId WHERE `id` IN()' in D:\zyweb\Yii1\db\CDbCommand.php:363
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(1336): CDbCommand->execute(Array)
+#1 D:\zyweb\pcb_logistics\library\model\BaseModel.php(186): CDbCommand->update('OrderGoods', Array, '`id` IN()')
+#2 D:\zyweb\pcb_logistics\library\model\BaseModel.php(122): BaseModel->update(Array, '`id` IN()')
+#3 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(132): BaseModel->updateByPk(NULL, Array)
+#4 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#5 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#6 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#10 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#12 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#14 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 18:25:27 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.getId" is not defined.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\auth\CWebUser.php(146): CComponent->__get('getId')
+#1 D:\zyweb\pcb_logistics\applications\home\service\OrdersService.php(187): CWebUser->__get('getId')
+#2 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(32): OrdersService->addOrder(Array, Object(OrdersForm))
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): CController->run('edit')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('edit')
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('orders/edit')
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_logistics\website\home\index.php(38): CApplication->run()
+#12 {main}
+REQUEST_URI=/orders/edit
+HTTP_REFERER=http://www.wllogistics.com/orders/edit
+---
+2017/11/07 18:57:59 [error] [php] Use of undefined constant timeArr - assumed 'timeArr' (D:\zyweb\pcb_logistics\applications\home\views\orders\edit.php:172)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): OrdersController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): OrdersController->renderPartial()
+#2 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(52): OrdersController->render()
+#3 D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php(44): OrdersController->render()
+#4 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): OrdersController->actionEdit()
+#5 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\zyweb\Yii1\web\CController.php(286): OrdersController->runAction()
+#7 D:\zyweb\Yii1\web\CController.php(265): OrdersController->runActionWithFilters()
+#8 D:\zyweb\pcb_logistics\applications\home\components\Controller.php(30): OrdersController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(282): OrdersController->run()
+#10 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\zyweb\pcb_logistics\website\home\index.php(38): CWebApplication->run()
+REQUEST_URI=/orders/edit
+in D:\zyweb\pcb_logistics\applications\home\views\orders\edit.php (172)
+in D:\zyweb\pcb_logistics\applications\home\components\Controller.php (52)
+in D:\zyweb\pcb_logistics\applications\home\controllers\OrdersController.php (44)

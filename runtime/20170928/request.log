@@ -1,0 +1,34 @@
+2017/09/28 15:20:17 [info] [request] 
+url: /addorder
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'costId' => '1'
+    'desc' => '测试'
+    'deliverId' => '1'
+    'receiverId' => '1'
+    'insuranceId' => '2'
+    'insurancePrice' => ''
+    'inventoryId' => '1,2,3'
+    'app_id' => '20170928142815'
+    'subject' => '开门网'
+    'body' => '开门网'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => array
+    (
+        'timeout_express' => '120m'
+        'sumCost' => 85
+        'orderNumber' => '17092815701204209442'
+        'notify_url' => 'http://api.logistics.com/Pay/AlipayNotify'
+        'timestamp' => '2017-09-28 15:20:17'
+        'rsa' => 'JHoMqL4g0Bhu9ulrJfCOUs4MBDEO9iqMw52M4opv+KVKpATynNq/Fy7w+SaO9WC0DMrpPZtYa0G4JjZvIyaEu/wD9HjlxjcNHtUw9joYCK+qBXyaceiN6FiDsrIDiVzqtbaFddyZcJj/AatPPWc68uQUplJn7gQoQrIPQigw2g71EiZBg1u9mfgraDluaXGASlf4BGpQunv66v3X1OjGcAMNdSvR06KxV3bXAJgRBXDQgE5yHtpeweuJ0LYHgltozPtwCWHW35ZhHuY7gBeOx7yia+7TxOvTtfqlGuixLWC7xjPzPokGZFQRPlqMkCN9k869ho5L6PplIYdiTxTntA=='
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (67)

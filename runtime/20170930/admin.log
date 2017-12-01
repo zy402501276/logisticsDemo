@@ -1,0 +1,355 @@
+2017/09/30 09:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/30 09:37:37 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 09:46:15 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 10:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/09/30 10:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/09/30 10:13:30 [error] [exception.CException] exception 'CException' with message '属性 "VehicleTypeForm." 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(VehicleTypeForm), '')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(VehicleTypeForm), '', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(VehicleTypeForm), '', Array)
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\typeIndex.php(12): CActiveForm->textField(Object(VehicleTypeForm), '')
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('typeIndex', Array, true)
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(24): CController->render('typeIndex', Array)
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('List')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('List')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/List')
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#19 {main}
+REQUEST_URI=/Vehicle/List
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/09/30 10:16:18 [error] [exception.CException] exception 'CException' with message '属性 "VehicleTypeForm." 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(VehicleTypeForm), '')
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(VehicleTypeForm), '', Array)
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(VehicleTypeForm), '', Array)
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\typeIndex.php(12): CActiveForm->textField(Object(VehicleTypeForm), '')
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#8 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('typeIndex', Array, true)
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(24): CController->render('typeIndex', Array)
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('List')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('List')
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/List')
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#19 {main}
+REQUEST_URI=/Vehicle/List
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/09/30 10:41:28 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (D:\zyweb\Yii1\web\helpers\CHtml.php:103)
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(158): renderAttributes()
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2255): tag()
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): activeInputField()
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): activeTextField()
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\typeIndex.php(13): CActiveForm->textField()
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require()
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): VehicleController->renderInternal()
+#7 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#8 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(24): VehicleController->render()
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#13 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Vehicle/List?VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%8D%A1%E8%BD%A6&VehicleTypeForm%5Btype%5D=&VehicleTypeForm%5Btype%5D=%E8%B4%A7%E8%BD%A6
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\typeIndex.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (24)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 11:04:02 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (D:\zyweb\Yii1\web\helpers\CHtml.php:103)
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(158): renderAttributes()
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(2255): tag()
+#2 D:\zyweb\Yii1\web\helpers\CHtml.php(1434): activeInputField()
+#3 D:\zyweb\Yii1\web\widgets\CActiveForm.php(725): activeTextField()
+#4 D:\zyweb\pcb_wl\applications\admin\views\vehicle\typeIndex.php(13): CActiveForm->textField()
+#5 D:\zyweb\Yii1\web\CBaseController.php(126): require()
+#6 D:\zyweb\Yii1\web\CBaseController.php(95): VehicleController->renderInternal()
+#7 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#8 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#9 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(22): VehicleController->render()
+#10 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#11 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#13 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#14 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#15 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#16 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#17 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Vehicle/List?VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%BC%80%E8%BD%A6&VehicleTypeForm%5Btype%5D=%E6%89%93%E5%8D%A1%E8%BD%A6&VehicleTypeForm%5Btype%5D=&VehicleTypeForm%5Btype%5D=%E8%B4%A7%E8%BD%A6
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\typeIndex.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 11:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 11:15:04 [error] [exception.CException] exception 'CException' with message '属性 "CDbCriteria.type" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:173
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\form\VehicleTypeForm.php(36): CComponent->__set('type', '\xE8\xB4\xA7\xE8\xBD\xA6')
+#1 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(20): VehicleTypeForm->search()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('List')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('List')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Vehicle/List')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#11 {main}
+REQUEST_URI=/Vehicle/List
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 11:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vehicleType/edit".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicleType/edi...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/vehicleType/edit
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 11:23:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vehicleType/edit".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicleType/edi...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/vehicleType/edit
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 11:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vehicleType/editType".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicleType/edi...')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/vehicleType/editType
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 11:23:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "editType" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('editType')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('editType')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('editType')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicle/editTyp...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/vehicle/editType
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 11:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "editType" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('editType')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('editType')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('editType')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicle/editTyp...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/vehicle/editType
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/09/30 14:43:04 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 14:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "lengthlish" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('lengthlish')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('lengthlish')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('lengthlish')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicle/lengthl...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/vehicle/lengthlish
+---
+2017/09/30 14:44:06 [error] [php] Undefined index: length (D:\zyweb\pcb_wl\applications\admin\views\vehicle\lengthIndex.php:31)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(65): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionLengthList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/vehicle/lengthlist
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\lengthIndex.php (31)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (65)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 14:44:31 [error] [exception.CException] exception 'CException' with message 'VehicleController 无法找到请求的视图 "Index".' in D:\zyweb\Yii1\web\CController.php:878
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('Index', Array, true)
+#1 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(65): CController->render('Index', Array)
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionlengthList()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('lengthlist')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('lengthlist')
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('vehicle/lengthl...')
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#11 {main}
+REQUEST_URI=/vehicle/lengthlist
+---
+2017/09/30 14:44:37 [error] [php] Undefined index: length (D:\zyweb\pcb_wl\applications\admin\views\vehicle\lengthIndex.php:31)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): VehicleController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): VehicleController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php(65): VehicleController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): VehicleController->actionlengthList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): VehicleController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): VehicleController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): VehicleController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): VehicleController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/vehicle/lengthlist
+in D:\zyweb\pcb_wl\applications\admin\views\vehicle\lengthIndex.php (31)
+in D:\zyweb\pcb_wl\applications\admin\controllers\VehicleController.php (65)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 15:36:42 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/30 15:51:01 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)

@@ -1,0 +1,40 @@
+2017/10/16 16:09:51 [info] [request] 
+url: /addreceiver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'name' => '测试'
+    'sex' => '1'
+    'mobile' => '18649717819'
+    'appKey' => '171976fa8ab79a05830'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (26)
+2017/10/16 16:10:05 [info] [request] 
+url: /addreceiver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'name' => '测试'
+    'sex' => '1'
+    'mobile' => '18649717819'
+    'appKey' => '171976fa8ab79a05830'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (132)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (96)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (26)

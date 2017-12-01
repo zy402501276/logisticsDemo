@@ -1,0 +1,149 @@
+2017/09/26 10:08:34 [info] [request] 
+url: /addorder
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'costId' => '1'
+    'deliverId' => '12'
+    'receiverId' => '34'
+    'inventoryId' => '1223,1'
+    'insuracePrice' => '30.00'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (67)
+2017/09/26 10:08:45 [info] [request] 
+url: /addorder
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'costId' => '1'
+    'deliverId' => '12'
+    'receiverId' => '34'
+    'inventoryId' => '1223,1'
+    'insuracePrice' => '30.xxx'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '自定义保险价格必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (64)
+2017/09/26 15:30:51 [info] [request] 
+url: /addorder
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'costId' => '1'
+    'deliverId' => '12'
+    'receiverId' => '34'
+    'inventoryId' => '1223,1'
+    'insuracePrice' => '30.xxx'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '自定义保险价格必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (64)
+2017/09/26 15:30:57 [info] [request] 
+url: /addorder
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'costId' => '1'
+    'deliverId' => '12'
+    'receiverId' => '34'
+    'inventoryId' => '1223,1'
+    'insuracePrice' => '30'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => array
+    (
+        'orderNumber' => '17092615409204232940'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (67)
+2017/09/26 15:37:13 [info] [request] 
+url: /addorder
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'costId' => '1'
+    'deliverId' => '12'
+    'receiverId' => '34'
+    'inventoryId' => '1223,1'
+    'insuracePrice' => '30'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => array
+    (
+        'orderNumber' => '17092615462204126647'
+        'sumCost' => 65
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\OrderController.php (67)
+2017/09/26 17:28:47 [info] [request] 
+url: /GetUserInfo
+array()
+array
+(
+    'userName' => 'zy19930727'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'id' => '2'
+        'userName' => 'zy19930727'
+        'trueName' => '车市'
+        'nickName' => 'testd'
+        'avatar' => null
+        'qq' => '2147483647'
+        'state' => '1'
+        'utoken' => '867d47f2eddcd528033af143e21fad87'
+        'mobile' => '18649717819'
+        'email' => '4025012762@qq.com'
+        'sex' => '1'
+        'isAuth' => '2'
+        'companyAuth' => '0'
+        'identityType' => null
+        'isRole' => '1'
+        'uId' => '1536'
+        'createTime' => '2017-08-16 10:05:24'
+        'updateTime' => '2017-09-19 14:20:02'
+        'telephone' => null
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\UserController.php (316)

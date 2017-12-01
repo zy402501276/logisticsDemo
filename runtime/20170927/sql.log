@@ -1,0 +1,1080 @@
+2017/09/27 09:32:27 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/27 09:32:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 09:32:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:32:34 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:32:34 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:32:51 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:32:51 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:21 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:21 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:33:44 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:33:44 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:34:13 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:34:13 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:34:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:34:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:34:14 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:34:14 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:34:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:34:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:34:15 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:34:15 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:34:43 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:34:43 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:37:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:37:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:37:37 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:37:37 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:38:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:38:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:38:27 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:38:27 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:38:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:38:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:43:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:43:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:43:34 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:43:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 09:43:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 09:43:42 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:50:50 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:51:16 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:51:17 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:51:17 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:51:17 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 09:51:22 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 10:08:55 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 10:12:01 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 10:12:08 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:12:08 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:12:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/27 10:12:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="2"
+2017/09/27 10:12:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "2"
+2017/09/27 10:12:11 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:12:11 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:12:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:12:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:12:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:12:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:12:33 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:12:33 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:12:33 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:13:14 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:13:19 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:14:06 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:41:24 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:44:46 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:44:46 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:44:46 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:44:49 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:44:55 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:44:55 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:44:55 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:44:58 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:45:18 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:45:45 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:45:45 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:45:45 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:45:49 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:51:21 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:53:41 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:53:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:53:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 10:56:04 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:56:09 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:59:10 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 10:59:10 [profile] [sql] UPDATE `Insurance` SET `name`=:name, `price`=:price, `insurancePrice`=:insurancePrice, `descript`=:descript, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(2)
+array
+(
+    'name' => '保险2'
+    'price' => '50'
+    'insurancePrice' => '60'
+    'descript' => null
+    'state' => '0'
+    'createTime' => '2017-09-15 13:47:54'
+    'updateTime' => '2017-09-27 10:59:10'
+)
+2017/09/27 10:59:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 10:59:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:00:20 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 11:00:26 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 11:00:26 [profile] [sql] UPDATE `Insurance` SET `name`=:name, `price`=:price, `insurancePrice`=:insurancePrice, `descript`=:descript, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(2)
+array
+(
+    'name' => '保险2'
+    'price' => '50'
+    'insurancePrice' => '60'
+    'descript' => '测试一下'
+    'state' => '1'
+    'createTime' => '2017-09-15 13:47:54'
+    'updateTime' => '2017-09-27 11:00:26'
+)
+2017/09/27 11:00:26 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:00:26 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:00:28 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = "2"
+2017/09/27 11:00:38 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:00:38 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:00:40 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 11:00:53 [profile] [sql] SELECT * FROM `Insurance` WHERE `id` = ""
+2017/09/27 11:00:53 [profile] [sql] INSERT INTO `Insurance` (`name`, `price`, `insurancePrice`, `descript`, `state`, `createTime`, `updateTime`) VALUES (:name, :price, :insurancePrice, :descript, :state, :createTime, :updateTime)
+array
+(
+    'name' => '保险B'
+    'price' => '50'
+    'insurancePrice' => '60'
+    'descript' => '这是保险B'
+    'state' => '1'
+    'createTime' => null
+    'updateTime' => '2017-09-27 11:00:53'
+)
+2017/09/27 11:00:53 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:00:53 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:01:17 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:01:17 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:01:22 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:01:22 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:03:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:03:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:03:41 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:03:41 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:03:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:03:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:03:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:03:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 11:03:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 11:03:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:15:32 [profile] [sql] SELECT * FROM `Admin` `t` WHERE username="admin"
+2017/09/27 13:15:32 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 13:15:32 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:17:39 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 13:17:39 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:17:42 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 13:17:42 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:37:03 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `Insurance` `t` LIMIT 15
+2017/09/27 13:37:03 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:37:07 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/09/27 13:37:07 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:37:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "4"
+2017/09/27 13:37:09 [profile] [sql] SELECT * FROM `UserPerson` `t` WHERE userId="4"
+2017/09/27 13:37:09 [profile] [sql] SELECT * FROM `User` WHERE `id` = "4"
+2017/09/27 13:37:10 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `User` `t` LIMIT 15
+2017/09/27 13:37:10 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:37:16 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 13:37:16 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 13:37:17 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 13:37:17 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 13:37:17 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:02:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:02:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:02:58 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:03 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:04 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:04 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:04 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:04 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:04 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:05 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:05 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:05 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:05 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:06 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:06 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:06 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:06 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:26 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:26 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:39 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:39 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:39 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:40 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:40 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:40 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:03:41 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:03:41 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:03:41 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:08:00 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:08:00 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:08:00 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:08:00 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:08:00 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:08:28 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:08:28 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:08:28 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:08:28 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:08:28 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:12:31 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:12:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:12:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:12:31 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:12:31 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:13:36 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:13:36 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:13:36 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:15:15 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:15:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:15:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:15:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:15:15 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:15:15 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:13 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:13 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:25 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:25 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:25 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:25 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:26 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:26 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:26 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:26 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:26 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:26 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "9"
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="9" ORDER BY id asc
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="2") AND (state="1")
+2017/09/27 14:59:27 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = ""
+2017/09/27 14:59:27 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:27 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:28 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 14:59:28 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 14:59:30 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 14:59:30 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:30 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:41 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 14:59:46 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 14:59:46 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:46 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = ""
+2017/09/27 14:59:50 [profile] [sql] SELECT * FROM `DemandImg` `t` ORDER BY id asc
+2017/09/27 14:59:50 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:50 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 14:59:51 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 14:59:51 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 14:59:51 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:00:06 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:00:06 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:00:06 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:00:07 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:00:07 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:00:07 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:00:10 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:00:10 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:00:10 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:00:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:34 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:34 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:00:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:00:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:00:58 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:01:14 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:01:14 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:01:14 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:01:14 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:01:14 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:01:14 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:01:26 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:01:26 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:01:26 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:01:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:01:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:01:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:01:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:01:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:01:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:07:07 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:08:39 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:08:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:08:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:08:39 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:08:39 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:08:39 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:48:29 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:48:29 [profile] [sql] UPDATE `UserDemand` SET `startTime`=:startTime, `endTime`=:endTime, `deliveryTime`=:deliveryTime, `userId`=:userId, `userName`=:userName, `userMobile`=:userMobile, `loadMsg`=:loadMsg, `unloadMsg`=:unloadMsg, `vehicleType`=:vehicleType, `vehicleVolume`=:vehicleVolume, `vehicleCapacity`=:vehicleCapacity, `vehicleDesc`=:vehicleDesc, `orderType`=:orderType, `vehicleId`=:vehicleId, `sumVolume`=:sumVolume, `sumWeight`=:sumWeight, `descript`=:descript, `itemName`=:itemName, `itemType`=:itemType, `vehicleLength`=:vehicleLength, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(8)
+array
+(
+    'startTime' => '2017-08-09 15:36:12'
+    'endTime' => '2017-08-09 15:36:12'
+    'deliveryTime' => '2017-08-09 15:36:12'
+    'userId' => '2'
+    'userName' => 'testd'
+    'userMobile' => '18649717819'
+    'loadMsg' => '广东省 深圳市 南山区 开门网最牛'
+    'unloadMsg' => '广东省 深圳市 南山区 开门网最牛'
+    'vehicleType' => '2'
+    'vehicleVolume' => '2222'
+    'vehicleCapacity' => '203'
+    'vehicleDesc' => '阿斯顿发斯蒂芬'
+    'orderType' => '1'
+    'vehicleId' => null
+    'sumVolume' => '20.00公斤3'
+    'sumWeight' => '80'
+    'descript' => '2222阿斯蒂芬撒地方11'
+    'itemName' => '水果111'
+    'itemType' => '固体/液体'
+    'vehicleLength' => '1'
+    'state' => '1'
+    'createTime' => '2017-09-01 16:08:21'
+    'updateTime' => '2017-09-27 15:48:29'
+)
+2017/09/27 15:48:29 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 15:48:29 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:48:35 [profile] [sql] SELECT * FROM `Areas` `t` WHERE (((pId="0") AND (deep="1")) AND (regionalId!="0")) AND (aState="1") ORDER BY areaInitial asc
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:48:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:49:54 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:49:54 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:49:54 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:50:13 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:50:13 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:50:13 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:40 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:40 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:40 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:41 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:41 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:41 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:41 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:41 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:42 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:42 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:55:58 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:55:58 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:55:58 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:03 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:03 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:03 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:03 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:04 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:04 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:04 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:04 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:04 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:15 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:15 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:15 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:35 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:35 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:35 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:43 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:43 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:43 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:44 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:44 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:56:44 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:56:44 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:56:44 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:58:20 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:59:25 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:59:25 [profile] [sql] UPDATE `UserDemand` SET `startTime`=:startTime, `endTime`=:endTime, `deliveryTime`=:deliveryTime, `userId`=:userId, `userName`=:userName, `userMobile`=:userMobile, `loadMsg`=:loadMsg, `unloadMsg`=:unloadMsg, `vehicleType`=:vehicleType, `vehicleVolume`=:vehicleVolume, `vehicleCapacity`=:vehicleCapacity, `vehicleDesc`=:vehicleDesc, `orderType`=:orderType, `vehicleId`=:vehicleId, `sumVolume`=:sumVolume, `sumWeight`=:sumWeight, `descript`=:descript, `itemName`=:itemName, `itemType`=:itemType, `vehicleLength`=:vehicleLength, `state`=:state, `createTime`=:createTime, `updateTime`=:updateTime WHERE `id` IN(8)
+array
+(
+    'startTime' => '2017-08-09 15:36:12'
+    'endTime' => '2017-08-09 15:36:12'
+    'deliveryTime' => '2017-08-09 15:36:12'
+    'userId' => '2'
+    'userName' => 'testd'
+    'userMobile' => '18649717819'
+    'loadMsg' => '广东省 深圳市 南山区 开门网最牛'
+    'unloadMsg' => '安徽省 合肥市 包河区 过意地柜子够'
+    'vehicleType' => '2'
+    'vehicleVolume' => '2222'
+    'vehicleCapacity' => '203'
+    'vehicleDesc' => '阿斯顿发斯蒂芬'
+    'orderType' => '1'
+    'vehicleId' => null
+    'sumVolume' => '20.00公斤3'
+    'sumWeight' => '80'
+    'descript' => '2222阿斯蒂芬撒地方11'
+    'itemName' => '水果111'
+    'itemType' => '固体/液体'
+    'vehicleLength' => '1'
+    'state' => '1'
+    'createTime' => '2017-09-01 16:08:21'
+    'updateTime' => '2017-09-27 15:59:25'
+)
+2017/09/27 15:59:25 [profile] [sql] SELECT SQL_CALC_FOUND_ROWS * FROM `UserDemand` `t` LIMIT 15
+2017/09/27 15:59:25 [profile] [sql] SELECT FOUND_ROWS()
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 15:59:29 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 15:59:29 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 15:59:29 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 16:14:34 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 16:14:34 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 16:14:34 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `UserDemand` WHERE `id` = "8"
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '广东省' and deep = 1
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '深圳市' and deep = 2
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '南山区' and deep = 3
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(19,291,1725)
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '安徽省' and deep = 1
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '合肥市' and deep = 2
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `areaName` = '包河区' and deep = 3
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `Areas` WHERE `aId` IN(12,186,2224)
+2017/09/27 16:17:20 [profile] [sql] SELECT * FROM `DemandImg` `t` WHERE dId="8" ORDER BY id asc
+2017/09/27 16:17:21 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="固体") AND (state="1")
+2017/09/27 16:17:21 [profile] [sql] SELECT * FROM `ItemType` `t` WHERE (name="液体") AND (state="1")
+2017/09/27 16:17:21 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "1"
+2017/09/27 16:17:21 [profile] [sql] SELECT * FROM `ItemType` WHERE `id` = "2"
+2017/09/27 16:17:21 [profile] [sql] SELECT id,type FROM `VehicleType` `t` WHERE state="1"
+2017/09/27 16:17:21 [profile] [sql] SELECT id,length FROM `VehicleLength` `t` WHERE state="1"

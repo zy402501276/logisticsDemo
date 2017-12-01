@@ -1,0 +1,27 @@
+2017/09/25 11:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/25 11:47:25 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)

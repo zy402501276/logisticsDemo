@@ -1,0 +1,603 @@
+2017/10/12 09:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/10/12 09:22:09 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 09:22:13 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 09:52:32 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 09:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getUserId".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('getUserId')
+#1 D:\zyweb\Yii1\web\CWebApplication.php(282): CController->run('getUserId')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('ajax/getUserId')
+#3 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#5 {main}
+REQUEST_URI=/ajax/getUserId?userName=aadadsf
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---
+2017/10/12 09:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getUserId".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('getUserId')
+#1 D:\zyweb\Yii1\web\CWebApplication.php(282): CController->run('getUserId')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('ajax/getUserId')
+#3 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#5 {main}
+REQUEST_URI=/ajax/getUserId?userName=aadadsf
+---
+2017/10/12 10:35:24 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 10:42:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---
+2017/10/12 10:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---
+2017/10/12 10:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 10:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 11:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/Vehicle/List
+---
+2017/10/12 13:27:16 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 13:27:18 [error] [exception.CException] exception 'CException' with message '属性 "VehicleTypeForm.msgType" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('msgType')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(VehicleTypeForm), 'msgType')
+#2 D:\zyweb\Yii1\web\widgets\CActiveForm.php(847): CHtml::activeDropDownList(Object(VehicleTypeForm), 'msgType', Array, Array)
+#3 D:\zyweb\pcb_wl\applications\admin\views\interior\index.php(17): CActiveForm->dropDownList(Object(VehicleTypeForm), 'msgType', Array, Array)
+#4 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#5 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#6 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(24): CController->render('index', Array)
+#9 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#10 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#14 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#16 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#18 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/12 13:30:18 [error] [exception.CException] exception 'CException' with message '属性 "MessageForm.vehicleDesc" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('vehicleDesc')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(MessageForm), 'vehicleDesc')
+#2 D:\zyweb\Yii1\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(MessageForm), 'vehicleDesc', Array)
+#3 D:\zyweb\pcb_wl\applications\admin\views\interior\index.php(22): CActiveForm->textArea(Object(MessageForm), 'vehicleDesc', Array)
+#4 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#5 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#6 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(24): CController->render('index', Array)
+#9 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#10 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#14 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#16 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#18 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/12 13:38:25 [error] [exception.CException] exception 'CException' with message '属性 "MessageForm.vehicleDesc" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:130
+Stack trace:
+#0 D:\zyweb\Yii1\web\helpers\CHtml.php(2529): CComponent->__get('vehicleDesc')
+#1 D:\zyweb\Yii1\web\helpers\CHtml.php(1654): CHtml::resolveValue(Object(MessageForm), 'vehicleDesc')
+#2 D:\zyweb\Yii1\web\widgets\CActiveForm.php(786): CHtml::activeTextArea(Object(MessageForm), 'vehicleDesc', Array)
+#3 D:\zyweb\pcb_wl\applications\admin\views\interior\index.php(26): CActiveForm->textArea(Object(MessageForm), 'vehicleDesc', Array)
+#4 D:\zyweb\Yii1\web\CBaseController.php(126): require('D:\\zyweb\\pcb_wl...')
+#5 D:\zyweb\Yii1\web\CBaseController.php(95): CBaseController->renderInternal('D:\\zyweb\\pcb_wl...', Array, true)
+#6 D:\zyweb\Yii1\web\CController.php(869): CBaseController->renderFile('D:\\zyweb\\pcb_wl...', Array, true)
+#7 D:\zyweb\Yii1\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(24): CController->render('index', Array)
+#9 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#10 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#14 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#15 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#16 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#18 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/UserDemand/List
+---
+2017/10/12 16:38:57 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 16:47:49 [error] [php] Array to string conversion (D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:28)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (28)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 16:52:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:52:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:52:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:52:55 [error] [php] Undefined index: platform (D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:34)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (34)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 16:54:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:54:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:54:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:54:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:54:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:55:00 [error] [php] Undefined index: platform (D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:34)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (34)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 16:55:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:58:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:59:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 16:59:27 [error] [php] Undefined index: platform (D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:34)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (34)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 17:00:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:00:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:00:36 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:00:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:01:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:01:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:01:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:02:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:02:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:03:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:03:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:03:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:08:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:09:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:10:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime).
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (172)
+in D:\zyweb\pcb_wl\library\model\BaseModel.php (131)
+in D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php (62)
+2017/10/12 17:10:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null. The SQL statement executed was: INSERT INTO `Message` (`msgType`, `msgData`, `userId`, `userName`, `title`, `content`, `isShow`, `os`, `createTime`, `publishTime`) VALUES (:msgType, :msgData, :userId, :userName, :title, :content, :isShow, :os, :createTime, :publishTime)' in D:\zyweb\Yii1\db\CDbCommand.php:363
+Stack trace:
+#0 D:\zyweb\Yii1\db\CDbCommand.php(1301): CDbCommand->execute(Array)
+#1 D:\zyweb\pcb_wl\library\model\BaseModel.php(172): CDbCommand->insert('Message', Array)
+#2 D:\zyweb\pcb_wl\library\model\BaseModel.php(131): BaseModel->insert(Array)
+#3 D:\zyweb\pcb_wl\library\form\base\MessageBaseForm.php(62): BaseModel->save(Array)
+#4 D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php(38): MessageBaseForm->save()
+#5 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(17): InteriorService->addPush(Array, Object(MessageForm))
+#6 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#7 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#12 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#13 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#15 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---
+2017/10/12 17:16:00 [error] [exception.CException] exception 'CException' with message '属性 "CRequiredValidator.defalut" 未被定义.' in D:\zyweb\Yii1\base\CComponent.php:173
+Stack trace:
+#0 D:\zyweb\Yii1\validators\CValidator.php(189): CComponent->__set('defalut', 0)
+#1 D:\zyweb\Yii1\base\CModel.php(287): CValidator::createValidator('required', Object(MessageForm), 'userId', Array)
+#2 D:\zyweb\Yii1\base\CModel.php(260): CModel->createValidators()
+#3 D:\zyweb\Yii1\base\CModel.php(158): CModel->getValidators()
+#4 D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php(37): CModel->validate()
+#5 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(17): InteriorService->addPush(Array, Object(MessageForm))
+#6 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#7 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#11 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#12 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#13 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#15 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---
+2017/10/12 17:17:19 [error] [php] include(defalut.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\Yii1\validators\CValidator.php(186): import()
+#1 D:\zyweb\Yii1\base\CModel.php(287): createValidator()
+#2 D:\zyweb\Yii1\base\CModel.php(260): MessageForm->createValidators()
+#3 D:\zyweb\Yii1\base\CModel.php(158): MessageForm->getValidators()
+#4 D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php(37): MessageForm->validate()
+#5 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(17): InteriorService->addPush()
+#6 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#7 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#9 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#10 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#11 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#12 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (37)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/10/12 17:17:40 [error] [php] Missing argument 7 for InteriorService::push(), called in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php on line 40 and defined (D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:57)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (57)
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (40)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+2017/10/12 17:19:59 [error] [exception.Exception] exception 'Exception' with message '定时时间不能为空' in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:42
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(17): InteriorService->addPush(Array, Object(MessageForm))
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---
+2017/10/12 17:24:51 [error] [php] Missing argument 7 for InteriorService::push(), called in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php on line 40 and defined (D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:57)
+Stack trace:
+#0 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#1 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\zyweb\Yii1\web\CController.php(286): InteriorController->runAction()
+#3 D:\zyweb\Yii1\web\CController.php(265): InteriorController->runActionWithFilters()
+#4 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): InteriorController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(282): InteriorController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/Interior/index
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (57)
+in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php (40)
+in D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php (17)
+2017/10/12 17:24:58 [error] [exception.Exception] exception 'Exception' with message '定时时间不能为空' in D:\zyweb\pcb_wl\applications\admin\service\InteriorService.php:42
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\InteriorController.php(17): InteriorService->addPush(Array, Object(MessageForm))
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): InteriorController->actionIndex()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\zyweb\Yii1\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\zyweb\Yii1\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('index')
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('index')
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('Interior/index')
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#10 {main}
+REQUEST_URI=/Interior/index
+HTTP_REFERER=http://admin.logistics.com/Interior/index
+---

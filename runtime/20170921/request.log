@@ -1,0 +1,35 @@
+2017/09/21 11:00:34 [info] [request] 
+url: /DetailInfo
+array()
+array
+(
+    'cId' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'loadMsg' => '深圳市'
+        'loadMsgArea' => '南山区'
+        'unloadMsg' => '深圳市'
+        'unloadMsgArea' => '南山区'
+        'descript' => '2222阿斯蒂芬撒地方11'
+        'createTime' => '2017-09-01 16:08:21'
+        'vehicleType' => '1'
+        'vehicleLength' => '2'
+        'capacity' => '2吨'
+        'permission' => '允许'
+        'startTime' => '2017-08-09 15:36:12'
+        'startArea' => '开门网最牛'
+        'endArea' => '开门网最牛'
+        'capability' => '1吨'
+        'deliveryTime' => '2017-08-09 15:36:12'
+        'vehicleCost' => '20'
+        'otherCost' => '15'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (167)

@@ -1,0 +1,949 @@
+2017/09/20 09:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/20 09:41:15 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 09:41:23 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 09:41:26 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(91): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (91)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 10:24:00 [error] [php] Undefined variable: personModel (D:\zyweb\pcb_wl\applications\admin\views\user\person.php:11)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\pcb_wl\applications\admin\views\user\edit.php(127): UserController->renderPartial()
+#2 D:\zyweb\Yii1\web\CBaseController.php(126): require()
+#3 D:\zyweb\Yii1\web\CBaseController.php(95): UserController->renderInternal()
+#4 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#5 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#6 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(64): UserController->render()
+#7 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionUserInfo()
+#8 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#10 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#11 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#12 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#13 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/UserInfo/id/2
+in D:\zyweb\pcb_wl\applications\admin\views\user\person.php (11)
+in D:\zyweb\pcb_wl\applications\admin\views\user\edit.php (127)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (64)
+2017/09/20 10:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=2&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=2&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=2&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=2&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=2&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=2&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:59:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/identity".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('users/identity')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/users/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 10:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "identity" 动作.' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('identity')
+#1 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): CController->run('identity')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('identity')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('user/identity')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#6 {main}
+REQUEST_URI=/user/identity?typeId=1&userId=2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 11:22:02 [error] [php] Undefined variable: userId (D:\zyweb\pcb_wl\applications\admin\views\user\person.php:53)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(75): UserController->renderPartial()
+#2 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#3 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#5 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#6 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=1&userId=2
+in D:\zyweb\pcb_wl\applications\admin\views\user\person.php (53)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (75)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 11:24:29 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(78): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=1&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 13:54:31 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 13:58:44 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:09:24 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:09:33 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:09:38 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(98): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (98)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:42:12 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:42:16 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php:17)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserDemandController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserDemandController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php(22): UserDemandController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserDemandController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserDemandController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserDemandController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserDemandController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserDemandController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/UserDemand/List
+in D:\zyweb\pcb_wl\applications\admin\views\userDemand\index.php (17)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserDemandController.php (22)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:42:21 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(98): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (98)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 14:42:28 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:30 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:30 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:31 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:31 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:32 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:32 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:42:33 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 14:43:55 [error] [php] include(UserCompanyForm.php): failed to open stream: No such file or directory (D:\zyweb\Yii1\YiiBase.php:427)
+Stack trace:
+#0 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(79): spl_autoload_call()
+#1 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionIdentity()
+#2 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#4 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#5 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#6 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#7 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (79)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 16:10:24 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(126): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (126)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:11:24 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:11:39 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:11:45 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:11:57 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:12:24 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:12:52 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:12:52 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:12:52 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:12:56 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(132): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (132)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 16:46:43 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(152): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (152)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 17:08:29 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:31 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:33 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:33 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:34 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:34 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:36 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:08:44 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:09:42 [error] [php] Undefined index: isAuth (D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php:78)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#1 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#3 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/user/identity?typeId=2&userId=2
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (78)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+in D:\zyweb\pcb_wl\website\admin\index.php (32)
+2017/09/20 17:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserInfo/id/2".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('UserInfo/id/2')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/UserInfo/id/2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 17:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserInfo/id/2".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('UserInfo/id/2')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/UserInfo/id/2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 17:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserInfo/id/2".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('UserInfo/id/2')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/UserInfo/id/2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 17:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserInfo/id/2".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('UserInfo/id/2')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/UserInfo/id/2
+HTTP_REFERER=http://admin.logistics.com/User/UserInfo/id/2
+---
+2017/09/20 17:36:09 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(152): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (152)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 17:36:22 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(152): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (152)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 17:36:23 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(152): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (152)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)
+2017/09/20 17:36:24 [error] [php] Undefined variable: vo (D:\zyweb\pcb_wl\applications\admin\views\user\index.php:13)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(869): UserController->renderFile()
+#1 D:\zyweb\Yii1\web\CController.php(782): UserController->renderPartial()
+#2 D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php(152): UserController->render()
+#3 D:\zyweb\Yii1\web\actions\CInlineAction.php(49): UserController->actionList()
+#4 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\zyweb\Yii1\web\CController.php(286): UserController->runAction()
+#6 D:\zyweb\Yii1\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\zyweb\pcb_wl\applications\admin\components\Controller.php(43): UserController->run()
+#8 D:\zyweb\Yii1\web\CWebApplication.php(282): UserController->run()
+#9 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\zyweb\pcb_wl\website\admin\index.php(32): CWebApplication->run()
+REQUEST_URI=/User/List
+in D:\zyweb\pcb_wl\applications\admin\views\user\index.php (13)
+in D:\zyweb\pcb_wl\applications\admin\controllers\UserController.php (152)
+in D:\zyweb\pcb_wl\applications\admin\components\Controller.php (43)

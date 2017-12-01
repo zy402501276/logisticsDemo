@@ -1,0 +1,51 @@
+2017/09/05 14:53:55 [info] [request] 
+url: /deliver
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货品名称不能为空'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (20)
+2017/09/05 15:24:03 [info] [request] 
+url: /deladdress
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'aId' => '3'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => null
+    0 => '删除成功'
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (69)
+2017/09/05 15:29:57 [info] [request] 
+url: /deladdress
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+    'aId' => '3'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '删除成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (69)

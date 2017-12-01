@@ -1,0 +1,586 @@
+2017/09/13 15:32:11 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => ''
+    'amount' => '1'
+    'sumVolume' => '20*30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 15:40:34 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:41:14 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:47:14 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:47:36 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 15:47:43 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:47:48 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 15:48:07 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:48:59 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:49:16 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:49:21 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 15:49:30 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 15:50:21 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30*40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 15:50:37 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:52:27 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:52:28 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 15:55:03 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => '4'
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '货物体积必须是大于0的数'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (117)
+2017/09/13 16:05:01 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => ''
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 16:12:49 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => ''
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '1'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 16:13:07 [info] [request] 
+url: /inventory
+array()
+array
+(
+    'dId' => '8'
+    'id' => ''
+    'amount' => '1'
+    'sumVolume' => '30×40'
+    'format' => '12'
+    'name' => '水果'
+    'type' => '固体/液体'
+    'desc' => '测试'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '添加成功'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (120)
+2017/09/13 16:47:59 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'demandId' => '8'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '深圳市'
+            'unloadMsgArea' => '南山区'
+            'descript' => null
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '20'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '35'
+                )
+            )
+        )
+        1 => array
+        (
+            'demandId' => '9'
+            'loadMsg' => '合肥市'
+            'loadMsgArea' => '包河区'
+            'unloadMsg' => '深圳市'
+            'unloadMsgArea' => '南山区'
+            'descript' => '测试'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '20'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '35'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)
+2017/09/13 16:48:26 [info] [request] 
+url: /DetailList
+array()
+array
+(
+    'utoken' => '867d47f2eddcd528033af143e21fad87'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        0 => array
+        (
+            'demandId' => '8'
+            'loadMsg' => '深圳市'
+            'loadMsgArea' => '南山区'
+            'unloadMsg' => '深圳市'
+            'unloadMsgArea' => '南山区'
+            'descript' => null
+            'createTime' => '2017-09-01 16:08:21'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '20'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '35'
+                )
+            )
+        )
+        1 => array
+        (
+            'demandId' => '9'
+            'loadMsg' => '合肥市'
+            'loadMsgArea' => '包河区'
+            'unloadMsg' => '深圳市'
+            'unloadMsgArea' => '南山区'
+            'descript' => '测试'
+            'createTime' => '2017-09-11 10:50:08'
+            'price' => array
+            (
+                0 => array
+                (
+                    'id' => '1'
+                    'price' => '20'
+                )
+                1 => array
+                (
+                    'id' => '2'
+                    'price' => '35'
+                )
+            )
+        )
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (148)

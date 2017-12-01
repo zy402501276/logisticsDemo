@@ -1,0 +1,810 @@
+2017/09/07 13:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 13:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 13:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 14:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 14:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 14:02:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 15:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 15:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:40:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 15:48:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 15:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:19:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:42:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:44:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 16:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 16:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---
+2017/09/07 16:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:00:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/leftimg.png".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('img/leftimg.png')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/leftimg.png
+HTTP_REFERER=http://admin.logistics.com/index/index
+---
+2017/09/07 17:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\admin\index.php(32): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://admin.logistics.com/
+---

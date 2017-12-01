@@ -1,0 +1,92 @@
+2017/09/15 09:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/15 13:48:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\zyweb\Yii1\web\CWebApplication.php:286
+Stack trace:
+#0 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://api.logistics.com/gii/default/login
+---
+2017/09/15 13:48:50 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 13:48:50 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 13:48:52 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 13:48:52 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 13:53:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getInsurance".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('getInsurance')
+#1 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('getInsurance')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('getInsurance')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('support/getInsu...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#6 {main}
+REQUEST_URI=/support/getInsurance
+---
+2017/09/15 13:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getInsurancetYPE".' in D:\zyweb\Yii1\web\CController.php:483
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(270): CController->missingAction('getInsurancetYP...')
+#1 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): CController->run('getInsurancetYP...')
+#2 D:\zyweb\Yii1\web\CWebApplication.php(282): Controller->run('getInsurancetYP...')
+#3 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController('support/getInsu...')
+#4 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\zyweb\pcb_wl\website\api\index.php(47): CApplication->run()
+#6 {main}
+REQUEST_URI=/support/getInsurancetYPE
+---
+2017/09/15 15:03:36 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:03:36 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:03:41 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:03:41 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:35:16 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:35:16 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:35:17 [warning] [application] Failed to set unsafe attribute "baseFormClass" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 15:35:17 [warning] [application] Failed to set unsafe attribute "formPath" of "GiixAllCode".
+in D:\zyweb\pcb_wl\website\api\index.php (47)
+2017/09/15 16:08:31 [error] [php] Undefined index: loadMsg (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:275)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailInfo
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (275)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (163)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (64)
+2017/09/15 16:08:58 [error] [php] Undefined index: tpye (D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php:284)
+Stack trace:
+#0 D:\zyweb\Yii1\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\zyweb\Yii1\web\CController.php(286): DemandController->runAction()
+#2 D:\zyweb\Yii1\web\CController.php(265): DemandController->runActionWithFilters()
+#3 D:\zyweb\pcb_wl\applications\api\components\Controller.php(64): DemandController->run()
+#4 D:\zyweb\Yii1\web\CWebApplication.php(282): DemandController->run()
+#5 D:\zyweb\Yii1\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\zyweb\Yii1\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\zyweb\pcb_wl\website\api\index.php(47): CWebApplication->run()
+REQUEST_URI=/demand/DetailInfo
+in D:\zyweb\pcb_wl\applications\api\service\buyer\v1\DemandService.php (284)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\DemandController.php (163)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (64)

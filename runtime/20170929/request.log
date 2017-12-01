@@ -1,0 +1,146 @@
+2017/09/29 11:06:01 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1111'
+)
+callback: array
+(
+    'code' => '0'
+    'message' => '参数错误'
+    'obj' => null
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (92)
+2017/09/29 11:06:11 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1111'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => 'tHAXyBpl6i6e%2Fic%2FOfejZNHnXVBuBwOH47bRtulQem6Swvboejd70%2BNCeCM5CS1%2BB4Pem1XhiFbXDiPpBONQrE8P7t2pfE62MwIGj3h1g8C0fUINKlidahunFMjx6eFcAoURB5gfzutvO3LxD1zhjdHMWBWnZMrLIyjGIvQ5NcWxtK8RqN2mCOdFqzvwhzQ2zRtC7y3jb%2BIBnO0Op39N1FgxT4HJ%2F0xe4FxmSTJXbZs4yci1YmOIzhi%2F6OgNSIRvOMTgi7TQmENnQdgSurqR7%2BJTyaOKapBfzNilIfsB6XZhQ40uUkoynmynB70iAo5zu6WK72fGFb9OVKmOQjwDRQ%3D%3D'
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
+2017/09/29 11:20:42 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'sign' => 'CH17XZa1WudeFFE6A2VsR%2F7%2FcK1hmcHqXQ1WTkf79f7CCa6NF1MEeZKaAg8gPv9VjXwtjzZ8C962VB50EbNOuv%2BIV0buiD4MTV0YwDyxUmhSy%2Bg5ArvGHSNWLkauFYUWxFapZcdyZG09WzF74ZXMf9k%2BaNEAPDJWuac%2BE3m6PJj3wx8k6Y7BapuaHyTC6UtWQ8LcQMlR5ti%2BuIdqY%2BR%2BuYH%2FnXQvK50pgXKnZ5hFS5OcW5EHjDpNwL2RomqMAxr4ocUAxvHmvHp%2F48oR2tccvRc6EPP0TCR4wjj%2FUV7eBEFgdV8oK1XWUgWW8tL8p4SLNv9redDFm8SoXTlx1W8Pvw%3D%3D'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
+2017/09/29 11:31:15 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'sign' => 'CH17XZa1WudeFFE6A2VsR%2F7%2FcK1hmcHqXQ1WTkf79f7CCa6NF1MEeZKaAg8gPv9VjXwtjzZ8C962VB50EbNOuv%2BIV0buiD4MTV0YwDyxUmhSy%2Bg5ArvGHSNWLkauFYUWxFapZcdyZG09WzF74ZXMf9k%2BaNEAPDJWuac%2BE3m6PJj3wx8k6Y7BapuaHyTC6UtWQ8LcQMlR5ti%2BuIdqY%2BR%2BuYH%2FnXQvK50pgXKnZ5hFS5OcW5EHjDpNwL2RomqMAxr4ocUAxvHmvHp%2F48oR2tccvRc6EPP0TCR4wjj%2FUV7eBEFgdV8oK1XWUgWW8tL8p4SLNv9redDFm8SoXTlx1W8Pvw%3D%3D'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
+2017/09/29 11:31:16 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'sign' => 'CH17XZa1WudeFFE6A2VsR%2F7%2FcK1hmcHqXQ1WTkf79f7CCa6NF1MEeZKaAg8gPv9VjXwtjzZ8C962VB50EbNOuv%2BIV0buiD4MTV0YwDyxUmhSy%2Bg5ArvGHSNWLkauFYUWxFapZcdyZG09WzF74ZXMf9k%2BaNEAPDJWuac%2BE3m6PJj3wx8k6Y7BapuaHyTC6UtWQ8LcQMlR5ti%2BuIdqY%2BR%2BuYH%2FnXQvK50pgXKnZ5hFS5OcW5EHjDpNwL2RomqMAxr4ocUAxvHmvHp%2F48oR2tccvRc6EPP0TCR4wjj%2FUV7eBEFgdV8oK1XWUgWW8tL8p4SLNv9redDFm8SoXTlx1W8Pvw%3D%3D'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
+2017/09/29 11:37:10 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'sign' => 'sRxEHSTkwLEcEg1MnkgZcfWYGua3lab5OVhd7Fb%2F7IDZWFVtGUM3998cev%2BQalkIMpRK6l0te%2FFIITewHAcmsuzaw7rSYsclWVEv9mVyM%2FoP%2BPPOsUOezw05EFnwketqZIVp6Kh2lP9XfvJImb88gaoanRHhoFslIlJTdWqARro61xsUq2RjkO%2FxmI%2BCDqXSaYoJoB%2BRP5JBD8mPqNut2RfZNkIif6%2F%2BYzOziLDu9%2F5BuUUiqG0blNNf0soalc0zliY4Ta179Ijw%2FqUyzFSgTMi0gM34fThtvkhOMmFl3XILcj5I7W5gfYc4QmFzixGloDrqC8sagBtD%2Bg7wot1mKQ%3D%3D'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
+2017/09/29 11:39:28 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'sign' => 'ROTySTXPQqISUTgG85oZ6gp12%2F5M85eTD4hnNGheOTxE9Yvjn3KVpIB3wZh6GuxE1vEOkOlg%2BjxY83rOJNAXOVKP4IRrfFhzlk6iyzAfH3PMfYuObigNXJEej0ZZwuNNMLF5NvTG3mufzQ3s1xVeL6VjxxVxfq4aXA%2FnFIibyqD4kGllmLtP0cQDaV3G1tFza2pmDCgzadqMmsjmIMiyTqxmNr%2F%2BXSJH35XFMrDOkFm%2F1skXEVKc96k7t6CPGwz2CkkxkhoBQwsMxX1eeun0spRHBr8GOsa5sljvMKTBQ71B11FDuCiwSKPwOibcQjtczTr7noOQ9GmPQU6whFAS9g%3D%3D'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
+2017/09/29 11:45:39 [info] [request] 
+url: /AlipayAuthLoginSign
+array()
+array
+(
+    'target_id' => '1'
+)
+callback: array
+(
+    'code' => '1'
+    'message' => '操作成功'
+    'obj' => array
+    (
+        'sign' => 'apiname=com.alipay.account.auth&app_id=2017071907811576&app_name=mc&auth_type=AUTHACCOUNT&biz_type=openservice&method=alipay.open.auth.sdk.code.get&pid=2088511438145714&product_id=APP_FAST_LOGIN&scope=kuaijie&sign_type=RSA2&target_id=1&sign=ROTySTXPQqISUTgG85oZ6gp12%2F5M85eTD4hnNGheOTxE9Yvjn3KVpIB3wZh6GuxE1vEOkOlg%2BjxY83rOJNAXOVKP4IRrfFhzlk6iyzAfH3PMfYuObigNXJEej0ZZwuNNMLF5NvTG3mufzQ3s1xVeL6VjxxVxfq4aXA%2FnFIibyqD4kGllmLtP0cQDaV3G1tFza2pmDCgzadqMmsjmIMiyTqxmNr%2F%2BXSJH35XFMrDOkFm%2F1skXEVKc96k7t6CPGwz2CkkxkhoBQwsMxX1eeun0spRHBr8GOsa5sljvMKTBQ71B11FDuCiwSKPwOibcQjtczTr7noOQ9GmPQU6whFAS9g%3D%3D'
+    )
+)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (128)
+in D:\zyweb\pcb_wl\applications\api\components\Controller.php (92)
+in D:\zyweb\pcb_wl\applications\api\controllers\buyer\v1\SupportController.php (114)
